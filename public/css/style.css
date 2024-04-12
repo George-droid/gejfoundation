@@ -365,8 +365,8 @@
 
 .testimonial-carousel .owl-nav {
     position: absolute;
-    width: 350px;
-    top: 15px;
+    width: 500px;
+    bottom: -30px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -374,6 +374,12 @@
     opacity: 0;
     transition: .5s;
     z-index: 1;
+}
+
+@media (min-width: 768px) {
+    .testimonial-carousel .owl-nav {
+        width: 300px;
+    }
 }
 
 .testimonial-carousel:hover .owl-nav {
