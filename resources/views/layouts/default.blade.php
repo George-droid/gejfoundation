@@ -68,15 +68,15 @@
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
                     <a href="index.html" class="nav-item nav-link active">Home</a>
                     <a href="about.html" class="nav-item nav-link">Who We Are</a>
-                    <a href="causes.html" class="nav-item nav-link">Causes</a>
+                    <a href="causes.html" class="nav-item nav-link">Blog</a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">What We Do</a>
                         <div class="dropdown-menu m-0">
                             <a href="service.html" class="dropdown-item">Service</a>
-                            <a href="donate.html" class="dropdown-item">Donate</a>
-                            <a href="team.html" class="dropdown-item">Our Team</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                            <a href="404.html" class="dropdown-item">404 Page</a>
+                            <a href="donate.html" class="dropdown-item">West African Elders Forum</a>
+                            <a href="team.html" class="dropdown-item">News and Media</a>
+                            {{-- <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            <a href="404.html" class="dropdown-item">404 Page</a> --}}
                         </div>
                     </div>
                     <a href="contact.html" class="nav-item nav-link">Contact Us</a>
