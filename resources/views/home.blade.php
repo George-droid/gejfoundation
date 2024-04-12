@@ -234,32 +234,33 @@
                             </a> --}}
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-                            <img class="img-fluid mb-4" src="img/mission.png" alt="">
-                            <h4 class="mb-3">Our Mission</h4>
-                            <p class="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
-                            <a class="btn btn-outline-primary px-3" href="">
-                                Learn More
-                                <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                    <i class="fa fa-arrow-right"></i>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
                             <img class="img-fluid mb-4" src="img/vision.png" alt="">
                             <h4 class="mb-3">Our Vision</h4>
-                            <p class="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
-                            <a class="btn btn-outline-primary px-3" href="">
+                            <p class="mb-4">Peaceful, Just and Progressive Nations of Africa</p>
+                            {{-- <a class="btn btn-outline-primary px-3" href="">
                                 Learn More
                                 <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                                     <i class="fa fa-arrow-right"></i>
                                 </div>
-                            </a>
+                            </a> --}}
                         </div>
                     </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
+                            <img class="img-fluid mb-4" src="img/mission.png" alt="">
+                            <h4 class="mb-3">Our Mission</h4>
+                            <p class="mb-4">To forge a continent where we understand our differences and work towards a perfect union founded on transparency, equity and justice</p>
+                            {{-- <a class="btn btn-outline-primary px-3" href="">
+                                Learn More
+                                <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
+                                    <i class="fa fa-arrow-right"></i>
+                                </div>
+                            </a> --}}
+                        </div>
+                    </div>
+                  
                 </div>
             </div>
         </div>
@@ -271,48 +272,15 @@
             <div class="container py-5">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                        <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Donate Now</div>
-                        <h1 class="display-6 text-white mb-5">Thanks For The Results Achieved With You</h1>
-                        <p class="text-white-50 mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                        <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Watch Now</div>
+                        <h1 class="display-6 text-white mb-5">DOCUMENTARY ON RESPECT FOR CONSTITUTIONAL TERM LIMITS IN WEST AFRICA</h1>
+                        <p class="text-white-50 mb-0">The question of tenure elongation has moved from the sphere of normal devolution of power to the transitional context. It has become the main stake of the recent military-political transitions in West Africa.
+
+                            The different coups d’état perpetrated by military elites in Mali (2020, 2021), Guinea (2021) and Burkina-Faso (2022) point out how complicated the allocation of a relevant time for a successful political transition is. It appears that the sanctions are no longer effective in deterring military coups or prolonging the stay of transition governments …</p>
                     </div>
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                         <div class="h-100 bg-white p-5">
-                            <form>
-                                <div class="row g-3">
-                                    <div class="col-12">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control bg-light border-0" id="name" placeholder="Your Name">
-                                            <label for="name">Your Name</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-floating">
-                                            <input type="email" class="form-control bg-light border-0" id="email" placeholder="Your Email">
-                                            <label for="email">Your Email</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="btn-group d-flex justify-content-around">
-                                            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" checked>
-                                            <label class="btn btn-light py-3" for="btnradio1">$10</label>
-
-                                            <input type="radio" class="btn-check" name="btnradio" id="btnradio2">
-                                            <label class="btn btn-light py-3" for="btnradio2">$20</label>
-
-                                            <input type="radio" class="btn-check" name="btnradio" id="btnradio3">
-                                            <label class="btn btn-light py-3" for="btnradio3">$30</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <button class="btn btn-primary px-5" style="height: 60px;">
-                                            Donate Now
-                                            <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                                                <i class="fa fa-arrow-right"></i>
-                                            </div>
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/M62G5DRlyMo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -322,7 +290,7 @@
 
 
         <!-- Team Start -->
-        <div class="container-xxl py-5">
+        {{-- <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                     <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Team Members</div>
@@ -395,7 +363,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- Team End -->
 
 
