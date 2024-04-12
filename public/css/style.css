@@ -360,7 +360,7 @@
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item img {
-    background: var(--primary) !important;
+    background: #02b392!important;
 } 
 
 .testimonial-carousel .owl-nav {
@@ -384,7 +384,7 @@
 .testimonial-carousel .owl-nav .owl-prev,
 .testimonial-carousel .owl-nav .owl-next {
     position: relative;
-    color: var(--primary);
+    color:#02b392;
     font-size: 45px;
     transition: .5s;
 }
