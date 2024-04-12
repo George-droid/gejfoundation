@@ -104,19 +104,19 @@
         <div class="container-xxl bg-light my-5 py-5">
             <div class="container py-5">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                    <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Feature Causes</div>
-                    <h1 class="display-6 mb-5">Every Child Deserves The Opportunity To Learn</h1>
+                    <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Latest News</div>
+                    {{-- <h1 class="display-6 mb-5"></h1> --}}
                 </div>
                 <div class="row g-4 justify-content-center">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
                             <div class="text-center p-4 pt-0">
                                 <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
-                                    <small>Education</small>
+                                    <small>Political Analysis </small>
                                 </div>
-                                <h5 class="mb-3">Education For African Children</h5>
-                                <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
-                                <div class="causes-progress bg-light p-3 pt-2">
+                                <h5 class="mb-3">Coup d’états: Dangers of democratic disruption and African solutions</h5>
+                                <p>Coup d’états: Dangers of democratic disruption and African solutions A news analysis by Emmanuel Oloniruha, News Agency of Nigeria (NAN)…</p>
+                                {{-- <div class="causes-progress bg-light p-3 pt-2">
                                     <div class="d-flex justify-content-between">
                                         <p class="text-dark">$10,000 <small class="text-body">Goal</small></p>
                                         <p class="text-dark">$9,542 <small class="text-body">Raised</small></p>
@@ -126,7 +126,7 @@
                                             <span>90%</span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                             <div class="position-relative mt-auto">
                                 <img class="img-fluid" src="img/courses-1.jpg" alt="">
@@ -145,11 +145,11 @@
                         <div class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
                             <div class="text-center p-4 pt-0">
                                 <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
-                                    <small>Pure Water</small>
+                                    <small> Regional Governance</small>
                                 </div>
-                                <h5 class="mb-3">Ensure Pure Drinking Water</h5>
-                                <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
-                                <div class="causes-progress bg-light p-3 pt-2">
+                                <h5 class="mb-3">Jonathan leads WAEF pre-election mission to Liberia</h5>
+                                <p>Former President Dr. Goodluck Ebele Jonathan leads the West African Elders Forum (WAEF) pre-election election mission to Liberia ahead of …</p>
+                                {{-- <div class="causes-progress bg-light p-3 pt-2">
                                     <div class="d-flex justify-content-between">
                                         <p class="text-dark">$10,000 <small class="text-body">Goal</small></p>
                                         <p class="text-dark">$9,542 <small class="text-body">Raised</small></p>
@@ -159,7 +159,7 @@
                                             <span>90%</span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                             <div class="position-relative mt-auto">
                                 <img class="img-fluid" src="img/courses-2.jpg" alt="">
@@ -178,11 +178,11 @@
                         <div class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
                             <div class="text-center p-4 pt-0">
                                 <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
-                                    <small>Healthy Life</small>
+                                    <small>Political Tenor</small>
                                 </div>
-                                <h5 class="mb-3">Ensure Medical Treatment</h5>
-                                <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
-                                <div class="causes-progress bg-light p-3 pt-2">
+                                <h5 class="mb-3">WAEF commends Macky Sall for declining third term</h5>
+                                <p>The West Africa Elders Forum (WAEF) has commended the president of Senegal Macky Sall for declining to run for a …</p>
+                                {{-- <div class="causes-progress bg-light p-3 pt-2">
                                     <div class="d-flex justify-content-between">
                                         <p class="text-dark">$10,000 <small class="text-body">Goal</small></p>
                                         <p class="text-dark">$9,542 <small class="text-body">Raised</small></p>
@@ -192,7 +192,7 @@
                                             <span>90%</span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                             <div class="position-relative mt-auto">
                                 <img class="img-fluid" src="img/courses-3.jpg" alt="">
@@ -223,8 +223,8 @@
                 <div class="row g-4 justify-content-center">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-                            <img class="img-fluid mb-4" src="img/icon-1.png" alt="">
-                            <h4 class="mb-3">Child Education</h4>
+                            <img class="img-fluid mb-4" src="img/corevalue.png" alt="">
+                            <h4 class="mb-3">Our Core Values</h4>
                             <p class="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
                             <a class="btn btn-outline-primary px-3" href="">
                                 Learn More
@@ -236,7 +236,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-                            <img class="img-fluid mb-4" src="img/icon-2.png" alt="">
+                            <img class="img-fluid mb-4" src="img/mission.png" alt="">
                             <h4 class="mb-3">Medical Treatment</h4>
                             <p class="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
                             <a class="btn btn-outline-primary px-3" href="">
@@ -249,7 +249,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-                            <img class="img-fluid mb-4" src="img/icon-3.png" alt="">
+                            <img class="img-fluid mb-4" src="img/vision.png" alt="">
                             <h4 class="mb-3">Pure Drinking Water</h4>
                             <p class="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
                             <a class="btn btn-outline-primary px-3" href="">
