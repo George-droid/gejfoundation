@@ -225,19 +225,19 @@
                         <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
                             <img class="img-fluid mb-4" src="img/corevalue.png" alt="">
                             <h4 class="mb-3">Our Core Values</h4>
-                            <p class="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
-                            <a class="btn btn-outline-primary px-3" href="">
+                            <p class="mb-4">Transparency and accountability, Equity & Fairness, Respect, Integrity, Inclusiveness, Independence, Professionalism.</p>
+                            {{-- <a class="btn btn-outline-primary px-3" href="">
                                 Learn More
                                 <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                                     <i class="fa fa-arrow-right"></i>
                                 </div>
-                            </a>
+                            </a> --}}
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
                             <img class="img-fluid mb-4" src="img/mission.png" alt="">
-                            <h4 class="mb-3">Medical Treatment</h4>
+                            <h4 class="mb-3">Our Mission</h4>
                             <p class="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
                             <a class="btn btn-outline-primary px-3" href="">
                                 Learn More
@@ -250,7 +250,7 @@
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
                             <img class="img-fluid mb-4" src="img/vision.png" alt="">
-                            <h4 class="mb-3">Pure Drinking Water</h4>
+                            <h4 class="mb-3">Our Vision</h4>
                             <p class="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
                             <a class="btn btn-outline-primary px-3" href="">
                                 Learn More
