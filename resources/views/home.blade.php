@@ -222,7 +222,7 @@
                 </div>
                 <div class="row g-4 justify-content-center">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
+                        <div class="service-item bg-white text-center h-70 p-4 p-xl-5">
                             <img class="img-fluid mb-4" src="img/corevalue.png" alt="">
                             <h4 class="mb-3">Our Core Values</h4>
                             <p class="mb-4">Transparency and accountability, Equity & Fairness, Respect, Integrity, Inclusiveness, Independence, Professionalism.</p>
@@ -235,7 +235,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
+                        <div class="service-item bg-white text-center h-70 p-4 p-xl-5">
                             <img class="img-fluid mb-4" src="img/vision.png" alt="">
                             <h4 class="mb-3">Our Vision</h4>
                             <p class="mb-4">Peaceful, Just and Progressive Nations of Africa</p>
@@ -248,7 +248,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
+                        <div class="service-item bg-white text-center h-70 p-4 p-xl-5">
                             <img class="img-fluid mb-4" src="img/mission.png" alt="">
                             <h4 class="mb-3">Our Mission</h4>
                             <p class="mb-4">To forge a continent where we understand our differences and work towards a perfect union founded on transparency, equity and justice</p>
