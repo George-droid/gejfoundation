@@ -68,11 +68,11 @@
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
                     <a href="{{ route ('home')}}" class="nav-item nav-link ">Home</a>
                     <a href="{{ route ('about')}}" class="nav-item nav-link">Who We Are</a>
-                    <a href="causes.html" class="nav-item nav-link">Blog</a>
+                    <a href="{{ route ('blog')}}" class="nav-item nav-link">Blog</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">What We Do</a>
                         <div class="dropdown-menu m-0">
-                            <a href="service.html" class="dropdown-item">Service</a>
+                            <a href="service.html" class="dropdown-item">Services</a>
                             <a href="donate.html" class="dropdown-item">West African Elders Forum</a>
                             <a href="team.html" class="dropdown-item">News and Media</a>
                             {{-- <a href="testimonial.html" class="dropdown-item">Testimonial</a>

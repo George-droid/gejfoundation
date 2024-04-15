@@ -2,10 +2,28 @@
 
 @section('content')
     <body>
-       
+         <!-- Donate Start -->
+         <div class="container-fluid donate my-5 py-5" data-parallax="scroll" data-image-src="img/carousel-2.jpg">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">The Goodluck Jonathan Foundation</div>
+                        <h1 class="display-6 text-white mb-5"></h1>
+                        <p class="text-white-50 mb-0">The Goodluck Jonathan Foundation, founded by the former President of Nigeria (2010-2015) is an independent non-governmental organization established in 2015 for the advancement of peace and prosperity on the African continent.
+
+                            We are dedicated to promoting peace and reconciliation, advancing democratic governance, advocating for inclusive governance and economic development, promoting citizen’s rights, and continental and national integration.</p>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="h-100 bg-white p-5">
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/GAgrr2V7LDI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Donate End -->
+
         <div class="container-xxl py-5">
-           
-            <br>
             <div class="container my-5 py-5">
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
