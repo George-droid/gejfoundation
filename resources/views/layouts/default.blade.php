@@ -66,8 +66,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="{{ route ('home')}}" class="nav-item nav-link active">Home</a>
-                    <a href="about.html" class="nav-item nav-link">Who We Are</a>
+                    <a href="{{ route ('home')}}" class="nav-item nav-link ">Home</a>
+                    <a href="{{ route ('about')}}" class="nav-item nav-link">Who We Are</a>
                     <a href="causes.html" class="nav-item nav-link">Blog</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">What We Do</a>
@@ -81,14 +81,14 @@
                     </div>
                     <a href="contact.html" class="nav-item nav-link">Contact Us</a>
                 </div>
-                <div class="d-none d-lg-flex ms-2">
+                {{-- <div class="d-none d-lg-flex ms-2">
                     <a class="btn btn-outline-primary py-2 px-3" href="">
                         Donate Now
                         <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                             <i class="fa fa-arrow-right"></i>
                         </div>
                     </a>
-                </div>
+                </div> --}}
             </div>
         </nav>
     </div>
