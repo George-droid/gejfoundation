@@ -4,7 +4,7 @@
     <body>
          <!-- Donate Start -->
          <div class="container-fluid donate my-5 py-5" data-parallax="scroll" data-image-src="img/carousel-2.jpg">
-            <div class="container py-5">
+            <div class="container py-3">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                         <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">The Goodluck Jonathan Foundation</div>
@@ -23,8 +23,8 @@
         </div>
         <!-- Donate End -->
 
-        <div class="container-xxl py-5">
-            <div class="container my-5 py-5">
+        <div class="container-xxl py-3">
+            <div class="container my-3 py-3">
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="h-100">
