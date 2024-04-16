@@ -68,27 +68,30 @@
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
                     <a href="{{ route ('home')}}" class="nav-item nav-link ">Home</a>
                     <a href="{{ route ('about')}}" class="nav-item nav-link">Who We Are</a>
-                    <a href="" class="nav-item nav-link">What We Do</a>
                     <div class="nav-item dropdown">
-                        <a href="{{ route ('blog')}}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">News And Media</a>
+                        <a href="{{ route ('blog')}}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">What We Do</a>
                         <div class="dropdown-menu m-0">
                             <a href="service.html" class="dropdown-item">Services</a>
                             <a href="donate.html" class="dropdown-item">West African Elders Forum</a>
-                            <a href="team.html" class="dropdown-item">News and Media</a>
-                            {{-- <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                            <a href="404.html" class="dropdown-item">404 Page</a> --}}
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="{{ route ('blog')}}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">News And Media</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="team.html" class="dropdown-item">Blog </a>
+                            <a href="team.html" class="dropdown-item">Gallery </a>
                         </div>
                     </div>
                     <a href="contact.html" class="nav-item nav-link">Contact Us</a>
                 </div>
-                {{-- <div class="d-none d-lg-flex ms-2">
+                <div class="d-none d-lg-flex ms-2">
                     <a class="btn btn-outline-primary py-2 px-3" href="">
-                        Donate Now
+                        West African Elders Forum
                         <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                             <i class="fa fa-arrow-right"></i>
                         </div>
                     </a>
-                </div> --}}
+                </div>
             </div>
         </nav>
     </div>
