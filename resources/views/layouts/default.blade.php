@@ -55,7 +55,7 @@
             </div>
         </div>
 
-        <nav class="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
             <a href="{{ route ('home')}}" class="navbar-brand ms-4 ms-lg-0">
                 <img src="{{ asset('img/gejf_logo.png') }}"
                 alt="GEJ FOundation Logo"/>
@@ -68,9 +68,9 @@
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
                     <a href="{{ route ('home')}}" class="nav-item nav-link ">Home</a>
                     <a href="{{ route ('about')}}" class="nav-item nav-link">Who We Are</a>
-                    <a href="{{ route ('blog')}}" class="nav-item nav-link">Blog</a>
+                    <a href="" class="nav-item nav-link">What We Do</a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">What We Do</a>
+                        <a href="{{ route ('blog')}}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">News And Media</a>
                         <div class="dropdown-menu m-0">
                             <a href="service.html" class="dropdown-item">Services</a>
                             <a href="donate.html" class="dropdown-item">West African Elders Forum</a>
