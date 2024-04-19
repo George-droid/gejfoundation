@@ -20,7 +20,7 @@ class CustomAuthController extends Controller
     }
     public function services()
     {
-        return view('services');
+        return view('service');
     }
     public function contact()
     {
