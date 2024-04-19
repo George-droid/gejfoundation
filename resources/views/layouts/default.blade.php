@@ -68,21 +68,18 @@
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
                     <a href="{{ route ('home')}}" class="nav-item nav-link ">Home</a>
                     <a href="{{ route ('about')}}" class="nav-item nav-link">Who We Are</a>
-                    <div class="nav-item dropdown">
-                        <a href="{{ route ('services')}}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">What We Do</a>
-                       
-                    </div>
+                    <a href="{{ route ('services')}}"  class="nav-item nav-link">What We Do</a>
                     <div class="nav-item dropdown">
                         <a href="{{ route ('blog')}}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">News And Media</a>
                         <div class="dropdown-menu m-0">
-                            <a href="team.html" class="dropdown-item">Latest News</a>
-                            <a href="team.html" class="dropdown-item">Gallery </a>
+                            <a href="{{ route ('blog')}}" class="dropdown-item">Latest News</a>
+                            <a href="{{ route ('blog')}}" class="dropdown-item">Gallery </a>
                         </div>
                     </div>
                     <a href="{{ route ('contact')}}" class="nav-item nav-link">Contact Us</a>
                 </div>
                 <div class="d-none d-lg-flex ms-2">
-                    <a class="btn btn-outline-primary py-2 px-3" href="">
+                    <a class="btn btn-outline-primary py-2 px-3" href="{{ route ('waef')}}">
                         West African Elders Forum
                         <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                             <i class="fa fa-arrow-right"></i>

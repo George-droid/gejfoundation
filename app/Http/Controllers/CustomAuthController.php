@@ -26,4 +26,9 @@ class CustomAuthController extends Controller
     {
         return view('contact');
     }
+    public function waef()
+    {
+        return waef('waef');
+    }
+    
 }
