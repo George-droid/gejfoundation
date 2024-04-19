@@ -295,25 +295,25 @@
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="counter">
-                            <div class="counter-values">2,000,000</div>
+                            <div class="counter-values">2,000,000+</div>
                             <div class="counter-label">2M citizens to actively participate in various levels of elections and contribute to violence free elections in Africa</div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="counter">
-                            <div class="counter-values">7</div>
+                            <div class="counter-values">7+</div>
                             <div class="counter-label">Years of existence</div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="counter">
-                            <div class="counter-values">20,000</div>
+                            <div class="counter-values">20,000+</div>
                             <div class="counter-label">Empower 20,000 African women and youths with livelihood skills and starter packs</div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="counter">
-                            <div class="counter-values">10,000</div>
+                            <div class="counter-values">10,000+</div>
                             <div class="counter-label">Contribute to raising 10,000 detribalised and emotionally resilient African children</div>
                         </div>
                     </div>
@@ -333,25 +333,25 @@
                 </div>
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-2 mx-auto mb-4" src="img/partner1.jpg">
+                        <img class="img-fluid bg-light p-5 mx-auto mb-4" src="img/partner1.jpg">
                     </div>
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-2 mx-auto mb-4" src="img/partner2.jpg">
+                        <img class="img-fluid bg-light p-5 mx-auto mb-4" src="img/partner2.jpg">
                     </div>
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-2 mx-auto mb-4" src="img/partner3.jpg">
+                        <img class="img-fluid bg-light p-5 mx-auto mb-4" src="img/partner3.jpg">
                     </div>
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-2 mx-auto mb-4" src="img/partner4.jpg">
+                        <img class="img-fluid bg-light p-5 mx-auto mb-4" src="img/partner4.jpg">
                     </div>
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-2 mx-auto mb-4" src="img/partner5.jpg">
+                        <img class="img-fluid bg-light p-5 mx-auto mb-4" src="img/partner5.jpg">
                     </div>
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-2 mx-auto mb-4" src="img/partner6.jpg">
+                        <img class="img-fluid bg-light p-5 mx-auto mb-4" src="img/partner6.jpg">
                     </div>
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-2 mx-auto mb-4" src="img/partner7.png">
+                        <img class="img-fluid bg-light p-5 mx-auto mb-4" src="img/partner7.png">
                     </div>
                 </div>
             </div>

@@ -14,4 +14,16 @@ class CustomAuthController extends Controller
     {
         return view('about');
     }
+    public function blog()
+    {
+        return view('blog');
+    }
+    public function services()
+    {
+        return view('services');
+    }
+    public function contact()
+    {
+        return view('contact');
+    }
 }
