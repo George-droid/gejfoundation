@@ -3,6 +3,7 @@
 @section('content')
     <body>
         <!-- Carousel Start -->
+        
         <div class="container-fluid p-0 mb-5">
             <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -73,7 +74,7 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="h-100">
                             <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Who We Are</div>
-                            <h1 class="display-6 mb-5">We Promote Peace and Prosperity Around the World</h1>
+                            <h1 class="display-6 mb-2">We Promote Peace and Prosperity Around the World</h1>
                             <div class="bg-light border-bottom border-5 border-primary rounded p-4 mb-4">
                                 <p class="text-dark mb-2">
                                     We understand that preserving and upholding democratic principles are prerequisites for any peaceful and prosperous nation.</p>
