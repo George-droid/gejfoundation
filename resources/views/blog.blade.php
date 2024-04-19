@@ -111,95 +111,57 @@
             </div>
         </div>
         <div class="container py-5">
-            <body>
-                <!-- Start Top Bar -->
-                <div class="top-bar">
-                    <div class="top-bar-left">
-                        <ul class="menu">
-                            <li class="menu-text">Yeti Agency</li>
-                        </ul>
-                    </div>
-                    <div class="top-bar-right">
-                        <ul class="menu">
-                            <li><a href="#">One</a></li>
-                            <li><a href="#">Two</a></li>
-                            <li><a href="#">Three</a></li>
-                            <li><a href="#">Four</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- End Top Bar -->
-            
-                <!-- Blog Header -->
-                <div class="callout large primary">
-                    <div class="row column text-center">
-                        <h1>Our Blog</h1>
-                    </div>
-                </div>
-            
-                <!-- Blog Content -->
-                <div class="row" id="content">
-                    <!-- Blog Posts -->
-                    <div class="medium-8 columns">
-                        <!-- Blog Post Template -->
-                        <div class="blog-post">
-                            <h3>Awesome blog post title <small>3/6/2015</small></h3>
-                            <img class="thumbnail" src="https://placehold.it/850x350" alt="Blog image">
-                            <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
-                            <div class="callout">
-                                <ul class="menu simple">
-                                    <li><a href="#">Author: Mike Mikers</a></li>
-                                    <li><a href="#">Comments: 3</a></li>
-                                </ul>
-                            </div>
+            <div class="container mt-4">
+                <div class="row">
+                  <!-- Main Content -->
+                  <div class="col-md-8">
+                    <!-- Blog Post -->
+                    <div class="card mb-4">
+                      <img src="https://placehold.it/850x350" class="card-img-top" alt="Post Image">
+                      <div class="card-body">
+                        <h5 class="card-title">Awesome Blog Post Title</h5>
+                        <p class="card-text">3/6/2015</p>
+                        <p class="card-text">Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue...</p>
+                        <div class="card-footer">
+                          <a href="#" class="card-link">Author: Mike Mikers</a>
+                          <a href="#" class="card-link">Comments: 3</a>
                         </div>
-                        <!-- Repeat the blog post template as needed -->
+                      </div>
                     </div>
-                    <!-- Sidebar -->
-                    <div class="medium-3 columns sticky-container" data-sticky-container="">
-                        <div class="sticky" data-sticky="wdasix-sticky" data-anchor="content" data-resize="zddghy-sticky" data-events="resize">
-                            <!-- Categories -->
-                            <h4>Categories</h4>
-                            <ul>
-                                <li><a href="#">Skyler</a></li>
-                                <li><a href="#">Jesse</a></li>
-                                <li><a href="#">Mike</a></li>
-                                <li><a href="#">Holly</a></li>
-                            </ul>
-                            <!-- Authors -->
-                            <h4>Authors</h4>
-                            <ul>
-                                <li><a href="#">Skyler</a></li>
-                                <li><a href="#">Jesse</a></li>
-                                <li><a href="#">Mike</a></li>
-                                <li><a href="#">Holly</a></li>
-                            </ul>
-                        </div>
+                    <!-- Repeat Blog Posts as necessary -->
+                  </div>
+            
+                  <!-- Sidebar -->
+                  <div class="col-md-4">
+                    <!-- Categories Section -->
+                    <div class="card mb-4">
+                      <div class="card-header">Categories</div>
+                      <div class="card-body">
+                        <ul class="list-unstyled">
+                          <li><a href="#">Category 1</a></li>
+                          <li><a href="#">Category 2</a></li>
+                          <li><a href="#">Category 3</a></li>
+                          <li><a href="#">Category 4</a></li>
+                        </ul>
+                      </div>
                     </div>
-                </div>
             
-                <!-- Pagination -->
-                <div class="row column">
-                    <ul class="pagination" role="navigation" aria-label="Pagination">
-                        <li class="disabled">Previous</li>
-                        <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
-                        <li><a href="#" aria-label="Page 2">2</li>
-                        <li><a href="#" aria-label="Page 3">3</li>
-                        <li><a href="#" aria-label="Page 4">4</li>
-                        <li class="ellipsis"></li>
-                        <li><a href="#" aria-label="Page 12">12</a></li>
-                        <li><a href="#" aria-label="Page 13">13</a></li>
-                        <li><a href="#" aria-label="Next page">Next</a></li>
-                    </ul>
+                    <!-- Authors Section -->
+                    <div class="card mb-4">
+                      <div class="card-header">Authors</div>
+                      <div class="card-body">
+                        <ul class="list-unstyled">
+                          <li><a href="#">Author 1</a></li>
+                          <li><a href="#">Author 2</a></li>
+                          <li><a href="#">Author 3</a></li>
+                          <li><a href="#">Author 4</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-            
-                <!-- JavaScript -->
-                <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-                <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
-                <script>
-                    $(document).foundation();
-                </script>
-            </body>
+              </div>
+              <!-- End Main Content and Sidebar -->
         </div>
     </div>
 </body>
