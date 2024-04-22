@@ -3,22 +3,39 @@
 @section('content')
     <body>
         <!-- Page Header -->
-        <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
-            <div class="container text-center">
-                <h1 class="display-4 text-white animated slideInDown mb-4">West African Elders Forum</h1>
+        <div class="container-fluid page-header pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container pt-5 mt-5  text-center">
+                <h1 class="display-4  animated slideInDown mb-4">West African Elders Forum</h1>
                 <p class="lead">A home-grown and non-partisan platform of past heads of state and government in West Africa.</p>
             </div>
         </div>
-        =
+        
 
         <!-- About WAEF Section -->
         <div class="container-xxl py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h2>About WAEF</h2>
-                        <p>The West African Elder’s Forum is an initiative of the Goodluck Jonathan Foundation established in 2021...</p>
-                        <p>...</p>
+            <div class="container-fluid donate " data-parallax="scroll" data-image-src="img/carousel-2.jpg">
+                <div class="container py-2">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-10 wow fadeIn" data-wow-delay="0.1s">
+                            <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">ABOUT WAEF</div>
+                            <h1 class="display-6 text-white mb-5">WEST AFRICAN ELDERS FORUM</h1>
+                            <p class="text-white-50 mb-0">
+                                The West African Elder’s Forum is an initiative of the Goodluck Jonathan
+                                Foundation established in 2021 to serve as a home-grown and
+                                non-partisan platform of past heads of state and government in West
+                                Africa.
+                                The Forum aims to draw on the experience and standing of its members to
+                                provide advisory, mediation and conflict resolution support services to the
+                                political leaders of the sub-region. It also works on various
+                                democracy-promotion, peace and security and governance initiatives in
+                                the sub-region.
+                                Its overarching motivation is to work with other stakeholders to limit
+                                instability and violence and to advance the integrity of the democratic
+                                process. To this end, WAEF nurtures active collaboration with bodies such
+                                as ECOWAS, UNOWAS and other relevant stakeholders in the sub-region.
+                            </p>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
