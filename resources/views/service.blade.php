@@ -58,7 +58,7 @@
         <div class="container  my-2">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Services</div>
-                <h1 class="display-6 mb-5">Learn More What We Do And Get Involved</h1>
+                <h1 class="display-6 mb-5">Learn More About The Services Offered </h1>
             </div>
         </div>
     
@@ -74,13 +74,8 @@
                         <path d="M5.929 1.757a.5.5 0 1 0-.858-.514L2.217 6H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h.623l1.844 6.456A.75.75 0 0 0 3.69 15h8.622a.75.75 0 0 0 .722-.544L14.877 8h.623a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1.717L10.93 1.243a.5.5 0 1 0-.858.514L12.617 6H3.383L5.93 1.757zM4 10a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm4-1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1z" />
                         </svg>
                         <h4 class="fw-bold text-uppercase mb-4">Democracy and Elections</h4>
-                        <p class="mb-4 text-secondary"> We provide comprehensive support for democratic governance, offering services such as election monitoring, voter education, capacity building for institutions, and advocacy for fair and transparent electoral processes.</p>
-                        <a href="#!" class="fw-bold text-decoration-none link-primary">
-                        Learn More
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-                        </svg>
-                        </a>
+                        <p class="mb-4 "> We provide comprehensive support for democratic governance, offering services such as election monitoring, voter education, capacity building for institutions, and advocacy for fair electoral processes.</p>
+                        
                     </div>
                     </div>
                 </div>
@@ -93,13 +88,8 @@
                         <path d="M9.479 14.361c-.48.093-.98.139-1.479.139-.5 0-.999-.046-1.479-.139L7.6 15.8a.5.5 0 0 0 .8 0l1.079-1.439Z" />
                         </svg>
                         <h4 class="fw-bold text-uppercase mb-4">Peace and Security</h4>
-                        <p class="mb-4 text-secondary">Our services focus on conflict prevention, mediation, peacebuilding, and security sector reform. We work to build safe, stable communities through initiatives like disarmament, demobilization, and the reintegration of combatants.</p>
-                        <a href="#!" class="fw-bold text-decoration-none link-primary">
-                        Learn More
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-                        </svg>
-                        </a>
+                        <p class="mb-4 ">Our services focus on conflict prevention, mediation, peacebuilding, and security sector reform. We work to build safe, stable communities through initiatives like disarmament, demobilization, and the reintegration of combatants.</p>
+                        
                     </div>
                     </div>
                 </div>
