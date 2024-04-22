@@ -390,6 +390,11 @@
     padding-left: 15px;
 }
 
+.team-social a {
+    display: inline-block; /* Ensures the links are displayed in a row */
+    margin-right: 10px; /* Optional: Add space between buttons */
+}
+
 /*** Footer ***/
 
 .footer .btn.btn-link {

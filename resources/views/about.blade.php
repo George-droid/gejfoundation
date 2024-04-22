@@ -28,21 +28,21 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="h-100">
-                            <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Who We Are</div>
-                            <h1 class="display-6 mb-5">We Promote Peace and Prosperity Around the World</h1>
+                            <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Our Founder</div>
+                            <h1 class="display-6 mb-5">Goodluck Ebele Jonathan</h1>
                             <div class="bg-light border-bottom border-5 border-primary rounded p-4 mb-4">
                                 <p class="text-dark mb-2">
-                                    We understand that preserving and upholding democratic principles are prerequisites for any peaceful and prosperous nation.</p>
-                                <span class="text-primary">Goodluck Ebele Jonathan, Founder</span>
+                                   "We understand that preserving and upholding democratic principles are prerequisites for any peaceful and prosperous nation."</p>
+                                <span class="text-primary">- Goodluck Ebele Jonathan, Founder</span>
                             </div>
-                            <p class="mb-5">Through initiatives such as electoral reform, enhancing women and youth participation in elections, and mobilizing for violence-free elections in Nigeria, we aim to create positive change. Additionally, we are committed to nurturing 10,000 detribalized and emotionally resilient Nigerian children. Together, we're building a brighter future for Africa.</p>
+                            <p class="mb-5">Goodluck Ebele Azikiwe Jonathan served as Nigeria's president from 2010 to 2015 and was the first incumbent president to concede defeat in an election, ensuring a peaceful transition of power. He previously served as vice president under Umaru Musa Yar'Adua from 2007 to 2010. In Bayelsa State, he was governor from 2005 to 2007 and deputy governor from 1999 to 2005. His presidency and human service  focused on economic development, energy, and infrastructure</p>
                             <a class="btn btn-primary py-2 px-3 me-3" href="">
                                 Learn More
                                 <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                                     <i class="fa fa-arrow-right"></i>
                                 </div>
                             </a>
-                            <a class="btn btn-outline-primary py-2 px-3" href="">
+                            <a class="btn btn-outline-primary py-2 px-3" href="{{ route ('contact')}}">
                                 Contact Us
                                 <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                                     <i class="fa fa-arrow-right"></i>
@@ -52,66 +52,169 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
-                            <img class="position-absolute w-100 h-100 pt-5 pe-5" src="img/2.jpeg" alt="" style="object-fit: cover;">
-                            <img class="position-absolute top-0 end-0 bg-white ps-2 pb-2" src="img/about-2.jpg" alt="" style="width: 200px; height: 200px;">
+                            <img class="position-absolute w-100 h-100 pt-5 pe-5" src="{{asset('img/GoodluckJonathan.webp')}}" alt="" style="object-fit: cover;">
+                           
                         </div>
                     </div>
                    
                 </div>
             </div>
         </div>
-        <!-- About End -->
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                    <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">What We Do</div>
-                    <h1 class="display-6 mb-5">Learn More What We Do And Get Involved</h1>
+      
+          <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Board Members</div>
+               
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        </div>
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>H.E DR. Goodluck Ebele Jonathan GCFR, GCON</h5>
+                            <p class="text-primary">Chairman</p>
+                            <div class="team-social text-center">
+                                <a class="btn btn-square" href="mailto:your-email@example.com"><i class="fas fa-envelope"></i></a>
+                                <a class="btn btn-square" href="tel:your-phone-number"><i class="fas fa-phone"></i></a>
+                                <a class="btn btn-square" href="https://www.facebook.com/your-profile-or-page"><i class="fab fa-facebook-f"></i></a>
+                            </div>
+                            
+                        </div>
+                    </div>
                 </div>
-                <div class="row g-4 justify-content-center">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="service-item bg-white text-center h-70 p-4 p-xl-5">
-                            <img class="img-fluid mb-4" src="img/corevalue.png" alt="">
-                            <h4 class="mb-3">Our Core Values</h4>
-                            <p class="mb-4">Transparency and accountability, Equity & Fairness, Respect, Integrity, Inclusiveness, Independence, Professionalism.</p>
-                            {{-- <a class="btn btn-outline-primary px-3" href="">
-                                Learn More
-                                <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                    <i class="fa fa-arrow-right"></i>
-                                </div>
-                            </a> --}}
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                        </div>
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Prof. Adebayo Olukoshi</h5>
+                            <p class="text-primary">Board Member</p>
+                            <div class="team-social text-center">
+                                <a class="btn btn-square" href="mailto:your-email@example.com"><i class="fas fa-envelope"></i></a>
+                                <a class="btn btn-square" href="tel:your-phone-number"><i class="fas fa-phone"></i></a>
+                                <a class="btn btn-square" href="https://www.facebook.com/your-profile-or-page"><i class="fab fa-facebook-f"></i></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="service-item bg-white text-center h-70 p-4 p-xl-5">
-                            <img class="img-fluid mb-4" src="img/vision.png" alt="">
-                            <h4 class="mb-3">Our Vision</h4>
-                            <p class="mb-4">Peaceful, Just and Progressive Nations of Africa</p>
-                            {{-- <a class="btn btn-outline-primary px-3" href="">
-                                Learn More
-                                <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                    <i class="fa fa-arrow-right"></i>
-                                </div>
-                            </a> --}}
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                        </div>
+                        <div class="team-text bg-light text-center p-4">
+                            <h5> Late Dr. Innocent Chukwuma </h5>
+                            <p class="text-primary">Board Member</p>
+                            <div class="team-social text-center">
+                                <a class="btn btn-square" href="mailto:your-email@example.com"><i class="fas fa-envelope"></i></a>
+                                <a class="btn btn-square" href="tel:your-phone-number"><i class="fas fa-phone"></i></a>
+                                <a class="btn btn-square" href="https://www.facebook.com/your-profile-or-page"><i class="fab fa-facebook-f"></i></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-item bg-white text-center h-70 p-4 p-xl-5">
-                            <img class="img-fluid mb-4" src="img/mission.png" alt="">
-                            <h4 class="mb-3">Our Mission</h4>
-                            <p class="mb-4">To forge a continent where we understand our differences and work towards a perfect union founded on transparency, equity and justice</p>
-                            {{-- <a class="btn btn-outline-primary px-3" href="">
-                                Learn More
-                                <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                    <i class="fa fa-arrow-right"></i>
-                                </div>
-                            </a> --}}
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                        </div>
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Mrs Ann Iyonu</h5>
+                            <p class="text-primary">Secretary of the Board </p>
+                            <div class="team-social text-center">
+                                <a class="btn btn-square" href="mailto:your-email@example.com"><i class="fas fa-envelope"></i></a>
+                                <a class="btn btn-square" href="tel:your-phone-number"><i class="fas fa-phone"></i></a>
+                                <a class="btn btn-square" href="https://www.facebook.com/your-profile-or-page"><i class="fab fa-facebook-f"></i></a>
+                            </div>
                         </div>
                     </div>
-                  
                 </div>
             </div>
         </div>
-        <!-- Service End -->
+    </div>
+    <!-- Team End -->
+
+      <!-- Team Start -->
+      <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Team Members</div>
+                
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        </div>
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Full Name</h5>
+                            <p class="text-primary">Designation</p>
+                            <div class="team-social text-center">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                        </div>
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Full Name</h5>
+                            <p class="text-primary">Designation</p>
+                            <div class="team-social text-center">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                        </div>
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Full Name</h5>
+                            <p class="text-primary">Designation</p>
+                            <div class="team-social text-center">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                        </div>
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Full Name</h5>
+                            <p class="text-primary">Designation</p>
+                            <div class="team-social text-center">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
 
     </body>
 @endsection
