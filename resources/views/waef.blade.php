@@ -44,7 +44,10 @@
         <!-- Meet Our Members Section -->
         <div class="container-xxl py-5">
             <div class="container">
-                <h2 class="d-inline-block rounded-pill bg-secondary text-primary text-center  py-1 px-5 mb-3">Meet Our Members</h2>
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                    <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Meet Our Members </div>
+                    
+                </div>
                 <div class="row g-4">
                     <div class="col-lg-3 col-md-4">
                         <div class="card">
@@ -94,7 +97,7 @@
             <div class="container py-5">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                     <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Latest News</div>
-                    {{-- <h1 class="display-6 mb-5"></h1> --}}
+                    
                 </div>
                 <div class="row g-4 justify-content-center">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
