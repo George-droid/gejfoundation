@@ -268,7 +268,7 @@
         <!-- Service End -->
 
 
-        <!-- Donate Start -->
+     
         <div class="container-fluid donate my-5 py-5" data-parallax="scroll" data-image-src="img/carousel-2.jpg">
             <div class="container py-5">
                 <div class="row g-5 align-items-center">
@@ -290,7 +290,7 @@
         <!-- Donate End -->
 
 
-        <!-- Team Start -->
+     
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
@@ -322,7 +322,7 @@
             </div>
         </div>
         
-        <!-- Team End -->
+       
 
 
         <!-- Testimonial Start -->
