@@ -42,7 +42,7 @@
     <!-- Navbar Start -->
     <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="top-bar text-white-50 row gx-0 align-items-center d-none d-lg-flex">
-            <div class="col-lg-6 px-5 text-start">
+            <div class="col-lg-6 px-3 text-start">
                 <small><i class="fa fa-map-marker-alt me-2"></i>7B. Taraba Close, Maitama FCT-Abuja, Nigeria </small>
                 <small class="ms-4"><i class="fa fa-envelope me-2"></i>info@gejfoundation.org</small>
             </div>
@@ -68,27 +68,24 @@
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
                     <a href="{{ route ('home')}}" class="nav-item nav-link ">Home</a>
                     <a href="{{ route ('about')}}" class="nav-item nav-link">Who We Are</a>
-                    <a href="" class="nav-item nav-link">What We Do</a>
+                    <a href="{{ route ('services')}}"  class="nav-item nav-link">What We Do</a>
                     <div class="nav-item dropdown">
                         <a href="{{ route ('blog')}}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">News And Media</a>
                         <div class="dropdown-menu m-0">
-                            <a href="service.html" class="dropdown-item">Services</a>
-                            <a href="donate.html" class="dropdown-item">West African Elders Forum</a>
-                            <a href="team.html" class="dropdown-item">News and Media</a>
-                            {{-- <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                            <a href="404.html" class="dropdown-item">404 Page</a> --}}
+                            <a href="{{ route ('blog')}}" class="dropdown-item">Latest News</a>
+                            <a href="{{ route ('blog')}}" class="dropdown-item">Gallery </a>
                         </div>
                     </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                    <a href="{{ route ('contact')}}" class="nav-item nav-link">Contact Us</a>
                 </div>
-                {{-- <div class="d-none d-lg-flex ms-2">
-                    <a class="btn btn-outline-primary py-2 px-3" href="">
-                        Donate Now
+                <div class="d-none d-lg-flex ms-2">
+                    <a class="btn btn-outline-primary py-2 px-3" href="{{ route ('waef')}}">
+                        West African Elders Forum
                         <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                             <i class="fa fa-arrow-right"></i>
                         </div>
                     </a>
-                </div> --}}
+                </div>
             </div>
         </nav>
     </div>

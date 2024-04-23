@@ -15,6 +15,23 @@ class CustomAuthController extends Controller
     {
         return view('about');
     }
+    public function blog()
+    {
+        return view('blog');
+    }
+    public function services()
+    {
+        return view('service');
+    }
+    public function contact()
+    {
+        return view('contact');
+    }
+    public function waef()
+    {
+        return view('waef');
+    }
+    
     public function adminLogin()
     {
         return view('be.auth.login');

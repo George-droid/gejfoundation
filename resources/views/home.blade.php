@@ -3,11 +3,12 @@
 @section('content')
     <body>
         <!-- Carousel Start -->
+        
         <div class="container-fluid p-0 mb-5">
             <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="w-100" src="img/1.jpeg" alt="Image">
+                        <img class="w-100  " src="{{asset('img/1.jpg')}}" alt="Image">
                         <div class="carousel-caption">
                             <div class="container">
                                 <div class="row justify-content-center">
@@ -26,7 +27,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                        <img class="w-100 " src="{{asset('img/GoodluckJonathan.webp')}}" alt="Image">
                         <div class="carousel-caption">
                             <div class="container">
                                 <div class="row justify-content-center">
@@ -66,14 +67,14 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
-                            <img class="position-absolute w-100 h-100 pt-5 pe-5" src="img/2.jpeg" alt="" style="object-fit: cover;">
-                            <img class="position-absolute top-0 end-0 bg-white ps-2 pb-2" src="img/about-2.jpg" alt="" style="width: 200px; height: 200px;">
+                            <img class="position-absolute w-100 h-100 pt-5 pe-5" src="{{asset('img/2.jpeg')}}" alt="" style="object-fit: cover;">
+                            <img class="position-absolute top-0 end-0 bg-white ps-2 pb-2" src="{{asset('img/about-2.jpg')}}" alt="" style="width: 200px; height: 200px;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="h-100">
                             <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Who We Are</div>
-                            <h1 class="display-6 mb-5">We Promote Peace and Prosperity Around the World</h1>
+                            <h1 class="display-6 mb-2">We Promote Peace and Prosperity Around the World</h1>
                             <div class="bg-light border-bottom border-5 border-primary rounded p-4 mb-4">
                                 <p class="text-dark mb-2">
                                     We understand that preserving and upholding democratic principles are prerequisites for any peaceful and prosperous nation.</p>
@@ -129,7 +130,7 @@
                                 </div> --}}
                             </div>
                             <div class="position-relative mt-auto">
-                                <img class="img-fluid" src="img/courses-1.jpg" alt="">
+                                <img class="img-fluid" src="{{asset('img/courses-1.jpg')}}" alt="">
                                 <div class="causes-overlay">
                                     <a class="btn btn-outline-primary" href="">
                                         Read More
@@ -162,7 +163,7 @@
                                 </div> --}}
                             </div>
                             <div class="position-relative mt-auto">
-                                <img class="img-fluid" src="img/courses-2.jpg" alt="">
+                                <img class="img-fluid" src="{{asset('img/courses-2.jpg')}}" alt="">
                                 <div class="causes-overlay">
                                     <a class="btn btn-outline-primary" href="">
                                         Read More
@@ -195,7 +196,7 @@
                                 </div> --}}
                             </div>
                             <div class="position-relative mt-auto">
-                                <img class="img-fluid" src="img/courses-3.jpg" alt="">
+                                <img class="img-fluid" src="{{asset('img/courses-3.jpg')}}" alt="">
                                 <div class="causes-overlay">
                                     <a class="btn btn-outline-primary" href="">
                                         Read More
@@ -223,7 +224,7 @@
                 <div class="row g-4 justify-content-center">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="service-item bg-white text-center h-70 p-4 p-xl-5">
-                            <img class="img-fluid mb-4" src="img/corevalue.png" alt="">
+                            <img class="img-fluid mb-4" src="{{asset('img/corevalue.png')}}" alt="">
                             <h4 class="mb-3">Our Core Values</h4>
                             <p class="mb-4">Transparency and accountability, Equity & Fairness, Respect, Integrity, Inclusiveness, Independence, Professionalism.</p>
                             {{-- <a class="btn btn-outline-primary px-3" href="">
@@ -267,7 +268,7 @@
         <!-- Service End -->
 
 
-        <!-- Donate Start -->
+     
         <div class="container-fluid donate my-5 py-5" data-parallax="scroll" data-image-src="img/carousel-2.jpg">
             <div class="container py-5">
                 <div class="row g-5 align-items-center">
@@ -280,7 +281,7 @@
                     </div>
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                         <div class="h-100 bg-white p-5">
-                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/M62G5DRlyMo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/CmORN8A1MnA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -289,82 +290,39 @@
         <!-- Donate End -->
 
 
-        <!-- Team Start -->
-        {{-- <div class="container-xxl py-5">
+     
+        <div class="container-xxl py-5">
             <div class="container">
-                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                    <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Team Members</div>
-                    <h1 class="display-6 mb-5">Let's Meet With Our Ordinary Soldiers</h1>
-                </div>
-                <div class="row g-4">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="team-item position-relative rounded overflow-hidden">
-                            <div class="overflow-hidden">
-                                <img class="img-fluid" src="img/team-1.jpg" alt="">
-                            </div>
-                            <div class="team-text bg-light text-center p-4">
-                                <h5>Full Name</h5>
-                                <p class="text-primary">Designation</p>
-                                <div class="team-social text-center">
-                                    <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
+                        <div class="counter">
+                            <div class="counter-values">2,000,000+</div>
+                            <div class="counter-label">2M citizens to actively participate in various levels of elections and contribute to violence free elections in Africa</div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="team-item position-relative rounded overflow-hidden">
-                            <div class="overflow-hidden">
-                                <img class="img-fluid" src="img/team-2.jpg" alt="">
-                            </div>
-                            <div class="team-text bg-light text-center p-4">
-                                <h5>Full Name</h5>
-                                <p class="text-primary">Designation</p>
-                                <div class="team-social text-center">
-                                    <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
+                        <div class="counter">
+                            <div class="counter-values">7+</div>
+                            <div class="counter-label">Years of existence</div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item position-relative rounded overflow-hidden">
-                            <div class="overflow-hidden">
-                                <img class="img-fluid" src="img/team-3.jpg" alt="">
-                            </div>
-                            <div class="team-text bg-light text-center p-4">
-                                <h5>Full Name</h5>
-                                <p class="text-primary">Designation</p>
-                                <div class="team-social text-center">
-                                    <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
+                        <div class="counter">
+                            <div class="counter-values">20,000+</div>
+                            <div class="counter-label">Empower 20,000 African women and youths with livelihood skills and starter packs</div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="team-item position-relative rounded overflow-hidden">
-                            <div class="overflow-hidden">
-                                <img class="img-fluid" src="img/team-4.jpg" alt="">
-                            </div>
-                            <div class="team-text bg-light text-center p-4">
-                                <h5>Full Name</h5>
-                                <p class="text-primary">Designation</p>
-                                <div class="team-social text-center">
-                                    <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
+                        <div class="counter">
+                            <div class="counter-values">10,000+</div>
+                            <div class="counter-label">Contribute to raising 10,000 detribalised and emotionally resilient African children</div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div> --}}
-        <!-- Team End -->
+        </div>
+        
+       
 
 
         <!-- Testimonial Start -->
@@ -376,25 +334,25 @@
                 </div>
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-2 mx-auto mb-4" src="img/partner1.jpg">
+                        <img class="img-fluid bg-light p-5 mx-auto mb-4" src="img/partner1.jpg">
                     </div>
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-2 mx-auto mb-4" src="img/partner2.jpg">
+                        <img class="img-fluid bg-light p-5 mx-auto mb-4" src="img/partner2.jpg">
                     </div>
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-2 mx-auto mb-4" src="img/partner3.jpg">
+                        <img class="img-fluid bg-light p-5 mx-auto mb-4" src="img/partner3.jpg">
                     </div>
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-2 mx-auto mb-4" src="img/partner4.jpg">
+                        <img class="img-fluid bg-light p-5 mx-auto mb-4" src="img/partner4.jpg">
                     </div>
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-2 mx-auto mb-4" src="img/partner5.jpg">
+                        <img class="img-fluid bg-light p-5 mx-auto mb-4" src="img/partner5.jpg">
                     </div>
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-2 mx-auto mb-4" src="img/partner6.jpg">
+                        <img class="img-fluid bg-light p-5 mx-auto mb-4" src="img/partner6.jpg">
                     </div>
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-2 mx-auto mb-4" src="img/partner7.png">
+                        <img class="img-fluid bg-light p-5 mx-auto mb-4" src="img/partner7.png">
                     </div>
                 </div>
             </div>
