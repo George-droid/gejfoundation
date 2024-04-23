@@ -13,3 +13,7 @@ Route::get('/services', [CustomAuthController::class, 'services'])->name('servic
 Route::get('/contact-us', [CustomAuthController::class, 'contact'])->name('contact');
 Route::get('/waef', [CustomAuthController::class, 'waef'])->name('waef');
 Route::post('/contact-us/submit', [CustomAuthController::class, 'submitContactForm'])->name('contact.submit');
+Route::get('/admin/login', [CustomAuthController::class, 'adminLogin'])->name('admin.login');
+Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name('login.custom');
+
+Route::get('/dashboard', [CustomAuthController::class, 'dashboard'])->name('dashboard');
