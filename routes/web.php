@@ -12,3 +12,7 @@ Route::get('/blog', [CustomAuthController::class, 'blog'])->name('blog');
 // Route::get('/services', [CustomAuthController::class, 'services'])->name('services');
 // Route::get('/contact-us', [CustomAuthController::class, 'contact'])->name('contact');
 // Route::post('/contact-us/submit', [CustomAuthController::class, 'submitContactForm'])->name('contact.submit');
+Route::get('/admin/login', [CustomAuthController::class, 'adminLogin'])->name('admin.login');
+Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name('login.custom');
+
+Route::get('/dashboard', [CustomAuthController::class, 'dashboard'])->name('dashboard');
