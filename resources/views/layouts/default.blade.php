@@ -115,11 +115,11 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Quick Links</h5>
-                    <a class="btn btn-link" href="">Who We Are</a>
-                    <a class="btn btn-link" href="">What We Do</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Support</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="{{ route ('about')}}">Who We Are</a>
+                    <a class="btn btn-link" href="{{ route ('services')}}">What We Do</a>
+                    <a class="btn btn-link" href="{{ route ('services')}}">Our Services</a>
+                    <a class="btn btn-link" href="{{ route ('contact')}}">Support</a>
+                    <a class="btn btn-link" href="{{ route ('contact')}}">Contact Us</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Blog</h5>
