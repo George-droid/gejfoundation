@@ -31,7 +31,10 @@ class CustomAuthController extends Controller
     {
         return view('waef');
     }
-    
+    public function gallery()
+    {
+        return view('gallery');
+    }
     public function adminLogin()
     {
         return view('be.auth.login');
