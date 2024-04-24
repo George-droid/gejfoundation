@@ -104,7 +104,7 @@
                         <a class="btn btn-square me-1" href="https://twitter.com/gejfoundation?lang=en"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-square me-1" href="https://www.facebook.com/gejfoundation/"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-square me-1" href="https://twitter.com/gejfoundation?lang=en"><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square me-0" href="https://ng.linkedin.com/company/goodluck-jonathan-foundation"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -135,7 +135,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a href="#">Goodluck Jonathan Foundation</a>, All Right Reserved.
+                        &copy; <a href="{{ route ('home')}}">Goodluck Jonathan Foundation</a>, All Right Reserved.
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
