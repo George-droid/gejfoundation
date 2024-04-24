@@ -101,9 +101,9 @@
                     <h1 class="fw-bold text-primary mb-4">GEJ <br><span class="text-white">Foundation</span></h1>
                     <p>Promoting Peace And Prosperity</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-square me-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square me-1" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square me-1" href="https://twitter.com/gejfoundation?lang=en"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square me-1" href="https://www.facebook.com/gejfoundation/"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square me-1" href="https://twitter.com/gejfoundation?lang=en"><i class="fab fa-youtube"></i></a>
                         <a class="btn btn-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
