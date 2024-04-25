@@ -101,7 +101,7 @@
         <!-- About End -->
 
 
-        <!-- Causes Start -->
+        <!-- News and events Start -->
         <div class="container-xxl bg-light my-5 py-5">
             <div class="container py-5">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
@@ -211,7 +211,7 @@
                 </div>
             </div>
         </div>
-        <!-- Causes End -->
+        <!-- News and events End -->
 
 
         <!-- Service Start -->
