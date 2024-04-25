@@ -7,7 +7,7 @@
         <div class="container py-5">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Latest News</div>
-                {{-- <h1 class="display-6 mb-5"></h1> --}}
+                <h1 class="display-6 mb-5">All News And Media</h1>
             </div>
             <div class="container mt-4">
                 <div class="row">
@@ -73,12 +73,17 @@
                         </div>
 
                         <div class="card mb-4">
-                            <img src="{{asset('img/courses-1.jpg')}}" class="card-img-top" alt="Post Image">
+                            <img src="{{asset('img/blog-5.jpeg')}}" class="card-img-top" alt="Post Image">
                             <div class="card-body">
-                                <h5 class="card-title">Coup d’états: Dangers of democratic disruption and African solutions</h5>
-                                <p class="card-text">August 6, 2023</p>
-                                <p class="card-text">A news analysis by Emmanuel Oloniruha, News Agency of Nigeria (NAN)
-                                    Recent happenings in West Africa points the fact of the danger democracy and good governance are facing in the region. The military takeover in Mali, Chad, Burkina Faso, Sudan and Niger Republic showed the fragility of moving West Africa out of its challenge of poverty, low infrastructure and globalisation.</p>
+                                <h5 class="card-title">Jonathan arrives Freetown, leads WAEF election mission to Sierra Leone</h5>
+                                <p class="card-text">June 21, 2023</p>
+                                <p class="card-text">The West African Elders Forum (WAEF) 2023 Election Mission to Sierra Leone has arrived in Freetown to encourage and support a peaceful democratic transition ahead of the country’s general election scheduled for this weekend, June 24.
+
+                                    Former Nigerian President and Chair of the Forum, Goodluck Ebele Jonathan, is the head of the mission. The team also has former Burkinabe prime minister and one-time president of the Economic Community of West African States (ECOWAS) Kadre Ouedraogo and staff from the WAEF secretariat as members.
+                                    
+                                    In an arrival statement, Wealth Dickson Ominabo, Communications Officer of the Goodluck Jonathan Foundation, host of the WAEF secretariat quoted the head of mission as saying that:
+                                    
+                                    “The mission urges citizens of Sierra Leone to approach the election with utmost patriotism by prioritizing the nation’s peace and stability and refrain from acts capable of undermining the nation’s democracy.”</p>
                                 <div class="card-footer">
                                 <a href="#" class="card-link">Read More</a>
                                 <a href="#" class="card-link">Comments: 3</a>
@@ -108,6 +113,26 @@
                                 <li><a href="#">Dr. Goodluck Jonathan </a></li>
                                 <li><a href="#">ECOWAS</a></li>
                                 <li><a href="#"> Election</a></li>
+                                <li><a href="#">Ernest Bai Koroma</a></li>
+                                <li><a href="#">Freedom</a></li>
+                                <li><a href="#">Gambia</a></li>
+                                <li><a href="#">GEJ</a></li>
+                                <li><a href="#">Gender Equality</a></li>
+                                <li><a href="#">Goodluck Jonathan</a></li>
+                                <li><a href="#">Government</a></li>
+                                <li><a href="#">Human Right</a></li>
+                                <li><a href="#">Human Security</a></li>
+                                <li><a href="#">IDP camps</a></li>
+                                <li><a href="#">Justice</a></li>
+                                <li><a href="#">Ernest Bai Koroma</a></li>
+                                <li><a href="#">Ernest Bai Koroma</a></li>
+                                <li><a href="#">Ernest Bai Koroma</a></li>
+                                <li><a href="#">Ernest Bai Koroma</a></li>
+                                <li><a href="#">Ernest Bai Koroma</a></li>
+                                <li><a href="#">Ernest Bai Koroma</a></li>
+                                <li><a href="#">Ernest Bai Koroma</a></li>
+                                <li><a href="#">Ernest Bai Koroma</a></li>
+                                <li><a href="#">Ernest Bai Koroma</a></li>
                                 <li><a href="#">Ernest Bai Koroma</a></li>
                                 </ul>
                             </div>
