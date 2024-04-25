@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container col-lg-4 mt-5 pt-5">
-    <form method="POST" action="{{ route('login.custom') }}>
+    <form method="post" action="{{ route('login.custom') }}">
         @csrf
         <!-- Email input -->
         <div class="form-outline mt-5 pt-5 mb-4">

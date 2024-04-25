@@ -38,7 +38,7 @@ class CustomAuthController extends Controller
     }
     public function customLogin(Request $request)
     {
-
+        // dd($request);
         $request->validate([
             'email' => 'required',
             'password' => 'required',
@@ -51,7 +51,6 @@ class CustomAuthController extends Controller
         }
         
         return redirect("login")->withErrors('Login details are not valid');
-
     }
     public function dashboard()
     {

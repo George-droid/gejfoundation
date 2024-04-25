@@ -34,7 +34,7 @@
                     <div class="sidebar-brand-icon rotate-n-15">
                         <i class="fas fa-laugh-wink"></i>
                     </div>
-                    <div class="sidebar-brand-text mx-3">Goldenway Admin <sup>2</sup></div>
+                    <div class="sidebar-brand-text mx-3">GEJFoundation Admin <sup>2</sup></div>
                 </a>
     
                 <!-- Divider -->
@@ -55,12 +55,12 @@
                     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                         aria-expanded="true" aria-controls="collapseTwo">
                         <i class="fas fa-fw fa-flag"></i>
-                        <span>Destinations</span>
+                        <span>News & Events</span>
                     </a>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
-                            <a class="collapse-item" href="{{ route('be.adddestinations') }}">Add Destinations</a>
-                            <a class="collapse-item" href="{{ route('be.listdestinations') }}">Delete Destinations</a>
+                            <a class="collapse-item" href="">Add News</a>
+                            <a class="collapse-item" href="">Delete News</a>
                         </div>
                     </div>
                 </li>
@@ -75,8 +75,8 @@
                     <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
                         data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
-                            <a class="collapse-item" href="{{ route('be.adduniversities') }}">Add Universities</a>
-                            <a class="collapse-item" href="{{ route('be.listuniversities') }}">Delete Universities</a>
+                            <a class="collapse-item" href="">Add Universities</a>
+                            <a class="collapse-item" href="">Delete Universities</a>
                         </div>
                     </div>
                 </li>
