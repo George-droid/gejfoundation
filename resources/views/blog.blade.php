@@ -9,20 +9,86 @@
                 <div class="row">
                   <!-- Main Content -->
                   <div class="col-md-8">
-                    <!-- Blog Post -->
-                    <div class="card mb-4">
-                      <img src="https://placehold.it/850x350" class="card-img-top" alt="Post Image">
-                      <div class="card-body">
-                        <h5 class="card-title">Awesome Blog Post Title</h5>
-                        <p class="card-text">3/6/2015</p>
-                        <p class="card-text">Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue...</p>
-                        <div class="card-footer">
-                          <a href="#" class="card-link">Author: Mike Mikers</a>
-                          <a href="#" class="card-link">Comments: 3</a>
+                        <!-- Blog Post -->
+                        <div class="card mb-4">
+                        <img src="{{asset('img/courses-1.jpg')}}" class="card-img-top" alt="Post Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Coup d’états: Dangers of democratic disruption and African solutions</h5>
+                            <p class="card-text">August 6, 2023</p>
+                            <p class="card-text">A news analysis by Emmanuel Oloniruha, News Agency of Nigeria (NAN)
+                                Recent happenings in West Africa points the fact of the danger democracy and good governance are facing in the region. The military takeover in Mali, Chad, Burkina Faso, Sudan and Niger Republic showed the fragility of moving West Africa out of its challenge of poverty, low infrastructure and globalisation.</p>
+                            <div class="card-footer">
+                            <a href="#" class="card-link">Likes:4</a>
+                            <a href="#" class="card-link">Comments: 3</a>
+                            </div>
                         </div>
-                      </div>
-                    </div>
-                    <!-- Repeat Blog Posts as necessary -->
+                        </div>
+                        <div class="card mb-4">
+                            <img src="{{asset('img/courses-1.jpg')}}" class="card-img-top" alt="Post Image">
+                            <div class="card-body">
+                              <h5 class="card-title">Coup d’états: Dangers of democratic disruption and African solutions</h5>
+                              <p class="card-text">August 6, 2023</p>
+                              <p class="card-text">A news analysis by Emmanuel Oloniruha, News Agency of Nigeria (NAN)
+                                  Recent happenings in West Africa points the fact of the danger democracy and good governance are facing in the region. The military takeover in Mali, Chad, Burkina Faso, Sudan and Niger Republic showed the fragility of moving West Africa out of its challenge of poverty, low infrastructure and globalisation.</p>
+                              <div class="card-footer">
+                                <a href="#" class="card-link">Likes:4</a>
+                                <a href="#" class="card-link">Comments: 3</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card mb-4">
+                            <img src="{{asset('img/courses-1.jpg')}}" class="card-img-top" alt="Post Image">
+                            <div class="card-body">
+                              <h5 class="card-title">Coup d’états: Dangers of democratic disruption and African solutions</h5>
+                              <p class="card-text">August 6, 2023</p>
+                              <p class="card-text">A news analysis by Emmanuel Oloniruha, News Agency of Nigeria (NAN)
+                                  Recent happenings in West Africa points the fact of the danger democracy and good governance are facing in the region. The military takeover in Mali, Chad, Burkina Faso, Sudan and Niger Republic showed the fragility of moving West Africa out of its challenge of poverty, low infrastructure and globalisation.</p>
+                              <div class="card-footer">
+                                <a href="#" class="card-link">Likes:4</a>
+                                <a href="#" class="card-link">Comments: 3</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card mb-4">
+                            <img src="{{asset('img/courses-1.jpg')}}" class="card-img-top" alt="Post Image">
+                            <div class="card-body">
+                              <h5 class="card-title">Coup d’états: Dangers of democratic disruption and African solutions</h5>
+                              <p class="card-text">August 6, 2023</p>
+                              <p class="card-text">A news analysis by Emmanuel Oloniruha, News Agency of Nigeria (NAN)
+                                  Recent happenings in West Africa points the fact of the danger democracy and good governance are facing in the region. The military takeover in Mali, Chad, Burkina Faso, Sudan and Niger Republic showed the fragility of moving West Africa out of its challenge of poverty, low infrastructure and globalisation.</p>
+                              <div class="card-footer">
+                                <a href="#" class="card-link">Likes:4</a>
+                                <a href="#" class="card-link">Comments: 3</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card mb-4">
+                            <img src="{{asset('img/courses-1.jpg')}}" class="card-img-top" alt="Post Image">
+                            <div class="card-body">
+                              <h5 class="card-title">Coup d’états: Dangers of democratic disruption and African solutions</h5>
+                              <p class="card-text">August 6, 2023</p>
+                              <p class="card-text">A news analysis by Emmanuel Oloniruha, News Agency of Nigeria (NAN)
+                                  Recent happenings in West Africa points the fact of the danger democracy and good governance are facing in the region. The military takeover in Mali, Chad, Burkina Faso, Sudan and Niger Republic showed the fragility of moving West Africa out of its challenge of poverty, low infrastructure and globalisation.</p>
+                              <div class="card-footer">
+                                <a href="#" class="card-link">Likes:4</a>
+                                <a href="#" class="card-link">Comments: 3</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card mb-4">
+                            <img src="{{asset('img/courses-1.jpg')}}" class="card-img-top" alt="Post Image">
+                            <div class="card-body">
+                              <h5 class="card-title">Coup d’états: Dangers of democratic disruption and African solutions</h5>
+                              <p class="card-text">August 6, 2023</p>
+                              <p class="card-text">A news analysis by Emmanuel Oloniruha, News Agency of Nigeria (NAN)
+                                  Recent happenings in West Africa points the fact of the danger democracy and good governance are facing in the region. The military takeover in Mali, Chad, Burkina Faso, Sudan and Niger Republic showed the fragility of moving West Africa out of its challenge of poverty, low infrastructure and globalisation.</p>
+                              <div class="card-footer">
+                                <a href="#" class="card-link">Read More</a>
+                                <a href="#" class="card-link">Comments: 3</a>
+                              </div>
+                            </div>
+                          </div>
+                    
                   </div>
             
                   <!-- Sidebar -->
