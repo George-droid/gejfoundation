@@ -16,19 +16,22 @@
                     </div>
                     
                     <nav aria-label="Page navigation example">
-                        <ul class="pagination justify-content-center">
+                        <ul class="pagination justify-content-center mb-5">
                          
-                          <li class="page-item"><a class="page-link" href="#">Politics</a></li>
+                          <li class="page-item"><a class="page-link" href="#">All</a></li>
                           <li class="page-item"><a class="page-link" href="#">Events</a></li>
                           <li class="page-item"><a class="page-link" href="#">Charity</a></li>
                           <li class="page-item"><a class="page-link" href="#">Politics</a></li>
-                          <li class="page-item"><a class="page-link" href="#">Events</a></li>
-                          <li class="page-item"><a class="page-link" href="#">Charity</a></li>
+                          <li class="page-item"><a class="page-link" href="#">Goverment</a></li>
+                          <li class="page-item"><a class="page-link" href="#">Goodluck Jonathan</a></li>
+                          <li class="page-item"><a class="page-link" href="#">Donation</a></li>
+                          <li class="page-item"><a class="page-link" href="#">Orphanage</a></li>
+                          <li class="page-item"><a class="page-link" href="#">Work</a></li>
                         </ul>
                     </nav>
             <!-- Carousel for Image Groups -->
-                    <div id="imageGroupsCarousel" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
+                    {{-- <div id="imageGroupsCarousel" class="carousel slide" data-bs-ride="carousel"> --}}
+                        {{-- <div class="carousel-inner">
                             <div class="row my-4">
                                 <!-- Column for gallery images -->
                                 <div class="col-md-2 mb-4">
@@ -51,10 +54,10 @@
                                 </div>
                                 <!-- Add more images as needed -->
                             </div>
-                        </div>
+                        </div> --}}
                         
                         <!-- Carousel controls -->
-                        <button class="carousel-control-prev" type="button" data-bs-target="#imageGroupsCarousel" data-bs-slide="prev">
+                        {{-- <button class="carousel-control-prev" type="button" data-bs-target="#imageGroupsCarousel" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
@@ -62,10 +65,10 @@
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
-                    </div>
+                    </div> --}}
             
                     <!-- Gallery Section -->
-                    <div class="row my-4">
+                    <div class="row">
                         <!-- Column for gallery images -->
                         <div class="col-md-4 mb-4">
                             <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="Image 1">
