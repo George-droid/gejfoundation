@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\CustomAuthController;
 
 // Route::get('/', function () {
@@ -18,3 +19,8 @@ Route::get('/admin/login', [CustomAuthController::class, 'adminLogin'])->name('a
 Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name('login.custom');
 
 Route::get('/dashboard', [CustomAuthController::class, 'dashboard'])->name('dashboard');
+
+Route::get('/dashboard/add-news', [DashboardController::class, 'addNews'])->name('be.addNews');
+Route::post('/dashboard/save-universities', [DashboardController::class, 'saveUniversities'])->name('be.saveuniversities');
+Route::get('/dashboard/list-universities', [DashboardController::class, 'listUniversities'])->name('be.listuniversities');
+Route::delete('/dashboard/list-universities/delete/{id}', [DashboardController::class, 'deleteUniversities'])->name('be.deleteuniversities');

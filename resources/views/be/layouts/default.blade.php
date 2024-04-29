@@ -59,7 +59,7 @@
                     </a>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
-                            <a class="collapse-item" href="">Add News</a>
+                            <a class="collapse-item" href="{{ route('be.addNews') }}">Add News</a>
                             <a class="collapse-item" href="">Delete News</a>
                         </div>
                     </div>
@@ -248,6 +248,17 @@
         <!-- Page level custom scripts -->
         <script src="{{ asset('js/demo/chart-area-demo.js') }}"></script>
         <script src="{{ asset('js/demo/chart-pie-demo.js') }}"></script>
+
+        <!-- Tinymce scripts -->
+        <script src="{{ asset('js/tinymce/tinymce.min.js') }}" referrerpolicy="origin"></script>
+
+        <script>
+            tinymce.init({
+              selector: '#mytextarea', // Replace this CSS selector to match the placeholder element for TinyMCE
+              plugins: 'code table lists',
+              toolbar: 'undo redo | blocks | bold italic | alignleft aligncenter alignright | indent outdent | bullist numlist | code | table'
+            });
+        </script>
     
     </body>
 </html>
