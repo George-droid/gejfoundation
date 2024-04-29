@@ -14,24 +14,45 @@
                         <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Gallery</div>
                         {{-- <h1 class="display-6 mb-5"></h1> --}}
                     </div>
-    
+                    
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination justify-content-center">
+                         
+                          <li class="page-item"><a class="page-link" href="#">Politics</a></li>
+                          <li class="page-item"><a class="page-link" href="#">Events</a></li>
+                          <li class="page-item"><a class="page-link" href="#">Charity</a></li>
+                          <li class="page-item"><a class="page-link" href="#">Politics</a></li>
+                          <li class="page-item"><a class="page-link" href="#">Events</a></li>
+                          <li class="page-item"><a class="page-link" href="#">Charity</a></li>
+                        </ul>
+                    </nav>
             <!-- Carousel for Image Groups -->
                     <div id="imageGroupsCarousel" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="row my-4">
                                 <!-- Column for gallery images -->
-                                <div class="col-md-4 mb-4">
+                                <div class="col-md-2 mb-4">
                                     <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="Image 1">
                                 </div>
-                                <div class="col-md-4 mb-4">
+                                <div class="col-md-2 mb-4">
                                     <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="Image 2">
                                 </div>
-                                <div class="col-md-4 mb-4">
+                                <div class="col-md-2 mb-4">
+                                    <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="Image 3">
+                                </div>
+                                <div class="col-md-2 mb-4">
+                                    <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="Image 3">
+                                </div>
+                                <div class="col-md-2 mb-4">
+                                    <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="Image 3">
+                                </div>
+                                <div class="col-md-2 mb-4">
                                     <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="Image 3">
                                 </div>
                                 <!-- Add more images as needed -->
                             </div>
                         </div>
+                        
                         <!-- Carousel controls -->
                         <button class="carousel-control-prev" type="button" data-bs-target="#imageGroupsCarousel" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -55,6 +76,25 @@
                         <div class="col-md-4 mb-4">
                             <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="Image 3">
                         </div>
+                        <div class="col-md-4 mb-4">
+                            <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="Image 1">
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="Image 2">
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="Image 3">
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="Image 1">
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="Image 2">
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="Image 3">
+                        </div>
+                        
                         <!-- Add more images as needed -->
                     </div>
                 </div>
