@@ -52,7 +52,7 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item position-relative rounded overflow-hidden">
                             <div class="overflow-hidden">
-                                <img class="img-fluid" src="img/team-1.jpg" alt="">
+                                <img class="img-fluid h-50" src="{{asset('img/gej.jpeg')}}" alt="">
                             </div>
                             <div class="team-text bg-light text-center p-4">
                                 <h5>H.E DR. Goodluck Ebele Jonathan GCFR, GCON</h5>
@@ -69,7 +69,7 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item position-relative rounded overflow-hidden">
                             <div class="overflow-hidden">
-                                <img class="img-fluid" src="img/team-2.jpg" alt="">
+                                <img class="img-fluid h-50" src="{{asset('img/3.jpeg')}}" alt="">
                             </div>
                             <div class="team-text bg-light text-center p-4">
                                 <h5>Prof. Adebayo Olukoshi</h5>
@@ -85,7 +85,7 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="team-item position-relative rounded overflow-hidden">
                             <div class="overflow-hidden">
-                                <img class="img-fluid" src="img/team-3.jpg" alt="">
+                                <img class="img-fluid h-50" src="{{asset('img/1.jpeg')}}" alt="">
                             </div>
                             <div class="team-text bg-light text-center p-4">
                                 <h5> Late Dr. Innocent Chukwuma </h5>
@@ -101,7 +101,7 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="team-item position-relative rounded overflow-hidden">
                             <div class="overflow-hidden">
-                                <img class="img-fluid" src="img/team-4.jpg" alt="">
+                                <img class="img-fluid h-50 " src="{{asset('img/4.jpeg')}}" alt="">
                             </div>
                             <div class="team-text bg-light text-center p-4">
                                 <h5>Mrs Ann <br> Iyonu</h5>
