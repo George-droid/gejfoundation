@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Tag;
 use App\Models\Post;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -10,8 +11,9 @@ class DashboardController extends Controller
 {
     public function addNews()
     {
+        $tags = Tag::all();
         // $destinations = DB::table('news')->get();
-        return view('be.pages.addnews');
+        return view('be.pages.addnews', compact( 'tags'));
     }
     public function saveNews(Request $request)
     {
@@ -40,7 +42,13 @@ class DashboardController extends Controller
         $validatedData['published_at'] = now();
         // dd($validatedData);
 
-        Post::create($validatedData);
+        $post = Post::create($validatedData);
+
+        // Attach tags to the post
+        if ($request->has('tags')) {
+            $post->tags()->attach($request->input('tags'));
+        }
+
 
         try {
             
