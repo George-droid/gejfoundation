@@ -5,6 +5,10 @@
     <div class="container-xxl bg-light my-5 py-5">
         
         <div class="container py-5">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Latest News</div>
+                <h1 class="display-6 mb-5">All News And Media</h1>
+            </div>
             <div class="container mt-4">
                 <div class="row">
                   <!-- Main Content -->
@@ -54,34 +58,52 @@
                         </div>
 
                         <div class="card mb-4">
-                            <img src="{{asset('img/courses-1.jpg')}}" class="card-img-top" alt="Post Image">
+                            <img src="{{asset('img/blog-4.jpg')}}" class="card-img-top" alt="Post Image">
                             <div class="card-body">
-                                <h5 class="card-title">Coup d’états: Dangers of democratic disruption and African solutions</h5>
-                                <p class="card-text">August 6, 2023</p>
-                                <p class="card-text">A news analysis by Emmanuel Oloniruha, News Agency of Nigeria (NAN)
-                                    Recent happenings in West Africa points the fact of the danger democracy and good governance are facing in the region. The military takeover in Mali, Chad, Burkina Faso, Sudan and Niger Republic showed the fragility of moving West Africa out of its challenge of poverty, low infrastructure and globalisation.</p>
-                                <div class="card-footer">
-                                <a href="#" class="card-link">Likes:4</a>
-                                <a href="#" class="card-link">Comments: 3</a>
-                                </div>
-                            </div>
-                        </div>
+                                <h5 class="card-title">WAEF, AU, ECOWAS, Commonwealth appeal for calm in Sierra Leone</h5>
+                                <p class="card-text">June 28, 2023</p>
+                                <p class="card-text">The West Africa Elders Forum(WAEF) in conjunction with African Union, ECOWAS and Commonwealth has called for calm in Sierra Leone and urged citizens to desist from inflammatory rhetoric that is capable of jeopardizing the nation’s peace and undermining the democratic process of the country.
 
-                        <div class="card mb-4">
-                            <img src="{{asset('img/courses-1.jpg')}}" class="card-img-top" alt="Post Image">
-                            <div class="card-body">
-                                <h5 class="card-title">Coup d’états: Dangers of democratic disruption and African solutions</h5>
-                                <p class="card-text">August 6, 2023</p>
-                                <p class="card-text">A news analysis by Emmanuel Oloniruha, News Agency of Nigeria (NAN)
-                                    Recent happenings in West Africa points the fact of the danger democracy and good governance are facing in the region. The military takeover in Mali, Chad, Burkina Faso, Sudan and Niger Republic showed the fragility of moving West Africa out of its challenge of poverty, low infrastructure and globalisation.</p>
+                                    The heads of international observation missions in Sierra Leone in a joint statement signed by Goodluck Jonathan, for WAEF, Hailemariam Dasalegn Boshe, Africa Union, Mohamed Ibn Chambas for ECOWAS, and Yemi Osibanjo for Commonwealth, said it was disturbed by the inflammatory language circulating on the social media and appealed to the citizens of Sierra Leone to continue to exercise restraint concerning the outcome of the elections.</p>
                                 <div class="card-footer">
                                 <a href="#" class="card-link">Read More</a>
                                 <a href="#" class="card-link">Comments: 3</a>
                                 </div>
                             </div>
                         </div>
+
+                        <div class="card mb-4">
+                            <img src="{{asset('img/blog-5.jpeg')}}" class="card-img-top" alt="Post Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Jonathan arrives Freetown, leads WAEF election mission to Sierra Leone</h5>
+                                <p class="card-text">June 21, 2023</p>
+                                <p class="card-text">The West African Elders Forum (WAEF) 2023 Election Mission to Sierra Leone has arrived in Freetown to encourage and support a peaceful democratic transition ahead of the country’s general election scheduled for this weekend, June 24.
+
+                                    Former Nigerian President and Chair of the Forum, Goodluck Ebele Jonathan, is the head of the mission. The team also has former Burkinabe prime minister and one-time president of the Economic Community of West African States (ECOWAS) Kadre Ouedraogo and staff from the WAEF secretariat as members.
+                                    
+                                    In an arrival statement, Wealth Dickson Ominabo, Communications Officer of the Goodluck Jonathan Foundation, host of the WAEF secretariat quoted the head of mission as saying that:
+                                    
+                                    “The mission urges citizens of Sierra Leone to approach the election with utmost patriotism by prioritizing the nation’s peace and stability and refrain from acts capable of undermining the nation’s democracy.”</p>
+                                <div class="card-footer">
+                                <a href="#" class="card-link">Read More</a>
+                                <a href="#" class="card-link">Comments: 3</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                              <li class="page-item"><a class="page-link" href="#">1</a></li>
+                              <li class="page-item"><a class="page-link" href="#">2</a></li>
+                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                            </ul>
+                        </nav>
                     
                     </div>
+
+                    
                     
                     <!-- Sidebar -->
                         <div class="col-md-4">
@@ -104,6 +126,26 @@
                                 <li><a href="#">ECOWAS</a></li>
                                 <li><a href="#"> Election</a></li>
                                 <li><a href="#">Ernest Bai Koroma</a></li>
+                                <li><a href="#">Freedom</a></li>
+                                <li><a href="#">Gambia</a></li>
+                                <li><a href="#">GEJ</a></li>
+                                <li><a href="#">Gender Equality</a></li>
+                                <li><a href="#">Goodluck Jonathan</a></li>
+                                <li><a href="#">Government</a></li>
+                                <li><a href="#">Human Right</a></li>
+                                <li><a href="#">Human Security</a></li>
+                                <li><a href="#">IDP camps</a></li>
+                                <li><a href="#">Justice</a></li>
+                                <li><a href="#">OLusegun Obasanjo</a></li>
+                                <li><a href="#">Pandemic</a></li>
+                                <li><a href="#">Peace</a></li>
+                                <li><a href="#">Peaceful Transitions</a></li>
+                                <li><a href="#">Promoting Peace</a></li>
+                                <li><a href="#">Solidarity</a></li>
+                                <li><a href="#">The Gambia</a></li>
+                                <li><a href="#">Transition</a></li>
+                                <li><a href="#">West African Elders Forum</a></li>
+                                <li><a href="#">West Africa</a></li>
                                 </ul>
                             </div>
                             </div>

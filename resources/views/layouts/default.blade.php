@@ -73,7 +73,7 @@
                         <a href="{{ route ('blog')}}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">News And Media</a>
                         <div class="dropdown-menu m-0">
                             <a href="{{ route ('blog')}}" class="dropdown-item">Latest News</a>
-                            <a href="{{ route ('blog')}}" class="dropdown-item">Gallery </a>
+                            <a href="{{ route ('gallery')}}" class="dropdown-item">Gallery </a>
                         </div>
                     </div>
                     <a href="{{ route ('contact')}}" class="nav-item nav-link">Contact Us</a>

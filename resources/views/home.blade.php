@@ -132,7 +132,7 @@
                             <div class="position-relative mt-auto">
                                 <img class="img-fluid" src="{{asset('img/courses-1.jpg')}}" alt="">
                                 <div class="causes-overlay">
-                                    <a class="btn btn-outline-primary" href="">
+                                    <a class="btn btn-outline-primary" href="{{ route ('blog')}}">
                                         Read More
                                         <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                                             <i class="fa fa-arrow-right"></i>
@@ -165,7 +165,7 @@
                             <div class="position-relative mt-auto">
                                 <img class="img-fluid" src="{{asset('img/courses-2.jpg')}}" alt="">
                                 <div class="causes-overlay">
-                                    <a class="btn btn-outline-primary" href="">
+                                    <a class="btn btn-outline-primary" href="{{ route ('blog')}}">
                                         Read More
                                         <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                                             <i class="fa fa-arrow-right"></i>
@@ -198,7 +198,7 @@
                             <div class="position-relative mt-auto">
                                 <img class="img-fluid" src="{{asset('img/courses-3.jpg')}}" alt="">
                                 <div class="causes-overlay">
-                                    <a class="btn btn-outline-primary" href="">
+                                    <a class="btn btn-outline-primary" href="{{ route ('blog')}}">
                                         Read More
                                         <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                                             <i class="fa fa-arrow-right"></i>

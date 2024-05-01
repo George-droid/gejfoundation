@@ -408,11 +408,7 @@
     transition: .3s;
 }
 
-.sticky-sidebar {
-    position: sticky;
-    top: 0; /* Adjust the top value as needed */
-    /* Add any other desired styling for the sticky sidebar */
-}
+
 
 .footer .btn.btn-link::before {
     position: relative;
