@@ -17,6 +17,7 @@ class Post extends Model
         'published_at',
         // 'author_id', // Optional if you have authors
         'image',
+        'category_id',
     ];
 
     // Relationships (optional)

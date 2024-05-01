@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Tag;
 use App\Models\Post;
+use App\Models\Category;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -12,8 +13,8 @@ class DashboardController extends Controller
     public function addNews()
     {
         $tags = Tag::all();
-        // $destinations = DB::table('news')->get();
-        return view('be.pages.addnews', compact( 'tags'));
+        $categories = Category::all();
+        return view('be.pages.addnews', compact( 'tags', 'categories'));
     }
     public function saveNews(Request $request)
     {
@@ -23,6 +24,7 @@ class DashboardController extends Controller
             'excerpt' => 'required|string',
             'content' => 'required|string',
             'image' => 'required|file|mimes:jpeg,png,jpg,gif|max:2048', // Image validation
+            'category_id' =>  'required',
         ]);
         
 
@@ -40,6 +42,7 @@ class DashboardController extends Controller
         $validatedData['content'] = $request->input('content');
         // $validatedData['image'] $request->input('image') ? '/news/images/' . $imageName : null; 
         $validatedData['published_at'] = now();
+        $validatedData['category_id'] = $request->input('category_id');
         // dd($validatedData);
 
         $post = Post::create($validatedData);
