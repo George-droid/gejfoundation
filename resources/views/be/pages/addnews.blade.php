@@ -17,12 +17,21 @@
         <div class="col-md-10 mb-3">
             <div class="card border-left-primary shadow h-100 py-2">
                 <div class="card-body">
-                  @if(session('success'))
-                      <div class="alert alert-success">
-                          {{ session('success') }}
-                      </div>
-                  @endif
-                    <form method="POST" action="">
+                    @if(session('success'))
+                        <div class="alert alert-success">
+                            {{ session('success') }}
+                        </div>
+                    @endif
+                    @if ($errors->any())
+                        <div class="alert alert-danger">
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endif
+                    <form method="POST" action="{{ route('be.saveNews') }}" enctype="multipart/form-data">
                         @csrf
                         <div class="mb-3">
                           <label for="title" class="form-label">News Title</label>
@@ -45,7 +54,7 @@
                             <div id="name" class="form-text">First sentence or phrase used as a brief on the homepage.</div>
                         </div>
                         <div class="mb-3">
-                          <label for="image" class="form-label">Logo</label>
+                          <label for="image" class="form-label">Image</label>
                           <input type="file" name="image" class="form-control" id="image">
                         </div>
                         {{-- <div class="mb-3">

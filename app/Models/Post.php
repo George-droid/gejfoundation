@@ -5,8 +5,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class news extends Model
+class Post extends Model
 {
+    protected $table = 'news';
     use HasFactory;
     protected $fillable = [
         'title',
@@ -14,7 +15,7 @@ class news extends Model
         'excerpt',
         'content',
         'published_at',
-        'author_id', // Optional if you have authors
+        // 'author_id', // Optional if you have authors
         'image',
     ];
 
