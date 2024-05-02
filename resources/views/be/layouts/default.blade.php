@@ -70,18 +70,31 @@
                     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                         aria-expanded="true" aria-controls="collapseUtilities">
                         <i class="fas fa-fw fa-book"></i>
-                        <span>Universities</span>
+                        <span>Partners</span>
                     </a>
                     <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
                         data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                             <a class="collapse-item" href="{{ route('be.addPartners') }}">Add Partners</a>
-                            <a class="collapse-item" href="">Delete Partners</a>
+                            <a class="collapse-item" href="{{ route('be.listPartners') }}">List Partners</a>
                         </div>
                     </div>
                 </li>
     
-                
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
+                        aria-expanded="true" aria-controls="collapseUtilities">
+                        <i class="fas fa-fw fa-book"></i>
+                        <span>Members</span>
+                    </a>
+                    <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
+                        data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <a class="collapse-item" href="{{ route('be.addPartners') }}">Add Members</a>
+                            <a class="collapse-item" href="{{ route('be.listPartners') }}">List Members</a>
+                        </div>
+                    </div>
+                </li>
     
                 <!-- Sidebar Message -->
                 {{-- <div class="sidebar-card d-none d-lg-flex">

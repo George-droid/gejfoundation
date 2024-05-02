@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Tag;
 use App\Models\Post;
 use App\Models\Category;
+use App\Models\Partner;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -80,10 +81,62 @@ class DashboardController extends Controller
         return redirect()->back()->with('success', 'News post deleted successfully!');
     }
 
+    //Partners
     public function addPartners()
     {
         // $tags = Tag::all();
         // $categories = Category::all();
         return view('be.pages.addPartners');
+    }
+    public function savePartners(Request $request)
+    {
+        $request->validate([
+            'name' => 'required|string|max:255',
+            'image' => 'required|file|mimes:jpeg,png,jpg,gif|max:2048', // Image validation
+        ]);
+        
+
+        // Handle image upload (if provided)
+        if ($request->hasFile('image') && $request->file('image')->isValid()) {
+            $image = $request->file('image');
+            $imageName = time() . '.' . $image->getClientOriginalExtension();
+            $image->move(public_path('partners/images'), $imageName); // Move the image to the desired directory
+            $validatedData['image'] = 'partners/images/' . $imageName; // Update data with image path relative to public directory
+        }
+
+        $validatedData['name'] = $request->input('name');
+
+        Partner::create($validatedData);
+        // If an image was uploaded, store it in the database and assign its filename to the `image` field of the blog post object
+
+        // If an image was uploaded, store it in the database and assign its filename to the `image` field
+        // if (isset($image)) {
+        //     $imagePath = $image->storeAs('/uploads/images/partners', $imageName, 'public');
+        //     $partners->update(['image' => $imagePath]);
+        // }
+        try {
+            
+
+            // Success logic here
+            return redirect()->back()->with('success', 'News created successfully!');
+        } catch (\Exception $e) {
+            // Handle database error or any other exceptions
+            return redirect()->back()->with('error', 'Failed to create news: ' . $e->getMessage());
+        }
+        
+    }
+    public function listPartners()
+    {
+        $partners = Partner::all();
+        return view('be.pages.listPartner', compact('partners'));
+    }
+    public function deletePartners(Request $request, $id)
+    {
+        $partner = Partner::findOrFail($id);
+
+        // Delete the post
+        $partner->delete();
+
+        return redirect()->back()->with('success', 'News post deleted successfully!');
     }
 }

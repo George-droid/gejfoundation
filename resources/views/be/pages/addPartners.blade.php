@@ -31,11 +31,11 @@
                             </ul>
                         </div>
                     @endif
-                    <form method="POST" action="{{ route('be.saveNews') }}" enctype="multipart/form-data">
+                    <form method="POST" action="{{ route('be.savePartners') }}" enctype="multipart/form-data">
                         @csrf
                         <div class="mb-3">
-                          <label for="title" class="form-label">Name</label>
-                          <input type="text" name="title" class="form-control" id="title" aria-describedby="nameHelp">
+                          <label for="name" class="form-label">Name</label>
+                          <input type="text" name="name" class="form-control" id="name" aria-describedby="nameHelp">
                           <div id="name" class="form-text">The name of the partner.</div>
                         </div>
                         <div class="mb-3">
