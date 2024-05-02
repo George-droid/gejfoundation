@@ -29,3 +29,8 @@ Route::get('/dashboard/add-partners', [DashboardController::class, 'addPartners'
 Route::post('/dashboard/save-partners', [DashboardController::class, 'savePartners'])->name('be.savePartners');
 Route::get('/dashboard/list-partners', [DashboardController::class, 'listPartners'])->name('be.listPartners');
 Route::delete('/dashboard/list-partners/delete/{id}', [DashboardController::class, 'deletePartners'])->name('be.deletePartners');
+
+Route::get('/dashboard/add-members', [DashboardController::class, 'addMembers'])->name('be.addMembers');
+Route::post('/dashboard/save-members', [DashboardController::class, 'saveMembers'])->name('be.saveMembers');
+Route::get('/dashboard/list-members', [DashboardController::class, 'listMembers'])->name('be.listMembers');
+Route::delete('/dashboard/list-members/delete/{id}', [DashboardController::class, 'deleteMembers'])->name('be.deleteMembers');

@@ -5,7 +5,7 @@
     
     <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 class="h3 mb-0 text-gray-800">List News</h1>
+        <h1 class="h3 mb-0 text-gray-800">List Members</h1>
         <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
                 class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
     </div>
@@ -43,20 +43,21 @@
                         @endif
                         <thead>
                             <tr>
-                                <th>Title</th>
-                                <th>Excerpt</th>
+                                <th>Name</th>
+                                <th>Position</th>
+                                {{-- <th>Position</th> --}}
                                 {{-- <th>Content</th> --}}
                                 <th>Action</th>
                             </tr>
                         </thead>
                         <tbody>
-                            @foreach ($posts as $post)
+                            @foreach ($members as $member)
                                 <tr>
-                                    <td>{{ $post->title }}</td>
-                                    <td>{{ $post->excerpt }}</td>
+                                    <td>{{ $member->name }}</td>
+                                    <td>{{ $member->position }}</td>
                                     {{-- <td>{{ $post->content }}</td> --}}
                                     <td>
-                                        <form action="{{ route('be.deleteNews', ['id' => $post->id]) }}" method="POST">
+                                        <form action="{{ route('be.deleteMembers', ['id' => $member->id]) }}" method="POST">
                                             @csrf
                                             @method('DELETE')
                                             <button type="submit" class="btn btn-danger">Delete</button>

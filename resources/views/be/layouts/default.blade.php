@@ -82,16 +82,16 @@
                 </li>
     
                 <li class="nav-item">
-                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-                        aria-expanded="true" aria-controls="collapseUtilities">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePartners"
+                        aria-expanded="true" aria-controls="collapsePartners">
                         <i class="fas fa-fw fa-book"></i>
                         <span>Members</span>
                     </a>
-                    <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
+                    <div id="collapsePartners" class="collapse" aria-labelledby="headingUtilities"
                         data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
-                            <a class="collapse-item" href="{{ route('be.addPartners') }}">Add Members</a>
-                            <a class="collapse-item" href="{{ route('be.listPartners') }}">List Members</a>
+                            <a class="collapse-item" href="{{ route('be.addMembers') }}">Add Members</a>
+                            <a class="collapse-item" href="{{ route('be.listMembers') }}">List Members</a>
                         </div>
                     </div>
                 </li>

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Tag;
 use App\Models\Post;
 use App\Models\Category;
+use App\Models\Member;
 use App\Models\Partner;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -118,10 +119,10 @@ class DashboardController extends Controller
             
 
             // Success logic here
-            return redirect()->back()->with('success', 'News created successfully!');
+            return redirect()->back()->with('success', 'Partners created successfully!');
         } catch (\Exception $e) {
             // Handle database error or any other exceptions
-            return redirect()->back()->with('error', 'Failed to create news: ' . $e->getMessage());
+            return redirect()->back()->with('error', 'Failed to create partners: ' . $e->getMessage());
         }
         
     }
@@ -137,6 +138,53 @@ class DashboardController extends Controller
         // Delete the post
         $partner->delete();
 
-        return redirect()->back()->with('success', 'News post deleted successfully!');
+        return redirect()->back()->with('success', 'Partner post deleted successfully!');
+    }
+
+    //Members
+    public function addMembers()
+    {
+        // $members = Member::all();
+        // $categories = Category::all();
+        return view('be.pages.addMembers');
+    }
+    public function saveMembers(Request $request)
+    {
+        $request->validate([
+            'name' => 'required|string|max:255',
+            'position' => 'required|string|max:255',
+            'description' => 'required|string',
+            // 'image' => 'required|file|mimes:jpeg,png,jpg,gif|max:2048',
+        ]);
+
+        $validatedData['name'] = $request->input('name');
+        $validatedData['position'] = $request->input('position');
+        $validatedData['description'] = $request->input('description');
+        // dd($validatedData);
+
+        Member::create($validatedData);
+        
+        try {
+            // Success logic here
+            return redirect()->back()->with('success', 'Members created successfully!');
+        } catch (\Exception $e) {
+            // Handle database error or any other exceptions
+            return redirect()->back()->with('error', 'Failed to create members: ' . $e->getMessage());
+        }
+        
+    }
+    public function listMembers()
+    {
+        $members = Member::all();
+        return view('be.pages.listMembers', compact('members'));
+    }
+    public function deleteMembers(Request $request, $id)
+    {
+        $members = Member::findOrFail($id);
+
+        // Delete the post
+        $members->delete();
+
+        return redirect()->back()->with('success', 'Member post deleted successfully!');
     }
 }
