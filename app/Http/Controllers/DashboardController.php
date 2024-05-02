@@ -65,4 +65,18 @@ class DashboardController extends Controller
 
         
     }
+    public function listNews()
+    {
+        $posts = Post::all();
+        return view('be.pages.listNews', compact('posts'));
+    }
+    public function deleteNews(Request $request, $id)
+    {
+        $post = Post::findOrFail($id);
+
+        // Delete the post
+        $post->delete();
+
+        return redirect()->back()->with('success', 'News post deleted successfully!');
+    }
 }

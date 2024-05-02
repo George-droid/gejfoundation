@@ -60,7 +60,7 @@
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                             <a class="collapse-item" href="{{ route('be.addNews') }}">Add News</a>
-                            <a class="collapse-item" href="">Delete News</a>
+                            <a class="collapse-item" href="{{ route('be.listNews') }}">List News</a>
                         </div>
                     </div>
                 </li>

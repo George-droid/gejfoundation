@@ -21,6 +21,6 @@ Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name(
 Route::get('/dashboard', [CustomAuthController::class, 'dashboard'])->name('dashboard');
 
 Route::get('/dashboard/add-news', [DashboardController::class, 'addNews'])->name('be.addNews');
-Route::post('/dashboard/save-universities', [DashboardController::class, 'saveNews'])->name('be.saveNews');
-Route::get('/dashboard/list-universities', [DashboardController::class, 'listUniversities'])->name('be.listuniversities');
-Route::delete('/dashboard/list-universities/delete/{id}', [DashboardController::class, 'deleteUniversities'])->name('be.deleteuniversities');
+Route::post('/dashboard/save-news', [DashboardController::class, 'saveNews'])->name('be.saveNews');
+Route::get('/dashboard/list-news', [DashboardController::class, 'listNews'])->name('be.listNews');
+Route::delete('/dashboard/list-news/delete/{id}', [DashboardController::class, 'deleteNews'])->name('be.deleteNews');
