@@ -75,8 +75,8 @@
                     <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
                         data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
-                            <a class="collapse-item" href="">Add Universities</a>
-                            <a class="collapse-item" href="">Delete Universities</a>
+                            <a class="collapse-item" href="{{ route('be.addPartners') }}">Add Partners</a>
+                            <a class="collapse-item" href="">Delete Partners</a>
                         </div>
                     </div>
                 </li>

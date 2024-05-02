@@ -79,4 +79,11 @@ class DashboardController extends Controller
 
         return redirect()->back()->with('success', 'News post deleted successfully!');
     }
+
+    public function addPartners()
+    {
+        // $tags = Tag::all();
+        // $categories = Category::all();
+        return view('be.pages.addPartners');
+    }
 }
