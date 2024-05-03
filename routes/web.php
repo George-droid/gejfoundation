@@ -21,6 +21,16 @@ Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name(
 Route::get('/dashboard', [CustomAuthController::class, 'dashboard'])->name('dashboard');
 
 Route::get('/dashboard/add-news', [DashboardController::class, 'addNews'])->name('be.addNews');
-Route::post('/dashboard/save-universities', [DashboardController::class, 'saveNews'])->name('be.saveNews');
-Route::get('/dashboard/list-universities', [DashboardController::class, 'listUniversities'])->name('be.listuniversities');
-Route::delete('/dashboard/list-universities/delete/{id}', [DashboardController::class, 'deleteUniversities'])->name('be.deleteuniversities');
+Route::post('/dashboard/save-news', [DashboardController::class, 'saveNews'])->name('be.saveNews');
+Route::get('/dashboard/list-news', [DashboardController::class, 'listNews'])->name('be.listNews');
+Route::delete('/dashboard/list-news/delete/{id}', [DashboardController::class, 'deleteNews'])->name('be.deleteNews');
+
+Route::get('/dashboard/add-partners', [DashboardController::class, 'addPartners'])->name('be.addPartners');
+Route::post('/dashboard/save-partners', [DashboardController::class, 'savePartners'])->name('be.savePartners');
+Route::get('/dashboard/list-partners', [DashboardController::class, 'listPartners'])->name('be.listPartners');
+Route::delete('/dashboard/list-partners/delete/{id}', [DashboardController::class, 'deletePartners'])->name('be.deletePartners');
+
+Route::get('/dashboard/add-members', [DashboardController::class, 'addMembers'])->name('be.addMembers');
+Route::post('/dashboard/save-members', [DashboardController::class, 'saveMembers'])->name('be.saveMembers');
+Route::get('/dashboard/list-members', [DashboardController::class, 'listMembers'])->name('be.listMembers');
+Route::delete('/dashboard/list-members/delete/{id}', [DashboardController::class, 'deleteMembers'])->name('be.deleteMembers');
