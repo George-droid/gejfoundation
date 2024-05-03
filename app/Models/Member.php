@@ -13,5 +13,7 @@ class Member extends Model
         'name',
         'position',
         'description',
+        'image',
+        'category',
     ];
 }

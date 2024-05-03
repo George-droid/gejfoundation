@@ -155,7 +155,10 @@ class DashboardController extends Controller
             'position' => 'required|string|max:255',
             'description' => 'required|string',
             'image' => 'required|file|mimes:jpeg,png,jpg,gif|max:2048',
+            'category' => 'required|in:Board Member,Member',  // Allowed categories
         ]);
+
+        $validatedData = $request->only(['name', 'position', 'description', 'category']);
 
         if ($request->hasFile('image') && $request->file('image')->isValid()) {
             $image = $request->file('image');
@@ -164,22 +167,17 @@ class DashboardController extends Controller
             $validatedData['image'] = 'members/images/' . $imageName; // Update data with image path relative to public directory
         }
 
-        $validatedData['name'] = $request->input('name');
-        $validatedData['position'] = $request->input('position');
-        $validatedData['description'] = $request->input('description');
-        // dd($validatedData);
-
-        Member::create($validatedData);
-        
         try {
+            Member::create($validatedData);
+
             // Success logic here
-            return redirect()->back()->with('success', 'Members created successfully!');
+            return redirect()->back()->with('success', 'Member created successfully!');
         } catch (\Exception $e) {
             // Handle database error or any other exceptions
-            return redirect()->back()->with('error', 'Failed to create members: ' . $e->getMessage());
+            return redirect()->back()->with('error', 'Failed to create member: ' . $e->getMessage());
         }
-        
     }
+
     public function listMembers()
     {
         $members = Member::all();

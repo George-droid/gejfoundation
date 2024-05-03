@@ -45,6 +45,7 @@
                             <tr>
                                 <th>Title</th>
                                 <th>Excerpt</th>
+                                
                                 {{-- <th>Content</th> --}}
                                 <th>Action</th>
                             </tr>

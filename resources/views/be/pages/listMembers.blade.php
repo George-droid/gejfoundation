@@ -45,7 +45,7 @@
                             <tr>
                                 <th>Name</th>
                                 <th>Position</th>
-                                {{-- <th>Position</th> --}}
+                                <th>Category</th>
                                 {{-- <th>Content</th> --}}
                                 <th>Action</th>
                             </tr>
@@ -55,7 +55,7 @@
                                 <tr>
                                     <td>{{ $member->name }}</td>
                                     <td>{{ $member->position }}</td>
-                                    {{-- <td>{{ $post->content }}</td> --}}
+                                    <td>{{ $member->category }}</td>
                                     <td>
                                         <form action="{{ route('be.deleteMembers', ['id' => $member->id]) }}" method="POST">
                                             @csrf

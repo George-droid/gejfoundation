@@ -49,6 +49,14 @@
                             <div id="description" class="form-text">Descrtiption of the member.</div>
                         </div>
                         <div class="mb-3">
+                            <label for="category" class="form-label">Category</label>
+                            <select class="form-select" name="category" id="category">
+                                    <option value="Choose ...">Please choose a category:</option>
+                                    <option value="Member">Member</option>
+                                    <option value="Board Member">Board Member</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
                           <label for="image" class="form-label">Image</label>
                           <input type="file" name="image" class="form-control" id="image">
                         </div>
