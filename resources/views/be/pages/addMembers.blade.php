@@ -48,10 +48,10 @@
                             <input type="text" name="description" class="form-control" id="description" aria-describedby="nameHelp">
                             <div id="description" class="form-text">Descrtiption of the member.</div>
                         </div>
-                        {{-- <div class="mb-3">
+                        <div class="mb-3">
                           <label for="image" class="form-label">Image</label>
                           <input type="file" name="image" class="form-control" id="image">
-                        </div> --}}
+                        </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                       </form>
                 </div>

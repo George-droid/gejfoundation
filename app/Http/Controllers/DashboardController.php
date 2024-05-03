@@ -154,8 +154,15 @@ class DashboardController extends Controller
             'name' => 'required|string|max:255',
             'position' => 'required|string|max:255',
             'description' => 'required|string',
-            // 'image' => 'required|file|mimes:jpeg,png,jpg,gif|max:2048',
+            'image' => 'required|file|mimes:jpeg,png,jpg,gif|max:2048',
         ]);
+
+        if ($request->hasFile('image') && $request->file('image')->isValid()) {
+            $image = $request->file('image');
+            $imageName = time() . '.' . $image->getClientOriginalExtension();
+            $image->move(public_path('members/images'), $imageName); // Move the image to the desired directory
+            $validatedData['image'] = 'members/images/' . $imageName; // Update data with image path relative to public directory
+        }
 
         $validatedData['name'] = $request->input('name');
         $validatedData['position'] = $request->input('position');
