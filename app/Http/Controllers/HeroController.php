@@ -15,9 +15,9 @@ class HeroController extends Controller
 
     public function addHero()
      {
-         $heroSection = Hero::all();
+         $heroItems = Hero::all();
          // $categories = Category::all();
-         return view('be.pages.addHero', compact('heroSection'));
+         return view('be.pages.addHero', compact('heroItems'));
      }
      public function saveHero(Request $request)
      {
@@ -52,15 +52,15 @@ class HeroController extends Controller
  
      public function listHero()
      {
-         $members = Hero::all();
-         return view('be.pages.listMembers', compact('members'));
+         $heroItems = Hero::all();
+         return view('be.pages.listhero', compact('heroItems'));
      }
-     public function deleteMembers(Request $request, $id)
+     public function deleteHero(Request $request, $id)
      {
-         $members = Hero::findOrFail($id);
+         $heroItems = Hero::findOrFail($id);
  
          // Delete the post
-         $members->delete();
+         $heroItems->delete();
  
          return redirect()->back()->with('success', 'Member post deleted successfully!');
      }
