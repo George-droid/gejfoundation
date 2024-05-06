@@ -95,6 +95,21 @@
                         </div>
                     </div>
                 </li>
+
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseGallery"
+                        aria-expanded="true" aria-controls="collapseGallery">
+                        <i class="fas fa-fw fa-book"></i>
+                        <span>Gallery</span>
+                    </a>
+                    <div id="collapseGallery" class="collapse" aria-labelledby="headingUtilities"
+                        data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <a class="collapse-item" href="{{ route('be.addImages') }}">Add Images</a>
+                            <a class="collapse-item" href="{{ route('be.listImages') }}">List Images</a>
+                        </div>
+                    </div>
+                </li>
     
                 <!-- Sidebar Message -->
                 {{-- <div class="sidebar-card d-none d-lg-flex">

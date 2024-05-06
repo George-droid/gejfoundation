@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\CustomAuthController;
+use App\Http\Controllers\GalleryController;
 
 // Route::get('/', function () {
 //     return view('welcome');
@@ -34,3 +35,8 @@ Route::get('/dashboard/add-members', [DashboardController::class, 'addMembers'])
 Route::post('/dashboard/save-members', [DashboardController::class, 'saveMembers'])->name('be.saveMembers');
 Route::get('/dashboard/list-members', [DashboardController::class, 'listMembers'])->name('be.listMembers');
 Route::delete('/dashboard/list-members/delete/{id}', [DashboardController::class, 'deleteMembers'])->name('be.deleteMembers');
+
+Route::get('/dashboard/add-images', [GalleryController::class, 'addImages'])->name('be.addImages');
+Route::post('/dashboard/save-images', [GalleryController::class, 'saveImages'])->name('be.saveImages');
+Route::get('/dashboard/list-images', [GalleryController::class, 'listImages'])->name('be.listImages');
+Route::delete('/dashboard/list-images/delete/{id}', [GalleryController::class, 'deleteImages'])->name('be.deleteImages');

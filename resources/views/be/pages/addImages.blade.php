@@ -5,7 +5,7 @@
     
     <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 class="h3 mb-0 text-gray-800">Add Members</h1>
+        <h1 class="h3 mb-0 text-gray-800">Add Gallery Images</h1>
         <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
                 class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
     </div>
@@ -31,34 +31,34 @@
                             </ul>
                         </div>
                     @endif
-                    <form method="POST" action="{{ route('be.saveMembers') }}" enctype="multipart/form-data">
+                    <form method="POST" action="{{ route('be.saveImages') }}" enctype="multipart/form-data">
                         @csrf
                         <div class="mb-3">
-                          <label for="name" class="form-label">Name</label>
-                          <input type="text" name="name" class="form-control" id="name" aria-describedby="nameHelp">
-                          <div id="name" class="form-text">The name of the members.</div>
+                          <label for="title" class="form-label">Title</label>
+                          <input type="text" name="title" class="form-control" id="title" aria-describedby="nameHelp">
+                          <div id="name" class="form-text">The Title of the image's event.</div>
                         </div>
-                        <div class="mb-3">
-                            <label for="position" class="form-label">Position</label>
-                            <input type="text" name="position" class="form-control" id="position" aria-describedby="nameHelp">
-                            <div id="position" class="form-text">The members position.</div>
-                        </div>
+                        {{-- <div class="mb-3">
+                            <label for="image" class="form-label">thumbnail</label>
+                            <input type="file" name="image" class="form-control" id="image">
+                        </div> --}}
                         <div class="mb-3">
                             <label for="description" class="form-label">Description</label>
                             <input type="text" name="description" class="form-control" id="description" aria-describedby="nameHelp">
                             <div id="description" class="form-text">Descrtiption of the member.</div>
                         </div>
                         <div class="mb-3">
-                            <label for="category" class="form-label">Category</label>
-                            <select class="form-select" name="category" id="category">
-                                    <option value="Choose ...">Please choose a category:</option>
-                                    <option value="Member">Member</option>
-                                    <option value="Board Member">Board Member</option>
-                            </select>
+                            <label for="path" class="form-label">Image</label>
+                            <input type="file" name="path" class="form-control" id="path">
                         </div>
                         <div class="mb-3">
-                          <label for="image" class="form-label">Image</label>
-                          <input type="file" name="image" class="form-control" id="image">
+                            <label for="category" class="form-label">Category</label>
+                            <select class="form-select" name="category" id="category">
+                                    {{-- <option value="Choose ...">Please choose a category:</option> --}}
+                                    <option value="WAEF">WAEF</option>
+                                    <option value="Election">Election</option>
+                                    <option value="Government">Government</option>
+                            </select>
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                       </form>
