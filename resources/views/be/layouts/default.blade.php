@@ -105,8 +105,23 @@
                     <div id="collapseGallery" class="collapse" aria-labelledby="headingUtilities"
                         data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
-                            <a class="collapse-item" href="{{ route('be.addImages') }}">Add Images</a>
+                            <a class="collapse-item" href="{{ route('be.addImages') }}">Add Hero section</a>
                             <a class="collapse-item" href="{{ route('be.listImages') }}">List Images</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseHero"
+                        aria-expanded="true" aria-controls="collapseHero">
+                        <i class="fas fa-fw fa-book"></i>
+                        <span>Hero</span>
+                    </a>
+                    <div id="collapseHero" class="collapse" aria-labelledby="headingUtilities"
+                        data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <a class="collapse-item" href="{{ route('be.addHero') }}">Add Hero Item</a>
+                            <a class="collapse-item" href="{{ route('be.listHero') }}">List Hero Item</a>
                         </div>
                     </div>
                 </li>
