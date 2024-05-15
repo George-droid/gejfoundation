@@ -9,46 +9,31 @@
                 <h1 class="display-6 mb-5">Learn More What We Do And Get Involved</h1>
             </div>
             <div class="row g-4 justify-content-center">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item bg-white text-center h-70 p-4 p-xl-5">
-                        <img class="img-fluid mb-4" src="img/corevalue.png" alt="">
-                        <h4 class="mb-3">Our Core Values</h4>
-                        <p class="mb-4">Transparency and accountability, Equity & Fairness, Respect, Integrity, Inclusiveness, Independence, Professionalism.</p>
-                        {{-- <a class="btn btn-outline-primary px-3" href="">
-                            Learn More
-                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class=" mt-5">
+                        <h1 class="display-6 mb-1">Democracy and Elections</h1>
+                        <div class="bg-light border-bottom border-5 border-primary rounded p-2 mb-3">
+                            {{-- <p class="text-dark mb-2">
+                                "We understand that preserving and upholding democratic principles are prerequisites for any peaceful and prosperous nation."</p>
+                            <span class="text-primary">- Goodluck Ebele Jonathan, Founder</span> --}}
+                        </div>
+                        <p class="mb-5"> We provide comprehensive support for democratic governance, offering services such as election monitoring, voter education, capacity building for institutions, and advocacy for fair electoral processes.</p>
+                   
+                        <a class="btn btn-primary py-2 px-3 me-3" href="">
+                            Contact Us
+                            <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                                 <i class="fa fa-arrow-right"></i>
                             </div>
-                        </a> --}}
+                        </a>
+                        
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item bg-white text-center h-70 p-4 p-xl-5">
-                        <img class="img-fluid mb-4" src="img/vision.png" alt="">
-                        <h4 class="mb-3">Our Vision</h4>
-                        <p class="mb-4">Peaceful, Just and Progressive Nations of Africa</p>
-                        {{-- <a class="btn btn-outline-primary px-3" href="">
-                            Learn More
-                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                <i class="fa fa-arrow-right"></i>
-                            </div>
-                        </a> --}}
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
+                        <img class="position-absolute w-100 h-100 pt-5 pe-5" src="{{asset('img/GoodluckJonathan.webp')}}" alt="" style="object-fit: cover;">
+                        
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item bg-white text-center h-70 p-4 p-xl-5">
-                        <img class="img-fluid mb-4" src="img/mission.png" alt="">
-                        <h4 class="mb-3">Our Mission</h4>
-                        <p class="mb-4">To forge a continent where we understand our differences and work towards a perfect union founded on transparency, equity and justice</p>
-                        {{-- <a class="btn btn-outline-primary px-3" href="">
-                            Learn More
-                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                <i class="fa fa-arrow-right"></i>
-                            </div>
-                        </a> --}}
-                    </div>
-                </div>
-              
             </div>
         </div>
     </div>
@@ -74,8 +59,7 @@
                         <path d="M5.929 1.757a.5.5 0 1 0-.858-.514L2.217 6H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h.623l1.844 6.456A.75.75 0 0 0 3.69 15h8.622a.75.75 0 0 0 .722-.544L14.877 8h.623a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1.717L10.93 1.243a.5.5 0 1 0-.858.514L12.617 6H3.383L5.93 1.757zM4 10a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm4-1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1z" />
                         </svg>
                         <h4 class="fw-bold text-uppercase mb-4">Democracy and Elections</h4>
-                        <p class="mb-4 "> We provide comprehensive support for democratic governance, offering services such as election monitoring, voter education, capacity building for institutions, and advocacy for fair electoral processes.</p>
-                        
+                        <p class="mb-4 ">
                     </div>
                     </div>
                 </div>

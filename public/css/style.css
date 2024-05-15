@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #025928;
+    --primary: #2e7f52;
     --secondary: #FFF0E6;
     --light: #F8F8F9;
     --dark:  #003366;
@@ -101,7 +101,7 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: #025928;
+    color: #2e7f52;
 }
 
 @media (max-width: 991.98px) {
@@ -248,7 +248,7 @@
 
 /*** Donate ***/
 .donate {
-    background:#48a484;
+    background:#2e7f52;
 }
 
 .btn-group .btn-light:hover,
@@ -319,7 +319,8 @@
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item img {
-    background: #48a484!important;
+    background:#2e7f52 !important;
+    
     
 } 
 
@@ -373,7 +374,7 @@
     width: 100%;
     height: 100%;
     padding: 20px;
-    background-color :#48a484;
+    background-color:#2e7f52 !important;
     border-radius: 10px;
  
 }
