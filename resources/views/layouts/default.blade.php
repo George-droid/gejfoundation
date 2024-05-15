@@ -118,7 +118,7 @@
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Address</h5>
                     <p><i class="fa fa-map-marker-alt me-3"></i>7B. Taraba Close, Maitama FCT-Abuja, Nigeria</p>
-                    <p><i class="fa fa-phone-alt me-3"></i>+23492921297</p>
+                    
                     <p><i class="fa fa-envelope me-3"></i>info@gejfoundation.org</p>
                 </div>
                 <div class="col-lg-3 col-md-6">
