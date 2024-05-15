@@ -248,7 +248,7 @@
 
 /*** Donate ***/
 .donate {
-    background:#012725;
+    background:#48a484;
 }
 
 .btn-group .btn-light:hover,
@@ -296,6 +296,10 @@
     }
 }
 
+.testimonial-item{
+    
+}
+
 .testimonial-carousel .owl-item .testimonial-text {
     background: var(--light);
     transform: scale(.8);
@@ -317,12 +321,13 @@
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item img {
-    background: #025928!important;
+    background: #48a484!important;
+    
 } 
 
 .testimonial-carousel .owl-nav {
     position: absolute;
-    width: 500px;
+    width: 300px;
     bottom: -30px;
     left: 50%;
     transform: translateX(-50%);
@@ -347,8 +352,8 @@
 .testimonial-carousel .owl-nav .owl-prev,
 .testimonial-carousel .owl-nav .owl-next {
     position: relative;
-    color:#025928;
-    font-size: 45px;
+    color:#48a484;
+    font-size: 20px;
     transition: .5s;
 }
 
@@ -370,7 +375,7 @@
     width: 100%;
     height: 100%;
     padding: 20px;
-    background-color :#012725;
+    background-color :#48a484;
     border-radius: 10px;
  
 }
