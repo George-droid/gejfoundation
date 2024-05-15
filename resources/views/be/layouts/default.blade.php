@@ -59,8 +59,8 @@
                     </a>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
-                            <a class="collapse-item" href="">Add News</a>
-                            <a class="collapse-item" href="">Delete News</a>
+                            <a class="collapse-item" href="{{ route('be.addNews') }}">Add News</a>
+                            <a class="collapse-item" href="{{ route('be.listNews') }}">List News</a>
                         </div>
                     </div>
                 </li>
@@ -70,18 +70,61 @@
                     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                         aria-expanded="true" aria-controls="collapseUtilities">
                         <i class="fas fa-fw fa-book"></i>
-                        <span>Universities</span>
+                        <span>Partners</span>
                     </a>
                     <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
                         data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
-                            <a class="collapse-item" href="">Add Universities</a>
-                            <a class="collapse-item" href="">Delete Universities</a>
+                            <a class="collapse-item" href="{{ route('be.addPartners') }}">Add Partners</a>
+                            <a class="collapse-item" href="{{ route('be.listPartners') }}">List Partners</a>
                         </div>
                     </div>
                 </li>
     
-                
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePartners"
+                        aria-expanded="true" aria-controls="collapsePartners">
+                        <i class="fas fa-fw fa-book"></i>
+                        <span>Members</span>
+                    </a>
+                    <div id="collapsePartners" class="collapse" aria-labelledby="headingUtilities"
+                        data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <a class="collapse-item" href="{{ route('be.addMembers') }}">Add Members</a>
+                            <a class="collapse-item" href="{{ route('be.listMembers') }}">List Members</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseGallery"
+                        aria-expanded="true" aria-controls="collapseGallery">
+                        <i class="fas fa-fw fa-book"></i>
+                        <span>Gallery</span>
+                    </a>
+                    <div id="collapseGallery" class="collapse" aria-labelledby="headingUtilities"
+                        data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <a class="collapse-item" href="{{ route('be.addImages') }}">Add Hero section</a>
+                            <a class="collapse-item" href="{{ route('be.listImages') }}">List Images</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseHero"
+                        aria-expanded="true" aria-controls="collapseHero">
+                        <i class="fas fa-fw fa-book"></i>
+                        <span>Hero</span>
+                    </a>
+                    <div id="collapseHero" class="collapse" aria-labelledby="headingUtilities"
+                        data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <a class="collapse-item" href="{{ route('be.addHero') }}">Add Hero Item</a>
+                            <a class="collapse-item" href="{{ route('be.listHero') }}">List Hero Item</a>
+                        </div>
+                    </div>
+                </li>
     
                 <!-- Sidebar Message -->
                 {{-- <div class="sidebar-card d-none d-lg-flex">
@@ -248,6 +291,17 @@
         <!-- Page level custom scripts -->
         <script src="{{ asset('js/demo/chart-area-demo.js') }}"></script>
         <script src="{{ asset('js/demo/chart-pie-demo.js') }}"></script>
+
+        <!-- Tinymce scripts -->
+        <script src="{{ asset('js/tinymce/tinymce.min.js') }}" referrerpolicy="origin"></script>
+
+        <script>
+            tinymce.init({
+              selector: '#mytextarea', // Replace this CSS selector to match the placeholder element for TinyMCE
+              plugins: 'code table lists',
+              toolbar: 'undo redo | blocks | bold italic | alignleft aligncenter alignright | indent outdent | bullist numlist | code | table'
+            });
+        </script>
     
     </body>
 </html>
