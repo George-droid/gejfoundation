@@ -40,7 +40,7 @@
 
 
     <!-- Navbar Start -->
-    <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid px-0 wow fadeIn" data-wow-delay="0.1s">
         {{-- <div class="top-bar text-white-50 row gx-0 align-items-center d-none d-lg-flex">
             <div class="col-lg-6 px-3 text-start">
                 <small><i class="fa fa-map-marker-alt me-2"></i>7B. Taraba Close, Maitama FCT-Abuja, Nigeria </small>
@@ -54,7 +54,6 @@
                 <a class="text-white-50 ms-3" href=""><i class="fab fa-instagram"></i></a>
             </div>
         </div> --}}
-
         <nav class="navbar navbar-expand-lg navbar-light bg-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
             <a href="{{ route ('home')}}" class="navbar-brand ms-4 ms-lg-0">
                 <img src="{{ asset('img/gejf_logo.png') }}"
@@ -64,7 +63,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <div class="navbar-nav ms-auto p-4 mt-1 p-lg-0">
                     <a href="{{ route ('home')}}" class="nav-item nav-link ">Home</a>
                     <a href="{{ route ('about')}}" class="nav-item nav-link">Who We Are</a>
                     <div class="nav-item dropdown">
