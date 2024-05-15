@@ -57,7 +57,7 @@
                         <a href="{{ route ('services')}}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">What We Do</a>
                         <div class="dropdown-menu m-0">
                             <a href="{{ route ('services')}}" class="dropdown-item">Democracy and Elections</a>
-                            <a href="{{ route ('services')}}" class="dropdown-item">Peace and Security </a>
+                            <a href="{{ route ('security')}}" class="dropdown-item">Peace and Security </a>
                             <a href="{{ route ('services')}}" class="dropdown-item">Women and Youth Empowerment  </a>
                         </div>
                     </div>

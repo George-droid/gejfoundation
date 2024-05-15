@@ -13,6 +13,7 @@ Route::get('/', [CustomAuthController::class, 'home'])->name('home');
 Route::get('/about', [CustomAuthController::class, 'about'])->name('about');
 Route::get('/blog', [CustomAuthController::class, 'blog'])->name('blog');
 Route::get('/services', [CustomAuthController::class, 'services'])->name('services');
+Route::get('/security', [CustomAuthController::class, 'security'])->name('security');
 Route::get('/contact-us', [CustomAuthController::class, 'contact'])->name('contact');
 Route::get('/waef', [CustomAuthController::class, 'waef'])->name('waef');
 Route::get('/gallery', [CustomAuthController::class, 'gallery'])->name('gallery');
