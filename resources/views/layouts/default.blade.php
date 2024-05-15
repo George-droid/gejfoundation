@@ -59,7 +59,6 @@
             <a href="{{ route ('home')}}" class="navbar-brand ms-4 ms-lg-0">
                 <img src="{{ asset('img/gejf_logo.png') }}"
                 alt="GEJ FOundation Logo"/>
-                {{-- <h1 class="fw-bold text-primary m-0">Chari<span class="text-white">Team</span></h1> --}}
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -76,7 +75,14 @@
                             <a href="{{ route ('services')}}" class="dropdown-item">Women and Youth Empowerment  </a>
                         </div>
                     </div>
-                    <a href="{{ route ('waef')}}"  class="nav-item nav-link">West African Elders Forum</a>
+                    <div class="nav-item dropdown">
+                        <a href="{{ route ('waef')}}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">West African Elders Forum</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="{{ route ('waef')}}"class="dropdown-item">About WAEF</a>
+                            <a href="{{ route ('waef')}}" class="dropdown-item">Our Members</a>
+                            <a href="{{ route ('waef')}}" class="dropdown-item">Our Works</a>
+                        </div>
+                    </div>
                     <div class="nav-item dropdown">
                         <a href="{{ route ('blog')}}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">News And Media</a>
                         <div class="dropdown-menu m-0">
