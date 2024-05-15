@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #2e7f52;
+    --primary: #226733;
     --secondary: #FFF0E6;
     --light: #F8F8F9;
     --dark:  #003366;
@@ -77,10 +77,7 @@
     transition: .5s;
 }
 
-.top-bar {
-    height: 45px;
-    border-bottom: 1px solid rgba(255, 255, 255, .07);
-}
+
 
 .navbar .dropdown-toggle::after {
     border: none;
@@ -99,9 +96,10 @@
     outline: none;
 }
 
+
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: #2e7f52;
+    color: #226733;
 }
 
 @media (max-width: 991.98px) {
@@ -110,7 +108,6 @@
         border-top: 1px solid rgba(0, 0, 0, .07);
       
     }
-
     .navbar .navbar-nav .nav-link {
         padding: 10px 0;
     }
@@ -178,7 +175,7 @@
     }
 }
 
-.page-header {
+/* .page-header {
     padding-top: 3rem;
     padding-bottom: 6rem;
     background: linear-gradient(rgba(0, 29, 35, .8), rgba(0, 29, 35, .8)), ;
@@ -187,7 +184,7 @@
 
 .page-header .breadcrumb-item+.breadcrumb-item::before {
     color: #99999900;
-}
+} */
 
 
 /*** Causes ***/
@@ -248,7 +245,7 @@
 
 /*** Donate ***/
 .donate {
-    background:#2e7f52;
+    background:#226733;
 }
 
 .btn-group .btn-light:hover,
@@ -319,7 +316,7 @@
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item img {
-    background:#2e7f52 !important;
+    background:#226733 !important;
     
     
 } 
@@ -374,7 +371,8 @@
     width: 100%;
     height: 100%;
     padding: 20px;
-    background-color:#2e7f52 !important;
+    background-color:#226733 !important;
+  
     border-radius: 10px;
  
 }

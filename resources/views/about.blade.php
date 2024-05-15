@@ -2,7 +2,7 @@
 
 @section('content')
     <body>
-        <div class="container-fluid donate my-5 py-5" data-parallax="scroll" data-image-src="img/carousel-2.jpg">
+        <div class="container-fluid donate my-2 py-5" data-parallax="scroll" data-image-src="img/carousel-2.jpg">
             <div class="container py-5">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
@@ -22,7 +22,7 @@
         </div>
     
         <div class="container-xl py-3">
-            <div class="container my-5 py-5">
+            <div class="container my-2 py-2">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                     <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Board Members</div>
                 
@@ -64,9 +64,8 @@
         </div>
       
           <!-- Board Team Start -->
-        <div class="container-xxl py-3">
+        <div class="container-xxl py-2">
             <div class="container">
-               
                 <div class="row g-4">
                     {{-- <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item position-relative rounded overflow-hidden">
@@ -139,11 +138,10 @@
         <!-- Board End -->
        
         <!-- Team Start -->
-        <div class="container-xxl py-2">
+        <div class="container-xxl ">
             <div class="container">
-                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <div class="text-center mx-auto mb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                     <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Team Members</div>
-                    
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
