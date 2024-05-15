@@ -302,7 +302,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="counter">
-                            <div class="counter-values">7+</div>
+                            <div class="counter-values">8+</div>
                             <div class="counter-label">Years of existence</div>
                         </div>
                     </div>

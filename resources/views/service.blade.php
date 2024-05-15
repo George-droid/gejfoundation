@@ -3,7 +3,7 @@
 @section('content')
 <body>
     <div class="container-xxl pt-5 mt-2">
-        <div class="container pt-5 mt-5">
+        <div class="container pt-5 mt-2">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">What We Do</div>
                 <h1 class="display-7 mb-5">Learn More What We Do And Get Involved</h1>
@@ -15,11 +15,11 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class=" mt-5">
+                    <div class=" mt-2">
                         <h1 class=" mb-1">Democracy and Elections</h1>
                         <div class="bg-light border-bottom border-5 border-primary rounded p-2 mb-3">
                         </div>
-                        <p class="fs-4 mb-5"> We provide comprehensive support for democratic governance, offering services such as election monitoring, voter education, capacity building for institutions, and advocacy for fair electoral processes.</p>
+                        <p class="fs-5 mb-5"> We provide comprehensive support for democratic governance, offering services such as election monitoring, voter education, capacity building for institutions, and advocacy for fair electoral processes.</p>
                         <a class="btn btn-primary py-2 px-3 me-3" href="">
                             Contact Us
                             <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
