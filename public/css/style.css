@@ -3,7 +3,7 @@
     --primary: #025928;
     --secondary: #FFF0E6;
     --light: #F8F8F9;
-    --dark: #001D23;
+    --dark:  #003366;
 }
 
 .back-to-top {
@@ -296,9 +296,7 @@
     }
 }
 
-.testimonial-item{
-    
-}
+
 
 .testimonial-carousel .owl-item .testimonial-text {
     background: var(--light);

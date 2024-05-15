@@ -334,27 +334,28 @@
                 </div>
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-5 mx-auto mb-4" src="img/partner1.jpg">
+                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="img/partner1.jpg" style="max-width: 200px; margin: 0 auto;">
                     </div>
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-5 mx-auto mb-4" src="img/partner2.jpg">
+                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="img/partner2.jpg" style="max-width: 200px; margin: 0 auto;">
                     </div>
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-5 mx-auto mb-4" src="img/partner3.jpg">
+                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="img/partner3.jpg" style="max-width: 200px; margin: 0 auto;">
                     </div>
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-5 mx-auto mb-4" src="img/partner4.jpg">
+                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="img/partner4.jpg" style="max-width: 200px; margin: 0 auto;">
                     </div>
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-5 mx-auto mb-4" src="img/partner5.jpg">
+                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="img/partner5.jpg" style="max-width: 200px; margin: 0 auto;">
                     </div>
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-5 mx-auto mb-4" src="img/partner6.jpg">
+                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="img/partner6.jpg" style="max-width: 200px; margin: 0 auto;">
                     </div>
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-5 mx-auto mb-4" src="img/partner7.png">
+                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="img/partner7.png" style="max-width: 200px; margin: 0 auto;">
                     </div>
                 </div>
+                
             </div>
         </div>
         <!-- Testimonial End -->
