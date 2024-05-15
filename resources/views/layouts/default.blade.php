@@ -71,24 +71,25 @@
                     <div class="nav-item dropdown">
                         <a href="{{ route ('services')}}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">What We Do</a>
                         <div class="dropdown-menu m-0">
-                            <a href="{{ route ('blog')}}" class="dropdown-item">Latest News</a>
-                            <a href="{{ route ('gallery')}}" class="dropdown-item">Gallery </a>
-                            <a href="{{ route ('gallery')}}" class="dropdown-item">Gallery </a>
+                            <a href="{{ route ('services')}}" class="dropdown-item">Democracy and Elections</a>
+                            <a href="{{ route ('services')}}" class="dropdown-item">Peace and Security </a>
+                            <a href="{{ route ('services')}}" class="dropdown-item">Women and Youth Empowerment  </a>
                         </div>
                     </div>
-                    <a href="{{ route ('services')}}"  class="nav-item nav-link">What We Do</a>
+                    <a href="{{ route ('waef')}}"  class="nav-item nav-link">West African Elders Forum</a>
                     <div class="nav-item dropdown">
                         <a href="{{ route ('blog')}}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">News And Media</a>
                         <div class="dropdown-menu m-0">
                             <a href="{{ route ('blog')}}" class="dropdown-item">Latest News</a>
+                            <a href="{{ route ('blog')}}" class="dropdown-item">Resources</a>
                             <a href="{{ route ('gallery')}}" class="dropdown-item">Gallery </a>
                         </div>
                     </div>
-                    <a href="{{ route ('contact')}}" class="nav-item nav-link">Contact Us</a>
+                    <a class="nav-item nav-link"></a>
                 </div>
-                <div class="d-none d-lg-flex ms-2">
-                    <a class="btn btn-outline-primary py-2 px-3" href="{{ route ('waef')}}">
-                        West African Elders Forum
+                <div class="  ms-2">
+                    <a class="btn btn-outline-primary py-2 px-3" href="{{ route ('contact')}}">
+                        Contact Us
                         <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                             <i class="fa fa-arrow-right"></i>
                         </div>
@@ -118,7 +119,6 @@
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Address</h5>
                     <p><i class="fa fa-map-marker-alt me-3"></i>7B. Taraba Close, Maitama FCT-Abuja, Nigeria</p>
-                    
                     <p><i class="fa fa-envelope me-3"></i>info@gejfoundation.org</p>
                 </div>
                 <div class="col-lg-3 col-md-6">
