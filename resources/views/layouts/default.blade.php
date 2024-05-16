@@ -58,7 +58,7 @@
                         <div class="dropdown-menu m-0">
                             <a href="{{ route ('services')}}" class="dropdown-item">Democracy and Elections</a>
                             <a href="{{ route ('security')}}" class="dropdown-item">Peace and Security </a>
-                            <a href="{{ route ('services')}}" class="dropdown-item">Women and Youth Empowerment  </a>
+                            <a href="{{ route ('empowerment')}}" class="dropdown-item">Women and Youth Empowerment  </a>
                         </div>
                     </div>
                     <div class="nav-item dropdown">

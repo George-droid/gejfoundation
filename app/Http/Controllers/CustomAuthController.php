@@ -27,6 +27,10 @@ class CustomAuthController extends Controller
     {
         return view('security');
     }
+    public function empowerment()
+    {
+        return view('empowerment');
+    }
     public function contact()
     {
         return view('contact');
