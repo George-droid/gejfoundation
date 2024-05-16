@@ -6,8 +6,8 @@
             <div class="container py-5">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                        <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">The Goodluck Jonathan Foundation</div>
-                        <h1 class="display-6 text-white mb-5"></h1>
+                        <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Who We Are</div>
+                        <h1 class="display-6 text-white mb-3">The Goodluck Jonathan Foundation</h1>
                         <p class="text-white mb-0">The Goodluck Jonathan Foundation, founded by the former President of Nigeria (2010-2015) is an independent non-governmental organization established in 2015 for the advancement of peace and prosperity on the African continent.
 
                             We are dedicated to promoting peace and reconciliation, advancing democratic governance, advocating for inclusive governance and economic development, promoting citizen’s rights, and continental and national integration.</p>
@@ -30,9 +30,9 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class=" mt-5">
-                            <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-2  ">Our Founder</div>
-                            <h1 class="display-6 mb-1">Goodluck Ebele Jonathan</h1>
-                            <div class="bg-light border-bottom border-5 border-primary rounded p-2">
+                            <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-1 mb-2  ">Our Founder</div>
+                            <h1 class="display-6 ">Goodluck Ebele Jonathan</h1>
+                            <div class="bg-light border-bottom border-5 border-primary rounded p-2 mb-1">
                                 {{-- <p class="text-dark mb-2">
                                    "We understand that preserving and upholding democratic principles are prerequisites for any peaceful and prosperous nation."</p>
                                 <span class="text-primary">- Goodluck Ebele Jonathan, Founder</span> --}}

@@ -40,7 +40,7 @@
             </div>
             <div class="row g-4 justify-content-center">
                 
-                <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
                         <div class="text-center p-4 pt-0">
                             <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
@@ -73,7 +73,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
                         <div class="text-center p-4 pt-0">
                             <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
