@@ -158,7 +158,6 @@
                                 <li><a href="#">Democracy and Elections</a></li>
                                 <li><a href="#">Peace and Security</a></li>
                                 <li><a href="#">Women and Youth empowerment</a></li>
-                                
                                 </ul>
                             </div>
                             </div>
