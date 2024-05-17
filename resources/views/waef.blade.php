@@ -46,7 +46,7 @@
             </div>
         </div>
 
-        <div class="container-xxl bg-light my-5 py-5">
+        <div class="container-xxl bg-light my-2 py-2">
             <div class="container py-5">
                 <div class="text-center mx-auto mb-5">
                     <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Latest News from Nigerian News Houses</div>
@@ -88,7 +88,7 @@
                 </div>
             </div>
         </div>
-        
+         
         
 
         
