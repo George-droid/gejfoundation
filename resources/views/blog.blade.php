@@ -2,7 +2,7 @@
 
 @section('content')
 <body>
-    <div class="container-xxl bg-light my-5 py-5">
+    <div class="container-xxl bg-light my-1 ">
         
         <div class="container py-5">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
@@ -152,13 +152,13 @@
                     
                             <!-- Authors Section -->
                             <div class="card mb-4">
-                            <div class="card-header">Authors</div>
+                            <div class="card-header">Categories</div>
                             <div class="card-body">
                                 <ul class="list-unstyled">
-                                <li><a href="#">Author 1</a></li>
-                                <li><a href="#">Author 2</a></li>
-                                <li><a href="#">Author 3</a></li>
-                                <li><a href="#">Author 4</a></li>
+                                <li><a href="#">Democracy and Elections</a></li>
+                                <li><a href="#">Peace and Security</a></li>
+                                <li><a href="#">Women and Youth empowerment</a></li>
+                                
                                 </ul>
                             </div>
                             </div>
