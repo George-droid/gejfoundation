@@ -36,9 +36,29 @@
         <div class="container py-5">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Latest News</div>
-                <h1 class="display-6 mb-5">Stay Updated with Our Latest Activities</h1>
+                <h1 class="fs-4 mb-5">Stay Updated with Our Latest Activities</h1>
             </div>
             <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="{{asset('img/courses-1.jpg')}}" alt="News Image">
+                        <div class="card-body d-flex flex-column">
+                            <div class="mb-2">
+                                <span class="badge bg-primary">Political Analysis</span>
+                            </div>
+                            <h5 class="card-title">Coup d’états: Dangers of democratic disruption and African solutions</h5>
+                            <p class="card-text">Coup d’états: Dangers of democratic disruption and African solutions A news analysis by Emmanuel Oloniruha, News Agency of Nigeria (NAN)…</p>
+                            <div class="mt-auto">
+                                <a href="{{ route('blog')}}" class="btn btn-outline-primary">
+                                    Read More
+                                    <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="card h-100">
                         <img class="card-img-top" src="{{asset('img/courses-2.jpg')}}" alt="News Image">
