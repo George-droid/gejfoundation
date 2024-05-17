@@ -17,6 +17,7 @@ Route::get('/security', [CustomAuthController::class, 'security'])->name('securi
 Route::get('/empowerment', [CustomAuthController::class, 'empowerment'])->name('empowerment');
 Route::get('/contact-us', [CustomAuthController::class, 'contact'])->name('contact');
 Route::get('/waef', [CustomAuthController::class, 'waef'])->name('waef');
+Route::get('/waefmembers', [CustomAuthController::class, 'waefmembers'])->name('waefmembers');
 Route::get('/gallery', [CustomAuthController::class, 'gallery'])->name('gallery');
 Route::post('/contact-us/submit', [CustomAuthController::class, 'submitContactForm'])->name('contact.submit');
 Route::get('/admin/login', [CustomAuthController::class, 'adminLogin'])->name('admin.login');

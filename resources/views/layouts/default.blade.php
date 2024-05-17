@@ -65,7 +65,7 @@
                         <a href="{{ route ('waef')}}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">West African Elders Forum</a>
                         <div class="dropdown-menu m-0">
                             <a href="{{ route ('waef')}}"class="dropdown-item">About WAEF</a>
-                            <a href="{{ route ('waef')}}" class="dropdown-item">Our Members</a>
+                            <a href="{{ route ('waefmembers')}}" class="dropdown-item">Our Members</a>
                             <a href="{{ route ('waef')}}" class="dropdown-item">Our Works</a>
                         </div>
                     </div>
