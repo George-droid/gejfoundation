@@ -43,9 +43,13 @@ class CustomAuthController extends Controller
     {
         return view('waefmembers');
     }
-    public function gallery()
+    public function waefworks()
     {
-        return view('gallery');
+        return view('waefworks');
+    }
+    public function gejgallery()
+    {
+        return view('gejgallery');
     }
     public function adminLogin()
     {

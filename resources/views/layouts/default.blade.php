@@ -66,7 +66,7 @@
                         <div class="dropdown-menu m-0">
                             <a href="{{ route ('waef')}}"class="dropdown-item">About WAEF</a>
                             <a href="{{ route ('waefmembers')}}" class="dropdown-item">Our Members</a>
-                            <a href="{{ route ('waef')}}" class="dropdown-item">Our Works</a>
+                            <a href="{{ route ('waefworks')}}" class="dropdown-item">Our Works</a>
                         </div>
                     </div>
                     <div class="nav-item dropdown">
@@ -74,7 +74,7 @@
                         <div class="dropdown-menu m-0">
                             <a href="{{ route ('blog')}}" class="dropdown-item">Latest News</a>
                             <a href="{{ route ('blog')}}" class="dropdown-item">Resources</a>
-                            <a href="{{ route ('gallery')}}" class="dropdown-item">Gallery </a>
+                            <a href="{{ route ('gejgallery')}}" class="dropdown-item">Gallery </a>
                         </div>
                     </div>
                     <a class="nav-item nav-link"></a>
