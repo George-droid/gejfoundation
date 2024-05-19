@@ -11,15 +11,15 @@
             <div class="row g-4 justify-content-center">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
-                        <img class="position-absolute w-100 h-100 pe-5" src="{{asset('img/banner3.jpeg')}}" alt="" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100 pe-5" src="{{asset('img/women.jpeg')}}" alt="" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class=" mt-2">
-                        <h1 class=" mb-1">Democracy and Elections</h1>
+                        <h1 class=" mb-1">Women and Youth empowerment</h1>
                         <div class="bg-light border-bottom border-5 border-primary rounded p-2 mb-3">
                         </div>
-                        <p class="fs-5 mb-5"> We provide comprehensive support for democratic governance, offering services such as election monitoring, voter education, capacity building for institutions, and advocacy for fair electoral processes.</p>
+                        <p class="fs-5 mb-5"> We empower women and youth through leadership and mentorship programs, access to education and employment opportunities, advocacy for rights and inclusion, and support for entrepreneurship and innovation</p>
                         <a class="btn btn-primary py-2 px-3 me-3" href="">
                             Contact Us
                             <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
@@ -103,13 +103,7 @@
             </div>
         </div>
     </div>
-
-
-
+    
 </body>
-
 @endsection
-
-
-
 </html>

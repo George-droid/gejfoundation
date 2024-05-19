@@ -27,6 +27,10 @@ class CustomAuthController extends Controller
     {
         return view('security');
     }
+    public function empowerment()
+    {
+        return view('empowerment');
+    }
     public function contact()
     {
         return view('contact');
@@ -35,9 +39,17 @@ class CustomAuthController extends Controller
     {
         return view('waef');
     }
-    public function gallery()
+    public function waefmembers()
     {
-        return view('gallery');
+        return view('waefmembers');
+    }
+    public function waefworks()
+    {
+        return view('waefworks');
+    }
+    public function gejgallery()
+    {
+        return view('gejgallery');
     }
     public function adminLogin()
     {

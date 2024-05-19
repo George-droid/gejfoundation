@@ -66,6 +66,44 @@
                             <span class="visually-hidden">Next</span>
                         </button>
                     </div> --}}
+
+                    <div class="container py-5">
+                        <div class="text-center mb-5">
+                            <h1 class="display-6">Foundation Gallery</h1>
+                        </div>
+                        <div class="row">
+                            <!-- Gallery Item 1 -->
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="gallery-item">
+                                    <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="Gallery Image 1">
+                                    <div class="overlay">
+                                        <div class="overlay-text">Photos of Peace Conference 2024</div>
+                                        <a href="gallery-page1.html" class="overlay-arrow"><i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Gallery Item 2 -->
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="gallery-item">
+                                    <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="Gallery Image 2">
+                                    <div class="overlay">
+                                        <div class="overlay-text">Annual Meeting 2023 Highlights</div>
+                                        <a href="gallery-page2.html" class="overlay-arrow"><i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Gallery Item 3 -->
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="gallery-item">
+                                    <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="Gallery Image 3">
+                                    <div class="overlay">
+                                        <div class="overlay-text">Community Outreach Program 2022</div>
+                                        <a href="gallery-page3.html" class="overlay-arrow"><i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             
                     <!-- Gallery Section -->
                     <div class="row">
