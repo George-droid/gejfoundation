@@ -23,6 +23,10 @@ class CustomAuthController extends Controller
     {
         return view('service');
     }
+    public function security()
+    {
+        return view('security');
+    }
     public function contact()
     {
         return view('contact');

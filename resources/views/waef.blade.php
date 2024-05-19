@@ -16,7 +16,7 @@
             <div class="container-fluid donate " data-parallax="scroll" data-image-src="img/carousel-2.jpg">
                 <div class="container py-5">
                     <div class="row g-5 align-items-center">
-                        <div class="col-lg-10 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                             <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">ABOUT WAEF</div>
                             <h1 class="display-6 text-white mb-5">WEST AFRICAN ELDERS FORUM</h1>
                             <p class="text-white-50 mb-0">
@@ -34,6 +34,11 @@
                                 process. To this end, WAEF nurtures active collaboration with bodies such
                                 as ECOWAS, UNOWAS and other relevant stakeholders in the sub-region.
                             </p>
+                        </div>
+                        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
+                                <img class="position-absolute w-100 h-100 pt-5 pe-5" src="{{asset('img/banner3.jpeg')}}" alt="" style="object-fit: cover;">
+                            </div>
                         </div>
                         
                     </div>

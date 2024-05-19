@@ -8,7 +8,7 @@
             <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="w-100  "src="{{asset('img/GoodluckJonathan.webp')}}" alt="Image">
+                        <img class="w-100  "src="{{asset('img/banner4.webp')}}" alt="Image">
                         <div class="carousel-caption">
                             <div class="container">
                                 <div class="row justify-content-center">
@@ -27,7 +27,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="w-100 " src="{{asset('img/GoodluckJonathan.webp')}}" alt="Image">
+                        <img class="w-100 " src="{{asset('img/banner1.jpeg')}}" alt="Image">
                         <div class="carousel-caption">
                             <div class="container">
                                 <div class="row justify-content-center">
@@ -68,7 +68,7 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
                             <img class="position-absolute w-100 h-100 pt-5 pe-5" src="{{asset('img/2.jpeg')}}" alt="" style="object-fit: cover;">
-                            <img class="position-absolute top-0 end-0 bg-white ps-2 pb-2" src="{{asset('img/about-2.jpg')}}" alt="" style="width: 200px; height: 200px;">
+                            {{-- <img class="position-absolute top-0 end-0 bg-white ps-2 pb-2" src="{{asset('img/mission.png')}}" alt="" style="width: 200px; height: 200px;"> --}}
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -275,7 +275,7 @@
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                         <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Watch Now</div>
                         <h1 class="display-6 text-white mb-5">DOCUMENTARY ON RESPECT FOR CONSTITUTIONAL TERM LIMITS IN WEST AFRICA</h1>
-                        <p class="text-white-50 mb-0">The question of tenure elongation has moved from the sphere of normal devolution of power to the transitional context. It has become the main stake of the recent military-political transitions in West Africa.
+                        <p class="text-white mb-0">The question of tenure elongation has moved from the sphere of normal devolution of power to the transitional context. It has become the main stake of the recent military-political transitions in West Africa.
 
                             The different coups d’état perpetrated by military elites in Mali (2020, 2021), Guinea (2021) and Burkina-Faso (2022) point out how complicated the allocation of a relevant time for a successful political transition is. It appears that the sanctions are no longer effective in deterring military coups or prolonging the stay of transition governments …</p>
                     </div>
@@ -302,7 +302,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="counter">
-                            <div class="counter-values">7+</div>
+                            <div class="counter-values">8+</div>
                             <div class="counter-label">Years of existence</div>
                         </div>
                     </div>
@@ -330,31 +330,32 @@
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                     <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Partners</div>
-                    <h1 class="display-7 mb-5">Trusted By Thousands Of People And Nonprofits</h1>
+                    
                 </div>
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-5 mx-auto mb-4" src="img/partner1.jpg">
+                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="img/partner1.jpg" style="max-width: 200px; margin: 0 auto;">
                     </div>
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-5 mx-auto mb-4" src="img/partner2.jpg">
+                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="img/partner2.jpg" style="max-width: 200px; margin: 0 auto;">
                     </div>
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-5 mx-auto mb-4" src="img/partner3.jpg">
+                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="img/partner3.jpg" style="max-width: 200px; margin: 0 auto;">
                     </div>
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-5 mx-auto mb-4" src="img/partner4.jpg">
+                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="img/partner4.jpg" style="max-width: 200px; margin: 0 auto;">
                     </div>
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-5 mx-auto mb-4" src="img/partner5.jpg">
+                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="img/partner5.jpg" style="max-width: 200px; margin: 0 auto;">
                     </div>
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-5 mx-auto mb-4" src="img/partner6.jpg">
+                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="img/partner6.jpg" style="max-width: 200px; margin: 0 auto;">
                     </div>
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-5 mx-auto mb-4" src="img/partner7.png">
+                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="img/partner7.png" style="max-width: 200px; margin: 0 auto;">
                     </div>
                 </div>
+                
             </div>
         </div>
         <!-- Testimonial End -->

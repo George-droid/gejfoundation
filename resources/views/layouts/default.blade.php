@@ -14,7 +14,7 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -40,47 +40,48 @@
 
 
     <!-- Navbar Start -->
-    <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
-        <div class="top-bar text-white-50 row gx-0 align-items-center d-none d-lg-flex">
-            <div class="col-lg-6 px-3 text-start">
-                <small><i class="fa fa-map-marker-alt me-2"></i>7B. Taraba Close, Maitama FCT-Abuja, Nigeria </small>
-                <small class="ms-4"><i class="fa fa-envelope me-2"></i>info@gejfoundation.org</small>
-            </div>
-            <div class="col-lg-6 px-5 text-end">
-                <small>Follow us:</small>
-                <a class="text-white-50 ms-3" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="text-white-50 ms-3" href=""><i class="fab fa-twitter"></i></a>
-                <a class="text-white-50 ms-3" href=""><i class="fab fa-linkedin-in"></i></a>
-                <a class="text-white-50 ms-3" href=""><i class="fab fa-instagram"></i></a>
-            </div>
-        </div>
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+  
+        <nav class="navbar navbar-expand-lg navbar-light bg-light py-lg-0 px-lg-5 sticky-top wow fadeIn" data-wow-delay="0.1s">
             <a href="{{ route ('home')}}" class="navbar-brand ms-4 ms-lg-0">
                 <img src="{{ asset('img/gejf_logo.png') }}"
                 alt="GEJ FOundation Logo"/>
-                {{-- <h1 class="fw-bold text-primary m-0">Chari<span class="text-white">Team</span></h1> --}}
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <div class="navbar-nav ms-auto p-4 mt-1 p-lg-0">
                     <a href="{{ route ('home')}}" class="nav-item nav-link ">Home</a>
                     <a href="{{ route ('about')}}" class="nav-item nav-link">Who We Are</a>
-                    <a href="{{ route ('services')}}"  class="nav-item nav-link">What We Do</a>
+                    <div class="nav-item dropdown">
+                        <a href="{{ route ('services')}}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">What We Do</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="{{ route ('services')}}" class="dropdown-item">Democracy and Elections</a>
+                            <a href="{{ route ('security')}}" class="dropdown-item">Peace and Security </a>
+                            <a href="{{ route ('services')}}" class="dropdown-item">Women and Youth Empowerment  </a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="{{ route ('waef')}}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">West African Elders Forum</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="{{ route ('waef')}}"class="dropdown-item">About WAEF</a>
+                            <a href="{{ route ('waef')}}" class="dropdown-item">Our Members</a>
+                            <a href="{{ route ('waef')}}" class="dropdown-item">Our Works</a>
+                        </div>
+                    </div>
                     <div class="nav-item dropdown">
                         <a href="{{ route ('blog')}}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">News And Media</a>
                         <div class="dropdown-menu m-0">
                             <a href="{{ route ('blog')}}" class="dropdown-item">Latest News</a>
+                            <a href="{{ route ('blog')}}" class="dropdown-item">Resources</a>
                             <a href="{{ route ('gallery')}}" class="dropdown-item">Gallery </a>
                         </div>
                     </div>
-                    <a href="{{ route ('contact')}}" class="nav-item nav-link">Contact Us</a>
+                    <a class="nav-item nav-link"></a>
                 </div>
-                <div class="d-none d-lg-flex ms-2">
-                    <a class="btn btn-outline-primary py-2 px-3" href="{{ route ('waef')}}">
-                        West African Elders Forum
+                <div class="  ms-2">
+                    <a class="btn btn-outline-primary py-2 px-3" href="{{ route ('contact')}}">
+                        Contact Us
                         <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                             <i class="fa fa-arrow-right"></i>
                         </div>
@@ -88,7 +89,7 @@
                 </div>
             </div>
         </nav>
-    </div>
+   
     <!-- Navbar End -->
 
     @yield('content')
@@ -110,7 +111,6 @@
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Address</h5>
                     <p><i class="fa fa-map-marker-alt me-3"></i>7B. Taraba Close, Maitama FCT-Abuja, Nigeria</p>
-                    <p><i class="fa fa-phone-alt me-3"></i>+23492921297</p>
                     <p><i class="fa fa-envelope me-3"></i>info@gejfoundation.org</p>
                 </div>
                 <div class="col-lg-3 col-md-6">
