@@ -491,6 +491,36 @@
 .overlay-arrow:hover {
     transform: scale(1.2);
 }
+.section-title {
+    color: #226733;
+}
+.resource-list {
+    list-style-type: none;
+    padding: 0;
+}
+.resource-list li {
+    border: 1px solid #226733;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.resource-list li:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.resource-list h5 {
+    color: #226733;
+}
+.resource-list .btn {
+    background-color: #226733;
+    color: white;
+}
+.resource-list .btn:hover {
+    background-color: #1b552b;
+    color: white;
+}
 /*** Footer ***/
 
 .footer .btn.btn-link {
