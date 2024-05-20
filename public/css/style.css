@@ -441,11 +441,20 @@
     margin-bottom: 5px;
     color: #333;
 }
+.gallery-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 .gallery-item {
     position: relative;
     overflow: hidden;
+    width: 30%;
+    margin: 10px;
 }
 .gallery-item img {
+    width: 100%;
     transition: transform 0.3s ease;
 }
 .gallery-item:hover img {
@@ -457,7 +466,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(34, 103, 51, 0.8);
     color: white;
     display: flex;
     flex-direction: column;

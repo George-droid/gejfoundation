@@ -71,34 +71,49 @@
                         <div class="text-center mb-5">
                             <h1 class="display-6">Foundation Gallery</h1>
                         </div>
-                        <div class="row">
+                        <div class="gallery-container">
                             <!-- Gallery Item 1 -->
-                            <div class="col-lg-4 col-md-6 mb-4">
-                                <div class="gallery-item">
+                            <div class="gallery-item col-lg-4 col-md-6 mb-4">
+                                <div class="position-relative mt-auto">
                                     <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="Gallery Image 1">
                                     <div class="overlay">
-                                        <div class="overlay-text">Photos of Peace Conference 2024</div>
-                                        <a href="gallery-page1.html" class="overlay-arrow"><i class="fas fa-arrow-right"></i></a>
+                                        <div class="overlay-text px-1">Photos of Peace Conference 2024</div>
+                                        <a href="gallery-page1.html" class="btn btn-outline-primary">
+                                            View
+                                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
+                                                <i class="fa fa-arrow-right"></i>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                             <!-- Gallery Item 2 -->
-                            <div class="col-lg-4 col-md-6 mb-4">
-                                <div class="gallery-item">
+                            <div class="gallery-item col-lg-4 col-md-6 mb-4">
+                                <div class="position-relative mt-auto">
                                     <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="Gallery Image 2">
                                     <div class="overlay">
                                         <div class="overlay-text">Annual Meeting 2023 Highlights</div>
-                                        <a href="gallery-page2.html" class="overlay-arrow"><i class="fas fa-arrow-right"></i></a>
+                                        <a href="gallery-page2.html" class="btn btn-outline-primary">
+                                            View
+                                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
+                                                <i class="fa fa-arrow-right"></i>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                             <!-- Gallery Item 3 -->
-                            <div class="col-lg-4 col-md-6 mb-4">
-                                <div class="gallery-item">
+                            <div class="gallery-item col-lg-4 col-md-6 mb-4">
+                                <div class="position-relative mt-auto">
                                     <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="Gallery Image 3">
                                     <div class="overlay">
                                         <div class="overlay-text">Community Outreach Program 2022</div>
-                                        <a href="gallery-page3.html" class="overlay-arrow"><i class="fas fa-arrow-right"></i></a>
+                                        <a href="gallery-page3.html" class="btn btn-outline-primary">
+                                            View
+                                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
+                                                <i class="fa fa-arrow-right"></i>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
