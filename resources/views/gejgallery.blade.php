@@ -8,8 +8,8 @@
     <body>
 
         <div class="container mx-5">
-            <div class="container-xxl bg-light my-5 py-5">
-                <div class="container py-5">
+            <div class="container-xxl bg-light my-2 py-2">
+                <div class="container py-3">
                     <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                         <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Gallery</div>
                         <h1 class="display-6 mb-5">Look Through our Events and Activities</h1>
