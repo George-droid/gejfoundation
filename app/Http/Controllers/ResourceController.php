@@ -8,6 +8,11 @@ use App\Http\Requests\UpdateResourceRequest;
 
 class ResourceController extends Controller
 {
+
+    public function addResources() {
+        
+    }
+
     /**
      * Display a listing of the resource.
      */

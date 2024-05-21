@@ -49,8 +49,9 @@ Route::group(['middleware' => ['auth']], function () {
     Route::get('/dashboard/list-images', [GalleryController::class, 'listImages'])->name('be.listImages');
     Route::delete('/dashboard/list-images/delete/{id}', [GalleryController::class, 'deleteImages'])->name('be.deleteImages');
 
-    Route::get('/dashboard/add-hero', [HeroController::class, 'addHero'])->name('be.addHero');
-    Route::post('/dashboard/save-hero', [HeroController::class, 'saveHero'])->name('be.saveHero');
-    Route::get('/dashboard/list-hero', [HeroController::class, 'listHero'])->name('be.listHero');
-    Route::delete('/dashboard/list-hero/delete/{id}', [HeroController::class, 'deleteHero'])->name('be.deleteHero');
+    Route::get('/dashboard/add-resources', [HeroController::class, 'addResources'])->name('be.addResources');
+    // Route::post('/dashboard/save-hero', [HeroController::class, 'saveHero'])->name('be.saveHero');
+    // Route::get('/dashboard/list-hero', [HeroController::class, 'listHero'])->name('be.listHero');
+    // Route::delete('/dashboard/list-hero/delete/{id}', [HeroController::class, 'deleteHero'])->name('be.deleteHero');
+
 });
