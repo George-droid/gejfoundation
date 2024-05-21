@@ -12,6 +12,7 @@ use App\Http\Controllers\HeroController;
 Route::get('/', [CustomAuthController::class, 'home'])->name('home');
 Route::get('/about', [CustomAuthController::class, 'about'])->name('about');
 Route::get('/blog', [CustomAuthController::class, 'blog'])->name('blog');
+Route::get('/resources', [CustomAuthController::class, 'resources'])->name('resources');
 Route::get('/services', [CustomAuthController::class, 'services'])->name('services');
 Route::get('/security', [CustomAuthController::class, 'security'])->name('security');
 Route::get('/empowerment', [CustomAuthController::class, 'empowerment'])->name('empowerment');

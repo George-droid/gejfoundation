@@ -19,6 +19,10 @@ class CustomAuthController extends Controller
     {
         return view('blog');
     }
+    public function resources()
+    {
+        return view('resources');
+    }
     public function services()
     {
         return view('service');
