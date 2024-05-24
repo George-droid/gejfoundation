@@ -3,7 +3,6 @@
 @section('content')
     <body>
         <!-- Carousel Start -->
-        
         <div class="container-fluid p-0 mb-5">
             <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -13,7 +12,7 @@
                             <div class="container">
                                 <div class="row justify-content-center">
                                     <div class="col-lg-7 pt-5">
-                                        <h1 class="display-4 text-white mb-3 animated slideInDown">Promoting Peace and Prosperity</h1>
+                                        <h1 class="d-inline-block rounded-pill bg-secondary py-1 px-1 mb-3 display-4 text-white mb-3 animated slideInDown">Promoting Peace and Prosperity</h1>
                                         <p class="fs-5 text-white-50 mb-5 animated slideInDown">Fostering Good Governance: Strengthening Democracy for a Stable and Prosperous Society</p>
                                         <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
                                             Learn More
@@ -32,7 +31,7 @@
                             <div class="container">
                                 <div class="row justify-content-center">
                                     <div class="col-lg-7 pt-5">
-                                        <h1 class="display-4 text-white mb-3 animated slideInDown">Promoting Peace and Prosperity</h1>
+                                        <h1 class="d-inline-block rounded-pill bg-secondary py-1 px-1 mb-3 display-4 text-white mb-3 animated slideInDown">Promoting Peace and Prosperity</h1>
                                         <p class="fs-5 text-white-50 mb-5 animated slideInDown">Charting the Course: Advancing Democracy and Stability for Lasting Prosperity</p>
                                         <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
                                             Learn More
@@ -110,7 +109,88 @@
                 </div>
             </div>
         </div>
+        {{-- About us end --}}
 
+        {{-- Counter Start --}}
+        {{-- <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="counter">
+                            <div class="counter-values">2,000,000+</div>
+                            <div class="counter-label">2M citizens to actively participate in various levels of elections and contribute to violence free elections in Africa</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="counter">
+                            <div class="counter-values">8+</div>
+                            <div class="counter-label">Years of existence</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="counter">
+                            <div class="counter-values">20,000+</div>
+                            <div class="counter-label">Empower 20,000 African women and youths with livelihood skills and starter packs</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="counter">
+                            <div class="counter-values">10,000+</div>
+                            <div class="counter-label">Contribute to raising 10,000 detribalised and emotionally resilient African children</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> --}}
+        {{-- End Counter --}}
+
+        <!-- Facts Start -->
+        <div class="facts" data-parallax="scroll" data-image-src="../img/facts.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="facts-item">
+                            <i class="flaticon-donation"></i>
+                            <div class="facts-text">
+                                <h3 class="facts-plus" data-toggle="counter-up">2000000</h3>
+                                <p>citizens to actively participate in various levels of elections and contribute to violence free elections in Africa</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="facts-item">
+                            <i class="flaticon-charity"></i>
+                            <div class="facts-text">
+                                <h3 class="facts-plus" data-toggle="counter-up">8</h3>
+                                <p>Years of experience</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="facts-item">
+                            <i class="flaticon-kindness"></i>
+                            <div class="facts-text">
+                                <h3 class="facts-plus" data-toggle="counter-up">20000</h3>
+                                <p>Empower 20,000 African women and youths with livelihood skills and starter packs</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="facts-item">
+                            <i class="flaticon-home"></i>
+                            <div class="facts-text">
+                                <h3 class="facts-plus" data-toggle="counter-up">10000</h3>
+                                <p>Contribute to raising 10,000 detribalised and emotionally resilient African children</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facts End -->
+
+
+        {{-- Documentry Start --}}
         <div class="container-fluid donate my-5 py-5" data-parallax="scroll" data-image-src="img/carousel-2.jpg">
             <div class="container py-5">
                 <div class="row g-5 align-items-center">
@@ -129,8 +209,7 @@
                 </div>
             </div>
         </div>
-
- 
+        {{-- Documentry End --}}
 
 
         <!-- News and events Start -->
@@ -244,40 +323,7 @@
             </div>
         </div>
         <!-- News and events End -->
-
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="counter">
-                            <div class="counter-values">2,000,000+</div>
-                            <div class="counter-label">2M citizens to actively participate in various levels of elections and contribute to violence free elections in Africa</div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="counter">
-                            <div class="counter-values">8+</div>
-                            <div class="counter-label">Years of existence</div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="counter">
-                            <div class="counter-values">20,000+</div>
-                            <div class="counter-label">Empower 20,000 African women and youths with livelihood skills and starter packs</div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="counter">
-                            <div class="counter-values">10,000+</div>
-                            <div class="counter-label">Contribute to raising 10,000 detribalised and emotionally resilient African children</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         
-       
-
 
         <!-- Testimonial Start -->
         <div class="container-xl py-5">

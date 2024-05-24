@@ -14,6 +14,10 @@
     z-index: 99;
 }
 
+p {
+    font-size: 1.1rem;
+}
+
 
 /*** Spinner ***/
 #spinner {
@@ -132,6 +136,9 @@
     }
 }
 
+.carousel-inner {
+    height: 900px !important;
+}
 
 /*** Header ***/
 .carousel-caption {
@@ -140,11 +147,23 @@
     right: 0;
     bottom: 0;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: flex-end;
     text-align: center;
-    background: rgba(0, 29, 35, .8);
+    /* background: rgba(0, 29, 35, .8); */
     z-index: 1;
+}
+
+
+
+.carousel-caption .container h1 {
+    font-size: 2.5rem !important;
+    color: #020D7C !important;
+}
+
+.carousel-caption .container p {
+    font-size: 1.5rem !important;
+    color: #ffffff !important;
 }
 
 .carousel-control-prev,
@@ -170,7 +189,7 @@
     #header-carousel .carousel-item img {
         position: absolute;
         width: 100%;
-        height: 100%;
+        height: 1000px !important;
         object-fit: cover;
     }
 }
@@ -252,6 +271,96 @@
 .btn-group input[type="radio"]:checked+label {
     color: var(--primary);
     border-color: var(--primary);
+}
+
+/*******************************/
+/********** Facts CSS **********/
+/*******************************/
+.facts {
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    margin: 45px 0;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, .5);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden; /* Ensure the pseudo-element stays within the section */
+}
+
+.facts[data-parallax] {
+    background-image: url('../img/facts.jpg') !important;
+}
+
+.facts::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: 1; /* Ensure the overlay is above the image */
+}
+
+.facts .facts-item {
+    position: relative; /* Ensure icons are positioned relative to this container */
+    display: flex;
+    flex-direction: column; /* Stack icon above text */
+    align-items: center;
+    margin: 25px 0;
+    z-index: 2; /* Ensure the content is above the overlay */
+}
+
+.facts .facts-item i {
+    font-size: 80px; /* Increase icon size */
+    line-height: 80px;
+    color: #226733;
+    margin-bottom: 10px; /* Add margin below the icon */
+    position: relative; /* Ensure icons are positioned relative to this container */
+    z-index: 3; /* Ensure icons are above the overlay */
+}
+
+.facts .facts-text {
+    text-align: center; /* Center align text */
+    z-index: 2; /* Ensure the content is above the overlay */
+}
+
+.facts .facts-text h3 {
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.facts .facts-text h3::after {
+    position: absolute;
+    top: 0;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.facts .facts-text h3.facts-plus::after {
+    content: "\f067";
+    right: -25px;
+}
+
+.facts .facts-text h3.facts-dollar::after {
+    content: "\f155";
+    right: -18px;
+}
+
+.facts .facts-text p {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
 }
 
 

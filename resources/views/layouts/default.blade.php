@@ -23,9 +23,13 @@
     <!-- Libraries Stylesheet -->
     <link href="{{ asset('lib/animate/animate.min.css') }}" rel="stylesheet">
     <link href="{{ asset('lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('lib/flaticon/font/flaticon.css') }}" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+
 
     <!-- Template Stylesheet -->
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
@@ -40,7 +44,6 @@
 
 
     <!-- Navbar Start -->
-  
         <nav class="navbar navbar-expand-lg navbar-light bg-light py-lg-0 px-lg-5 sticky-top wow fadeIn" data-wow-delay="0.1s">
             <a href="{{ route ('home')}}" class="navbar-brand ms-4 ms-lg-0">
                 <img src="{{ asset('img/gejf_logo.png') }}"
@@ -160,9 +163,29 @@
     <script src="{{ asset('lib/waypoints/waypoints.min.js') }}"></script>
     <script src="{{ asset('lib/owlcarousel/owl.carousel.min.js') }}"></script>
     <script src="{{ asset('lib/parallax/parallax.min.js') }}"></script>
+    <script src="{{ asset('lib/counterup/counterup.min.js') }}"></script>
 
     <!-- Template Javascript -->
     <script src="{{ asset('js/main.js') }}"></script>
+
+    {{-- <script>
+        $(document).ready(function(){
+            $('[data-toggle="counter-up"]').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+    </script> --}}
+
+    <script>
+        $(document).ready(function(){
+
+            $('[data-toggle="counter-up"]').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+    </script>
 </body>
 
 </html>
