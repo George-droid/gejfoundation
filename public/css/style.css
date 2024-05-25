@@ -273,6 +273,31 @@ p {
     border-color: var(--primary);
 }
 
+/*** WAEF ***/
+.waef {
+    background:#A8773B;
+}
+
+.waef-header {
+    /* background: #FFFFFF !important; */
+    color: #020D7C !important;
+}
+
+.waef-news-header {
+    color: #A8773B !important;
+}
+
+.waef-btn {
+    color: #A8773B !important;
+    border-color: #A8773B !important;
+}
+
+.waef-btn:hover {
+    background-color: #A8773B;
+    color: white !important;
+}
+
+
 /*******************************/
 /********** Facts CSS **********/
 /*******************************/
