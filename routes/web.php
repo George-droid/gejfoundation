@@ -57,7 +57,7 @@ Route::group(['middleware' => ['auth']], function () {
     Route::delete('/dashboard/list-hero/delete/{id}', [HeroController::class, 'deleteHero'])->name('be.deleteHero');
 
     Route::get('/dashboard/add-resources', [ResourceController::class, 'addResources'])->name('be.addResources');
-    Route::post('/dashboard/save-resources', [HeroController::class, 'saveResources'])->name('be.saveResources');
+    Route::post('/dashboard/save-resources', [ResourceController::class, 'saveResources'])->name('be.saveResources');
     // Route::get('/dashboard/list-hero', [HeroController::class, 'listHero'])->name('be.listHero');
     // Route::delete('/dashboard/list-hero/delete/{id}', [HeroController::class, 'deleteHero'])->name('be.deleteHero');
 });

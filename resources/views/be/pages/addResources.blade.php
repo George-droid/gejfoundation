@@ -31,12 +31,12 @@
                             </ul>
                         </div>
                     @endif
-                    <form method="POST" action="{{ route('be.saveImages') }}" enctype="multipart/form-data">
+                    <form method="POST" action="{{ route('be.saveResources') }}" enctype="multipart/form-data">
                         @csrf
                         <div class="mb-3">
                           <label for="title" class="form-label">Title</label>
                           <input type="text" name="title" class="form-control" id="title" aria-describedby="nameHelp">
-                          <div id="name" class="form-text">The Title of the image's event.</div>
+                          <div id="name" class="form-text">The Title of the Resource.</div>
                         </div>
                         {{-- <div class="mb-3">
                             <label for="image" class="form-label">thumbnail</label>
@@ -45,11 +45,11 @@
                         <div class="mb-3">
                             <label for="description" class="form-label">Description</label>
                             <input type="text" name="description" class="form-control" id="description" aria-describedby="nameHelp">
-                            <div id="description" class="form-text">Descrtiption of the member.</div>
+                            <div id="description" class="form-text">Descrtiption of the Resource.</div>
                         </div>
                         <div class="mb-3">
-                            <label for="path" class="form-label">Image</label>
-                            <input type="file" name="path" class="form-control" id="path">
+                            <label for="file_path" class="form-label">File</label>
+                            <input type="file" name="file_path" class="form-control" id="file_path">
                         </div>
                         <div class="mb-3">
                             <label for="category" class="form-label">Category</label>
