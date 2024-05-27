@@ -10,8 +10,12 @@ class ResourceController extends Controller
 {
 
     public function addResources() {
-        
+        $resourceItems = Resource::all();
+        // $categories = Category::all();
+        return view('be.pages.addResources', compact('resourceItems'));
     }
+
+    
 
     /**
      * Display a listing of the resource.
