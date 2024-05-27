@@ -70,7 +70,7 @@ class CustomAuthController extends Controller
         $credentials = $request->only('email', 'password');
         if (Auth::attempt($credentials)) {
             //dd(Auth::user()->role);
-            return redirect()->intended('dashboard')->withSuccess('Signed in');
+            return redirect()->route('dashboard')->withSuccess('Signed in');
         }
         
         return redirect("login")->withErrors('Login details are not valid');
@@ -78,5 +78,14 @@ class CustomAuthController extends Controller
     public function dashboard()
     {
         return view('be.pages.dashboard');
+    }
+
+    public function logout(Request $request)
+    {
+        Auth::logout();
+        $request->session()->invalidate();
+        $request->session()->regenerateToken();
+
+        return redirect()->route('login'); // Redirect to login page
     }
 }

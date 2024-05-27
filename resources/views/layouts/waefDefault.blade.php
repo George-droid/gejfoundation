@@ -83,9 +83,9 @@
                     <a class="nav-item nav-link"></a>
                 </div>
                 <div class="  ms-2">
-                    <a class="btn btn-outline-primary py-2 px-3" href="{{ route ('contact')}}">
+                    <a class="btn btn-outline-primary py-2 px-3 waef-btn" href="{{ route ('contact')}}">
                         Contact Us
-                        <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+                        <div class="d-inline-flex btn-sm-square bg-white waef-btn text-primary rounded-circle ms-2">
                             <i class="fa fa-arrow-right"></i>
                         </div>
                     </a>
@@ -152,7 +152,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn btn-lg-square back-to-top waef-btn"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
