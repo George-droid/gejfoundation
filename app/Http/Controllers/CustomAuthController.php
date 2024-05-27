@@ -19,9 +19,9 @@ class CustomAuthController extends Controller
     {
         return view('blog');
     }
-    public function resources()
+    public function gejresources()
     {
-        return view('resources');
+        return view('gejresources');
     }
     public function services()
     {
