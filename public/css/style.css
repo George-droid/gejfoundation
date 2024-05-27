@@ -297,8 +297,9 @@ p {
     color: white !important;
 }
 
-.waef-members-name {
-    color: #A8773B !important;
+.waef-members-boarder {
+    /* color: #A8773B !important; */
+    border-color: #A8773B !important;
 }
 
 /*******************************/

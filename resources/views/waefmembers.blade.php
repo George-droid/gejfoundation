@@ -12,18 +12,18 @@
                 <!-- Member 1: Chief Olusegun Obasanjo -->
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class=" mt-5">
+                        <div class="mt-5">
                             {{-- <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-1 mb-2  ">Our Founder</div> --}}
                             <h1 class="display-6 ">Chief Olusegun Obasanjo</h1>
-                            <div class="bg-light border-bottom border-5 border-primary rounded p-2 mb-1">
+                            <div class="bg-light border-bottom border-5 waef-members-boarder border-primary rounded p-2 mb-1">
                             </div>
                             <p class="mb-5">President, Federal Republic of Nigeria (1999 - 2007)</p>
-                            <a class="btn btn-primary py-2 px-3 me-3" href="">
+                            {{-- <a class="btn btn-primary py-2 px-3 me-3" href="">
                                 Learn More
                                 <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                                     <i class="fa fa-arrow-right"></i>
                                 </div>
-                            </a>
+                            </a> --}}
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -51,15 +51,15 @@
                             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="mt-5">
                                     <h1 class="display-6 ">His Excellency Amos Sawyer</h1>
-                                    <div class="bg-light border-bottom border-5 border-primary rounded p-2 mb-1">
+                                    <div class="bg-light border-bottom border-5 waef-members-boarder border-primary rounded p-2 mb-1">
                                     </div>
                                     <p class="mb-5">President, Republic of Liberia (1990 - 1994)</p>
-                                    <a class="btn btn-primary py-2 px-3 me-3" href="">
+                                    {{-- <a class="btn btn-primary py-2 px-3 me-3" href="">
                                         Learn More
                                         <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                                             <i class="fa fa-arrow-right"></i>
                                         </div>
-                                    </a>
+                                    </a> --}}
                                 </div>
                             </div>
                         </div>
@@ -78,15 +78,15 @@
                         <div class=" mt-5">
                             {{-- <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-1 mb-2  ">Our Founder</div> --}}
                             <h1 class="display-6 ">His Excellency Kadre Desire Quedraogo</h1>
-                            <div class="bg-light border-bottom border-5 border-primary rounded p-2 mb-1">
+                            <div class="bg-light border-bottom border-5 waef-members-boarder border-primary rounded p-2 mb-1">
                             </div>
                             <p class="mb-5">Prime Minister, Burkina Faso (1996 - 2000)</p>
-                            <a class="btn btn-primary py-2 px-3 me-3" href="">
+                            {{-- <a class="btn btn-primary py-2 px-3 me-3" href="">
                                 Learn More
                                 <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                                     <i class="fa fa-arrow-right"></i>
                                 </div>
-                            </a>
+                            </a> --}}
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -114,15 +114,15 @@
                             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="mt-5">
                                     <h1 class="display-6 ">His Excellency Abdulsalami Abubakar</h1>
-                                    <div class="bg-light border-bottom border-5 border-primary rounded p-2 mb-1">
+                                    <div class="bg-light border-bottom border-5 waef-members-boarder border-primary rounded p-2 mb-1">
                                     </div>
                                     <p class="mb-5">President, Federal Republic of Nigeria (1998 - 1999)</p>
-                                    <a class="btn btn-primary py-2 px-3 me-3" href="">
+                                    {{-- <a class="btn btn-primary py-2 px-3 me-3" href="">
                                         Learn More
                                         <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                                             <i class="fa fa-arrow-right"></i>
                                         </div>
-                                    </a>
+                                    </a> --}}
                                 </div>
                             </div>
                         </div>
@@ -141,15 +141,15 @@
                         <div class=" mt-5">
                             {{-- <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-1 mb-2  ">Our Founder</div> --}}
                             <h1 class="display-6 ">His Excellency Pedro Pires</h1>
-                            <div class="bg-light border-bottom border-5 border-primary rounded p-2 mb-1">
+                            <div class="bg-light border-bottom border-5 waef-members-boarder border-primary rounded p-2 mb-1">
                             </div>
                             <p class="mb-5">President, Cape Verde (2001 - 2011)</p>
-                            <a class="btn btn-primary py-2 px-3 me-3" href="">
+                            {{-- <a class="btn btn-primary py-2 px-3 me-3" href="">
                                 Learn More
                                 <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                                     <i class="fa fa-arrow-right"></i>
                                 </div>
-                            </a>
+                            </a> --}}
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -177,15 +177,15 @@
                             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="mt-5">
                                     <h1 class="display-6 ">Her Excellency Madam Ellen Sirleaf Johnson</h1>
-                                    <div class="bg-light border-bottom border-5 border-primary rounded p-2 mb-1">
+                                    <div class="bg-light border-bottom border-5 waef-members-boarder border-primary rounded p-2 mb-1">
                                     </div>
                                     <p class="mb-5">President, Republic of Liberia (2006 - 2018)</p>
-                                    <a class="btn btn-primary py-2 px-3 me-3" href="">
+                                    {{-- <a class="btn btn-primary py-2 px-3 me-3" href="">
                                         Learn More
                                         <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                                             <i class="fa fa-arrow-right"></i>
                                         </div>
-                                    </a>
+                                    </a> --}}
                                 </div>
                             </div>
                         </div>
@@ -204,15 +204,15 @@
                         <div class=" mt-5">
                             {{-- <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-1 mb-2  ">Our Founder</div> --}}
                             <h1 class="display-6 ">His Excellency Ernest Bai Koroma</h1>
-                            <div class="bg-light border-bottom border-5 border-primary rounded p-2 mb-1">
+                            <div class="bg-light border-bottom border-5 waef-members-boarder border-primary rounded p-2 mb-1">
                             </div>
                             <p class="mb-5">President, Sierra Leone (2007 - 2018)</p>
-                            <a class="btn btn-primary py-2 px-3 me-3" href="">
+                            {{-- <a class="btn btn-primary py-2 px-3 me-3" href="">
                                 Learn More
                                 <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                                     <i class="fa fa-arrow-right"></i>
                                 </div>
-                            </a>
+                            </a> --}}
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -240,15 +240,15 @@
                             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="mt-5">
                                     <h1 class="display-6 ">His Excellency Thomas Boni Yayi</h1>
-                                    <div class="bg-light border-bottom border-5 border-primary rounded p-2 mb-1">
+                                    <div class="bg-light border-bottom border-5 waef-members-boarder border-primary rounded p-2 mb-1">
                                     </div>
                                     <p class="mb-5">President, Republic of Benin (2006 - 2016)</p>
-                                    <a class="btn btn-primary py-2 px-3 me-3" href="">
+                                    {{-- <a class="btn btn-primary py-2 px-3 me-3" href="">
                                         Learn More
                                         <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                                             <i class="fa fa-arrow-right"></i>
                                         </div>
-                                    </a>
+                                    </a> --}}
                                 </div>
                             </div>
                         </div>
@@ -267,15 +267,15 @@
                         <div class=" mt-5">
                             {{-- <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-1 mb-2  ">Our Founder</div> --}}
                             <h1 class="display-6 ">His Excellency Dr. Goodluck Ebele Jonathan</h1>
-                            <div class="bg-light border-bottom border-5 border-primary rounded p-2 mb-1">
+                            <div class="bg-light border-bottom border-5 waef-members-boarder border-primary rounded p-2 mb-1">
                             </div>
                             <p class="mb-5">President, Federal Republic of Nigeria (2011 - 2015)</p>
-                            <a class="btn btn-primary py-2 px-3 me-3" href="">
+                            {{-- <a class="btn btn-primary py-2 px-3 me-3" href="">
                                 Learn More
                                 <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                                     <i class="fa fa-arrow-right"></i>
                                 </div>
-                            </a>
+                            </a> --}}
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -303,15 +303,15 @@
                             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="mt-5">
                                     <h1 class="display-6 ">His Excellency Dioncounda Traore</h1>
-                                    <div class="bg-light border-bottom border-5 border-primary rounded p-2 mb-1">
+                                    <div class="bg-light border-bottom border-5 waef-members-boarder border-primary rounded p-2 mb-1">
                                     </div>
                                     <p class="mb-5">Acting President, Mali (2012 - 2013)</p>
-                                    <a class="btn btn-primary py-2 px-3 me-3" href="">
+                                    {{-- <a class="btn btn-primary py-2 px-3 me-3" href="">
                                         Learn More
                                         <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                                             <i class="fa fa-arrow-right"></i>
                                         </div>
-                                    </a>
+                                    </a> --}}
                                 </div>
                             </div>
                         </div>
