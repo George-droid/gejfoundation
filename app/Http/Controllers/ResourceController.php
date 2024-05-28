@@ -49,20 +49,20 @@ class ResourceController extends Controller
         }
     }
 
-    // public function listImages()
-    // {
-    //     $images = Image::all();
-    //     return view('be.pages.listImages', compact('images'));
-    // }
-    // public function deleteImages(Request $request, $id)
-    // {
-    //     $members = Image::findOrFail($id);
+    public function listResources()
+    {
+        $resources = Resource::all();
+        return view('be.pages.listResources', compact('resources'));
+    }
+    public function deleteResources(Request $request, $id)
+    {
+        $members = Resource::findOrFail($id);
 
-    //     // Delete the post
-    //     $members->delete();
+        // Delete the post
+        $members->delete();
 
-    //     return redirect()->back()->with('success', 'Image post deleted successfully from gallery!');
-    // }
+        return redirect()->back()->with('success', 'Resource item post deleted successfully!');
+    }
 
     /**
      * Display a listing of the resource.

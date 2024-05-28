@@ -136,7 +136,7 @@
                         data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                             <a class="collapse-item" href="{{ route('be.addResources') }}">Add Resources Item</a>
-                            <a class="collapse-item" href="{{ route('be.listHero') }}">List Resources Item</a>
+                            <a class="collapse-item" href="{{ route('be.listResources') }}">List Resources Item</a>
                         </div>
                     </div>
                 </li>
