@@ -136,23 +136,23 @@ p {
     }
 }
 .carousel-caption {
-    bottom: 30px;
+    bottom: 70px;
     left: 50%;
     transform: translateX(-50%);
     text-align: left;
     padding: 10px;
-    width: 100%; /* Ensure it takes the full width of the container */
+    width: 120%; /* Ensure it takes the full width of the container */
 }
 
 .carousel-item img {
-    height: 100vh; /* Ensure all images have the same height */
+    height: 110vh; /* Ensure all images have the same height */
     object-fit: cover; /* Ensure images cover the area without distortion */
 }
 
 .hero-content-wrapper {
-    background-color: rgba(34, 103, 51, 0.8); /* Key color with transparency */
+    background-color: #226733; /* Key color with transparency */
     border: 2px solid #226733; /* Key color border */
-    border-radius: 10px; /* Slightly rounded corners */
+    border-radius: 0px; /* Slightly rounded corners */
     padding: 30px; /* Internal padding for spacing */
     display: inline-block;
     width: 80%; /* Set a width for the wrapper */
