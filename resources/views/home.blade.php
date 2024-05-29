@@ -12,8 +12,8 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-7">
-                                <div class="hero-content-wrapper p-4 border border-key-color rounded-pill">
-                                    <h1 class="fs-3 text-white mb-2 animated slideInDown">Promoting Peace and Prosperity</h1>
+                                <div class="hero-content-wrapper  py-3 px-4 border border-key-color rounded-pill">
+                                    <h1 class="fs-3 text-white mb-2 mx-2 animated slideInDown">Promoting Peace and Prosperity</h1>
                                     <p class="fs-5 text-white-50 mb-3 animated slideInDown">Fostering Good Governance: Strengthening Democracy for a Stable and Prosperous Society</p>
                                     <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
                                         Learn More
@@ -33,9 +33,9 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-7">
-                                <div class="hero-content-wrapper p-3 border border-key-color rounded-pill">
-                                    <h1 class="display-4 text-white mb-2 animated slideInDown">Promoting Peace and Prosperity</h1>
-                                    <p class="fs-5 text-white-50 mb-3 animated slideInDown">Charting the Course: Advancing Democracy and Stability for Lasting Prosperity</p>
+                                <div class="hero-content-wrapper  py-3 px-4 border border-key-color rounded-pill">
+                                    <h1 class="fs-3 text-white mb-2 mx-2 animated slideInDown">Promoting Peace and Prosperity</h1>
+                                    <p class="fs-5 text-white-50 mb-3 animated slideInDown">Fostering Good Governance: Strengthening Democracy for a Stable and Prosperous Society</p>
                                     <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
                                         Learn More
                                         <div class="d-inline-flex btn-sm-square bg-white text-key-color rounded-circle ms-2">
