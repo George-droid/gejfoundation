@@ -2,62 +2,66 @@
 
 @section('content')
     <body>
-        <!-- Carousel Start -->
-        <div class="container-fluid p-0 mb-5">
-            <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="w-100" src="{{asset('img/banner1.jpeg')}}" alt="Image">
-                        <div class="carousel-caption">
-                            <div class="container">
-                                <div class="row justify-content-center">
-                                    <div class="col-lg-7 pt-5">
-                                        <h1 class="d-inline-block rounded-pill bg-secondary py-1 px-1 mb-3 display-4 text-white mb-3 animated slideInDown">Promoting Peace and Prosperity</h1>
-                                        <p class="fs-5 text-white-50 mb-5 animated slideInDown">Fostering Good Governance: Strengthening Democracy for a Stable and Prosperous Society</p>
-                                        <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
-                                            Learn More
-                                            <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                                                <i class="fa fa-arrow-right"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="w-100 " src="{{asset('img/banner2.jpeg')}}" alt="Image">
-                        <div class="carousel-caption">
-                            <div class="container">
-                                <div class="row justify-content-center">
-                                    <div class="col-lg-7 pt-5">
-                                        <h1 class="d-inline-block rounded-pill bg-secondary py-1 px-1 mb-3 display-4 text-white mb-3 animated slideInDown">Promoting Peace and Prosperity</h1>
-                                        <p class="fs-5 text-white-50 mb-5 animated slideInDown">Charting the Course: Advancing Democracy and Stability for Lasting Prosperity</p>
-                                        <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
-                                            Learn More
-                                            <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                                                <i class="fa fa-arrow-right"></i>
-                                            </div>
-                                        </a>
-                                    </div>
+ <!-- Carousel Start -->
+<div class="container-fluid p-0 mb-5">
+    <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="w-100" src="{{asset('img/banner1.jpeg')}}" alt="Image">
+                <div class="carousel-caption text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-7">
+                                <div class="hero-content-wrapper p-4 border border-key-color rounded-pill">
+                                    <h1 class="fs-3 text-white mb-2 animated slideInDown">Promoting Peace and Prosperity</h1>
+                                    <p class="fs-5 text-white-50 mb-3 animated slideInDown">Fostering Good Governance: Strengthening Democracy for a Stable and Prosperous Society</p>
+                                    <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
+                                        Learn More
+                                        <div class="d-inline-flex btn-sm-square bg-white text-key-color rounded-circle ms-2">
+                                            <i class="fa fa-arrow-right"></i>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+            </div>
+            <div class="carousel-item">
+                <img class="w-100" src="{{asset('img/banner2.jpeg')}}" alt="Image">
+                <div class="carousel-caption text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-7">
+                                <div class="hero-content-wrapper p-3 border border-key-color rounded-pill">
+                                    <h1 class="display-4 text-white mb-2 animated slideInDown">Promoting Peace and Prosperity</h1>
+                                    <p class="fs-5 text-white-50 mb-3 animated slideInDown">Charting the Course: Advancing Democracy and Stability for Lasting Prosperity</p>
+                                    <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
+                                        Learn More
+                                        <div class="d-inline-flex btn-sm-square bg-white text-key-color rounded-circle ms-2">
+                                            <i class="fa fa-arrow-right"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <!-- Carousel End -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+<!-- Carousel End -->
+
+
 
         <div class="container-xxl py-5">
             <div class="container">
