@@ -6,7 +6,7 @@
             <div class="container pt-5 mt-2">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                     <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">What We Do</div>
-                    <h1 class="display-7 mb-5">Learn More What We Do And Get Involved</h1>
+                    <h1 class="display-7 mb-5">Learn More About What We Do And Get Involved</h1>
                 </div>
                 <div class="row g-4 justify-content-center">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">

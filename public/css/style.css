@@ -74,6 +74,43 @@ p {
     justify-content: center;
     font-weight: normal;
 }
+.hero-content-wrapper {
+    background-color: rgba(0, 0, 0, 0.5); /* Add a background color to improve text readability */
+    border-radius: 10px; /* Adjusted for a box shape */
+}
+
+.custom-box {
+    max-width: 100%; /* Ensure it takes full width available */
+    margin: auto; /* Center it */
+}
+
+@media (min-width: 768px) {
+    .hero-content-wrapper {
+        padding: 2rem; /* Increase padding for larger screens */
+    }
+
+    .hero-content-wrapper h1 {
+        font-size: 2rem; /* Adjust font size for larger screens */
+    }
+
+    .hero-content-wrapper p {
+        font-size: 1.25rem; /* Adjust font size for larger screens */
+    }
+}
+
+@media (max-width: 767px) {
+    .hero-content-wrapper {
+        padding: 1rem; /* Reduce padding for smaller screens */
+    }
+
+    .hero-content-wrapper h1 {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+
+    .hero-content-wrapper p {
+        font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+}
 
 
 /*** Navbar ***/

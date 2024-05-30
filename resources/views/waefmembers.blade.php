@@ -13,17 +13,10 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="mt-5">
-                            {{-- <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-1 mb-2  ">Our Founder</div> --}}
-                            <h1 class="display-6 ">Chief Olusegun Obasanjo</h1>
-                            <div class="bg-light border-bottom border-5 waef-members-boarder border-primary rounded p-2 mb-1">
-                            </div>
-                            <p class="mb-5">President, Federal Republic of Nigeria (1999 - 2007)</p>
-                            {{-- <a class="btn btn-primary py-2 px-3 me-3" href="">
-                                Learn More
-                                <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                                    <i class="fa fa-arrow-right"></i>
-                                </div>
-                            </a> --}}
+                            <h1 class="display-6">Chief Olusegun Obasanjo</h1>
+                            <div class="bg-light border-bottom border-5 waef-members-boarder border-primary rounded p-2 mb-1"></div>
+                            <p class="mb-2" style="font-weight: bold;">President, Federal Republic of Nigeria (1999 - 2007)</p>
+                            <p class="bio mb-5">Chief Olusegun Obasanjo is a Nigerian military and political leader who served as Nigeria’s head of state from 1976 to 1979 and later as its elected president from 1999 to 2007. He is known for his efforts in promoting democracy and economic development in Nigeria and Africa.</p>
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -32,13 +25,7 @@
                         </div>
                     </div>
                 </div>
-                {{-- <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="member">
-                              <img class="text-center  mb-4" src="https://via.placeholder.com/400x250" alt="Placeholder Image">
-                        <h2 class="waef-members-name">His Excellency Chief Olusegun Obasanjo</h2>
-                        <p>President, Federal Republic of Nigeria (1999 - 2007)</p>
-                    </div>
-                </div> --}}
+                
                 <!-- Member 2: Amos Sawyer -->
                 <div class="row g-5">
                     <div class="container py-5">
@@ -50,43 +37,24 @@
                             </div>
                             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="mt-5">
-                                    <h1 class="display-6 ">His Excellency Amos Sawyer</h1>
-                                    <div class="bg-light border-bottom border-5 waef-members-boarder border-primary rounded p-2 mb-1">
-                                    </div>
-                                    <p class="mb-5">President, Republic of Liberia (1990 - 1994)</p>
-                                    {{-- <a class="btn btn-primary py-2 px-3 me-3" href="">
-                                        Learn More
-                                        <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                                            <i class="fa fa-arrow-right"></i>
-                                        </div>
-                                    </a> --}}
+                                    <h1 class="display-6">His Excellency Amos Sawyer</h1>
+                                    <div class="bg-light border-bottom border-5 waef-members-boarder border-primary rounded p-2 mb-1"></div>
+                                    <p class="mb-2" style="font-weight: bold;">President, Republic of Liberia (1990 - 1994)</p>
+                                    <p class="bio mb-5">Amos Sawyer served as the interim President of Liberia from 1990 to 1994. He is recognized for his efforts in peacebuilding and democratization in Liberia during a tumultuous period in the country's history.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                {{-- <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="member">
-                              <img class="text-center  mb-4" src="https://via.placeholder.com/400x250" alt="Placeholder Image">
-                        <h2 class="waef-members-name">His Excellency Amos Sawyer</h2>
-                        <p>President, Republic of Liberia (1990 - 1994)</p>
-                    </div>
-                </div> --}}
+                
                 <!-- Member 3: Kadre Desire Quedraogo -->
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class=" mt-5">
-                            {{-- <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-1 mb-2  ">Our Founder</div> --}}
-                            <h1 class="display-6 ">His Excellency Kadre Desire Quedraogo</h1>
-                            <div class="bg-light border-bottom border-5 waef-members-boarder border-primary rounded p-2 mb-1">
-                            </div>
-                            <p class="mb-5">Prime Minister, Burkina Faso (1996 - 2000)</p>
-                            {{-- <a class="btn btn-primary py-2 px-3 me-3" href="">
-                                Learn More
-                                <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                                    <i class="fa fa-arrow-right"></i>
-                                </div>
-                            </a> --}}
+                        <div class="mt-5">
+                            <h1 class="display-6">His Excellency Kadre Desire Quedraogo</h1>
+                            <div class="bg-light border-bottom border-5 waef-members-boarder border-primary rounded p-2 mb-1"></div>
+                            <p class="mb-2" style="font-weight: bold;">Prime Minister, Burkina Faso (1996 - 2000)</p>
+                            <p class="bio mb-5">Kadre Desire Quedraogo is a Burkinabe politician who served as Prime Minister of Burkina Faso from 1996 to 2000. He has played significant roles in regional integration and economic development initiatives in West Africa.</p>
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -95,13 +63,7 @@
                         </div>
                     </div>
                 </div>
-                {{-- <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="member">
-                              <img class="text-center  mb-4" src="https://via.placeholder.com/400x250" alt="Placeholder Image">
-                        <h2 class="waef-members-name">His Excellency Kadre Desire Quedraogo</h2>
-                        <p>Prime Minister, Burkina Faso (1996 - 2000)</p>
-                    </div>
-                </div> --}}
+                
                 <!-- Member 4: Abdulsalami Abubakar -->
                 <div class="row g-5">
                     <div class="container py-5">
@@ -113,43 +75,24 @@
                             </div>
                             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="mt-5">
-                                    <h1 class="display-6 ">His Excellency Abdulsalami Abubakar</h1>
-                                    <div class="bg-light border-bottom border-5 waef-members-boarder border-primary rounded p-2 mb-1">
-                                    </div>
-                                    <p class="mb-5">President, Federal Republic of Nigeria (1998 - 1999)</p>
-                                    {{-- <a class="btn btn-primary py-2 px-3 me-3" href="">
-                                        Learn More
-                                        <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                                            <i class="fa fa-arrow-right"></i>
-                                        </div>
-                                    </a> --}}
+                                    <h1 class="display-6">His Excellency Abdulsalami Abubakar</h1>
+                                    <div class="bg-light border-bottom border-5 waef-members-boarder border-primary rounded p-2 mb-1"></div>
+                                    <p class="mb-2" style="font-weight: bold;">President, Federal Republic of Nigeria (1998 - 1999)</p>
+                                    <p class="bio mb-5">Abdulsalami Abubakar served as Nigeria's president from 1998 to 1999, overseeing the transition from military to civilian rule. He is lauded for his role in facilitating a peaceful transition to democracy in Nigeria.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                {{-- <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="member">
-                              <img class="text-center  mb-4" src="https://via.placeholder.com/400x250" alt="Placeholder Image">
-                        <h2 class="waef-members-name">His Excellency Abdulsalami Abubakar</h2>
-                        <p>President, Federal Republic of Nigeria (1998 - 1999)</p>
-                    </div>
-                </div> --}}
+                
                 <!-- Member 5: Pedro Pires -->
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class=" mt-5">
-                            {{-- <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-1 mb-2  ">Our Founder</div> --}}
-                            <h1 class="display-6 ">His Excellency Pedro Pires</h1>
-                            <div class="bg-light border-bottom border-5 waef-members-boarder border-primary rounded p-2 mb-1">
-                            </div>
-                            <p class="mb-5">President, Cape Verde (2001 - 2011)</p>
-                            {{-- <a class="btn btn-primary py-2 px-3 me-3" href="">
-                                Learn More
-                                <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                                    <i class="fa fa-arrow-right"></i>
-                                </div>
-                            </a> --}}
+                        <div class="mt-5">
+                            <h1 class="display-6">His Excellency Pedro Pires</h1>
+                            <div class="bg-light border-bottom border-5 waef-members-boarder border-primary rounded p-2 mb-1"></div>
+                            <p class="mb-2" style="font-weight: bold;">President, Cape Verde (2001 - 2011)</p>
+                            <p class="bio mb-5">Pedro Pires is a Cape Verdean politician who served as the President of Cape Verde from 2001 to 2011. He is recognized for his contributions to the country's political stability and economic progress.</p>
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -158,13 +101,7 @@
                         </div>
                     </div>
                 </div>
-                {{-- <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="member">
-                              <img class="text-center  mb-4" src="https://via.placeholder.com/400x250" alt="Placeholder Image">
-                        <h2 class="waef-members-name">His Excellency Pedro Pires</h2>
-                        <p>President, Cape Verde (2001 - 2011)</p>
-                    </div>
-                </div> --}}
+                
                 <!-- Member 6: Ellen Sirleaf Johnson -->
                 <div class="row g-5">
                     <div class="container py-5">
@@ -176,130 +113,35 @@
                             </div>
                             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="mt-5">
-                                    <h1 class="display-6 ">Her Excellency Madam Ellen Sirleaf Johnson</h1>
-                                    <div class="bg-light border-bottom border-5 waef-members-boarder border-primary rounded p-2 mb-1">
-                                    </div>
-                                    <p class="mb-5">President, Republic of Liberia (2006 - 2018)</p>
-                                    {{-- <a class="btn btn-primary py-2 px-3 me-3" href="">
-                                        Learn More
-                                        <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                                            <i class="fa fa-arrow-right"></i>
-                                        </div>
-                                    </a> --}}
+                                    <h1 class="display-6">Her Excellency Madam Ellen Sirleaf Johnson</h1>
+                                    <div class="bg-light border-bottom border-5 waef-members-boarder border-primary rounded p-2 mb-1"></div>
+                                    <p class="mb-2" style="font-weight: bold;">President, Republic of Liberia (2006 - 2018)</p>
+                                    <p class="bio mb-5">Ellen Johnson Sirleaf was the President of Liberia from 2006 to 2018, and she is the first elected female head of state in Africa. She is known for her efforts in promoting peace, economic development, and women's rights in Liberia.</p>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                {{-- <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="member">
-                              <img class="text-center  mb-4" src="https://via.placeholder.com/400x250" alt="Placeholder Image">
-                        <h2 class="waef-members-name">Her Excellency Madam Ellen Sirleaf Johnson</h2>
-                        <p>President, Republic of Liberia (2006 - 2018)</p>
-                    </div>
-                </div> --}}
-                <!-- Member 7: Ernest Bai Koroma -->
-                <div class="row g-5">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class=" mt-5">
-                            {{-- <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-1 mb-2  ">Our Founder</div> --}}
-                            <h1 class="display-6 ">His Excellency Ernest Bai Koroma</h1>
-                            <div class="bg-light border-bottom border-5 waef-members-boarder border-primary rounded p-2 mb-1">
-                            </div>
-                            <p class="mb-5">President, Sierra Leone (2007 - 2018)</p>
-                            {{-- <a class="btn btn-primary py-2 px-3 me-3" href="">
-                                Learn More
-                                <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                                    <i class="fa fa-arrow-right"></i>
-                                </div>
-                            </a> --}}
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
-                            <img class="position-absolute w-100 h-100 pt-5 pe-5" src="{{asset('img/dummy.png')}}" alt="" style="object-fit: cover;">
-                        </div>
-                    </div>
-                </div>
-              
-                <!-- Member 8: Thomas Boni Yayi -->
-                <div class="row g-5">
-                    <div class="container py-5">
-                        <div class="row g-5 align-items-center">
-                            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
-                                    <img class="position-absolute w-100 h-100 pt-3 pe-5" src="{{asset('img/dummy.png')}}" alt="" style="object-fit: cover;">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="mt-5">
-                                    <h1 class="display-6 ">His Excellency Thomas Boni Yayi</h1>
-                                    <div class="bg-light border-bottom border-5 waef-members-boarder border-primary rounded p-2 mb-1">
-                                    </div>
-                                    <p class="mb-5">President, Republic of Benin (2006 - 2016)</p>
-                                    {{-- <a class="btn btn-primary py-2 px-3 me-3" href="">
-                                        Learn More
-                                        <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                                            <i class="fa fa-arrow-right"></i>
-                                        </div>
-                                    </a> --}}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-               
-                <!-- Member 9: Dr. Goodluck Ebele Jonathan -->
-                <div class="row g-5">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class=" mt-5">
-                            {{-- <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-1 mb-2  ">Our Founder</div> --}}
-                            <h1 class="display-6 ">His Excellency Dr. Goodluck Ebele Jonathan</h1>
-                            <div class="bg-light border-bottom border-5 waef-members-boarder border-primary rounded p-2 mb-1">
-                            </div>
-                            <p class="mb-5">President, Federal Republic of Nigeria (2011 - 2015)</p>
-                            {{-- <a class="btn btn-primary py-2 px-3 me-3" href="">
-                                Learn More
-                                <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                                    <i class="fa fa-arrow-right"></i>
-                                </div>
-                            </a> --}}
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
-                            <img class="position-absolute w-100 h-100 pt-5 pe-5" src="{{asset('img/dummy.png')}}" alt="" style="object-fit: cover;">
                         </div>
                     </div>
                 </div>
                 
+                <!-- Member 7: Ernest Bai Koroma -->
                 <div class="row g-5">
-                    <div class="container py-5">
-                        <div class="row g-5 align-items-center">
-                            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
-                                    <img class="position-absolute w-100 h-100 pt-3 pe-5" src="{{asset('img/dummy.png')}}" alt="" style="object-fit: cover;">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="mt-5">
-                                    <h1 class="display-6 ">His Excellency Dioncounda Traore</h1>
-                                    <div class="bg-light border-bottom border-5 waef-members-boarder border-primary rounded p-2 mb-1">
-                                    </div>
-                                    <p class="mb-5">Acting President, Mali (2012 - 2013)</p>
-                                    {{-- <a class="btn btn-primary py-2 px-3 me-3" href="">
-                                        Learn More
-                                        <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                                            <i class="fa fa-arrow-right"></i>
-                                        </div>
-                                    </a> --}}
-                                </div>
-                            </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="mt-5">
+                            <h1 class="display-6">His Excellency Ernest Bai Koroma</h1>
+                            <div class="bg-light border-bottom border-5 waef-members-boarder border-primary rounded p-2 mb-1"></div>
+                            <p class="mb-2" style="font-weight: bold;">President, Republic of Sierra Leone (2007 - 2018)</p>
+                            <p class="bio mb-5">Ernest Bai Koroma served as the President of Sierra Leone from 2007 to 2018. He is credited with fostering economic growth and improving infrastructure in Sierra Leone during his tenure.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
+                            <img class="position-absolute w-100 h-100 pt-5 pe-5" src="{{asset('img/dummy.png')}}" alt="" style="object-fit: cover;">
                         </div>
                     </div>
                 </div>
-               
             </div>
+            
+            
         </div>
     </div>
 </body>
