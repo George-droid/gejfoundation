@@ -221,13 +221,7 @@
                         </div>
                     </div>
                 </div>
-                {{-- <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="member">
-                              <img class="text-center  mb-4" src="https://via.placeholder.com/400x250" alt="Placeholder Image">
-                        <h2 class="waef-members-name">His Excellency Ernest Bai Koroma</h2>
-                        <p>President, Sierra Leone (2007 - 2018)</p>
-                    </div>
-                </div> --}}
+              
                 <!-- Member 8: Thomas Boni Yayi -->
                 <div class="row g-5">
                     <div class="container py-5">
@@ -254,13 +248,7 @@
                         </div>
                     </div>
                 </div>
-                {{-- <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="member">
-                              <img class="text-center  mb-4" src="https://via.placeholder.com/400x250" alt="Placeholder Image">
-                        <h2 class="waef-members-name">His Excellency Thomas Boni Yayi</h2>
-                        <p>President, Republic of Benin (2006 - 2016)</p>
-                    </div>
-                </div> --}}
+               
                 <!-- Member 9: Dr. Goodluck Ebele Jonathan -->
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -284,14 +272,7 @@
                         </div>
                     </div>
                 </div>
-                {{-- <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="member">
-                              <img class="text-center  mb-4" src="https://via.placeholder.com/400x250" alt="Placeholder Image">
-                        <h2 class="waef-members-name">His Excellency Dr. Goodluck Ebele Jonathan</h2>
-                        <p>President, Federal Republic of Nigeria (2011 - 2015)</p>
-                    </div>
-                </div> --}}
-                <!-- Member 10: Dioncounda Traore -->
+                
                 <div class="row g-5">
                     <div class="container py-5">
                         <div class="row g-5 align-items-center">
@@ -317,13 +298,7 @@
                         </div>
                     </div>
                 </div>
-                {{-- <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="member">
-                              <img class="text-center  mb-4" src="https://via.placeholder.com/400x250" alt="Placeholder Image">
-                        <h2 class="waef-members-name">His Excellency Dioncounda Traore</h2>
-                        <p>Acting President, Mali (2012 - 2013)</p>
-                    </div>
-                </div> --}}
+               
             </div>
         </div>
     </div>
