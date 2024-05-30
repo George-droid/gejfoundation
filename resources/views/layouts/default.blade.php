@@ -73,7 +73,7 @@
                         </div>
                     </div>
                     <div class="nav-item dropdown">
-                        <a href="{{ route ('blog')}}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">News And Media</a>
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">News And Media</a>
                         <div class="dropdown-menu m-0">
                             <a href="{{ route ('blog')}}" class="dropdown-item">Latest News</a>
                             <a href="{{ route ('gejresources')}}" class="dropdown-item">Resources</a>

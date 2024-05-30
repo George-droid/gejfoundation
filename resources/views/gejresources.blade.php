@@ -67,7 +67,6 @@
         </ul>
     </div>
 </body>
-</html>
 
 @endsection
 </html>
