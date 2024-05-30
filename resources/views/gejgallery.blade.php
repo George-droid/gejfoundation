@@ -35,89 +35,62 @@
                         <div class="text-center mb-5">
                             <h1 class="display-6">Foundation Gallery</h1>
                         </div>
-                        <div class="gallery-container">
+                        <div class="gallery-container row">
                             <!-- Gallery Item 1 -->
-                            <div class="gallery-item col-lg-4 col-md-6 mb-4">
+                            <div class="gallery-item col-lg-4 col-md-6 mb-4" data-images="https://via.placeholder.com/300x200/0000FF, https://via.placeholder.com/300x200/008000, https://via.placeholder.com/300x200/FF0000">
                                 <div class="position-relative mt-auto">
                                     <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="Gallery Image 1">
                                     <div class="overlay">
                                         <div class="overlay-text px-1">Photos of Peace Conference 2024</div>
-                                        <a href="gallery-page1.html" class="btn btn-outline-primary">
+                                        <button class="btn btn-outline-primary view-button">
                                             View
                                             <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                                                 <i class="fa fa-arrow-right"></i>
                                             </div>
-                                        </a>
+                                        </button>
                                     </div>
                                 </div>
                             </div>
                             <!-- Gallery Item 2 -->
-                            <div class="gallery-item col-lg-4 col-md-6 mb-4">
+                            <div class="gallery-item col-lg-4 col-md-6 mb-4" data-images="https://via.placeholder.com/300x200/FFFF00, https://via.placeholder.com/300x200/FF00FF, https://via.placeholder.com/300x200/00FFFF">
                                 <div class="position-relative mt-auto">
                                     <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="Gallery Image 2">
                                     <div class="overlay">
                                         <div class="overlay-text">Annual Meeting 2023 Highlights</div>
-                                        <a href="gallery-page2.html" class="btn btn-outline-primary">
+                                        <button class="btn btn-outline-primary view-button">
                                             View
                                             <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                                                 <i class="fa fa-arrow-right"></i>
                                             </div>
-                                        </a>
+                                        </button>
                                     </div>
                                 </div>
                             </div>
                             <!-- Gallery Item 3 -->
-                            <div class="gallery-item col-lg-4 col-md-6 mb-4">
+                            <div class="gallery-item col-lg-4 col-md-6 mb-4" data-images="https://via.placeholder.com/300x200/123456, https://via.placeholder.com/300x200/654321, https://via.placeholder.com/300x200/abcdef">
                                 <div class="position-relative mt-auto">
                                     <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="Gallery Image 3">
                                     <div class="overlay">
                                         <div class="overlay-text">Community Outreach Program 2022</div>
-                                        <a href="gallery-page3.html" class="btn btn-outline-primary">
+                                        <button class="btn btn-outline-primary view-button">
                                             View
                                             <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                                                 <i class="fa fa-arrow-right"></i>
                                             </div>
-                                        </a>
+                                        </button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="d-inline-block rounded-pill bg-secondary text-primary justify-content-center py-1 px-3 mb-3">Recents</div>
-                    <!-- Gallery Section -->
-                    <div class="row">
-                       
-                        <!-- Column for gallery images -->
-                        <div class="col-md-3 mb-4">
-                            <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="Image 1">
-                        </div>
-                        <div class="col-md-3 mb-4">
-                            <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="Image 2">
-                        </div>
-                        <div class="col-md-3 mb-4">
-                            <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="Image 3">
-                        </div>
-                        <div class="col-md-3 mb-4">
-                            <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="Image 1">
-                        </div>
-                        <div class="col-md-3 mb-4">
-                            <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="Image 2">
-                        </div>
-                        <div class="col-md-3 mb-4">
-                            <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="Image 3">
-                        </div>
-                        <div class="col-md-3 mb-4">
-                            <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="Image 1">
-                        </div>
-                        <div class="col-md-3 mb-4">
-                            <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="Image 2">
-                        </div>
-                        <div class="col-md-3 mb-4">
-                            <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="Image 3">
-                        </div>
-                        
-                        <!-- Add more images as needed -->
+                    <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                        <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Recents</div>
                     </div>
+                    <!-- Gallery Section -->
+                    <div class="row" id="dynamic-gallery">
+                        <!-- Dynamic images will be loaded here -->
+                    </div>
+                    
                 </div>
             </div>
         </div>
