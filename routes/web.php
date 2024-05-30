@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ResourceController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\CustomAuthController;
@@ -19,6 +20,7 @@ Route::get('/empowerment', [CustomAuthController::class, 'empowerment'])->name('
 Route::get('/contact-us', [CustomAuthController::class, 'contact'])->name('contact');
 Route::get('/waef', [CustomAuthController::class, 'waef'])->name('waef');
 Route::get('/waefmembers', [CustomAuthController::class, 'waefmembers'])->name('waefmembers');
+Route::get('/resources', [CustomAuthController::class, 'resources'])->name('resources');
 Route::get('/waefworks', [CustomAuthController::class, 'waefworks'])->name('waefworks');
 Route::get('/gejgallery', [CustomAuthController::class, 'gejgallery'])->name('gejgallery');
 Route::post('/contact-us/submit', [CustomAuthController::class, 'submitContactForm'])->name('contact.submit');
@@ -50,9 +52,13 @@ Route::group(['middleware' => ['auth']], function () {
     Route::get('/dashboard/list-images', [GalleryController::class, 'listImages'])->name('be.listImages');
     Route::delete('/dashboard/list-images/delete/{id}', [GalleryController::class, 'deleteImages'])->name('be.deleteImages');
 
-    Route::get('/dashboard/add-resources', [HeroController::class, 'addResources'])->name('be.addResources');
-    // Route::post('/dashboard/save-hero', [HeroController::class, 'saveHero'])->name('be.saveHero');
-    // Route::get('/dashboard/list-hero', [HeroController::class, 'listHero'])->name('be.listHero');
-    // Route::delete('/dashboard/list-hero/delete/{id}', [HeroController::class, 'deleteHero'])->name('be.deleteHero');
+    Route::get('/dashboard/add-hero', [HeroController::class, 'addHero'])->name('be.addHero');
+    Route::post('/dashboard/save-hero', [HeroController::class, 'saveHero'])->name('be.saveHero');
+    Route::get('/dashboard/list-hero', [HeroController::class, 'listHero'])->name('be.listHero');
+    Route::delete('/dashboard/list-hero/delete/{id}', [HeroController::class, 'deleteHero'])->name('be.deleteHero');
 
+    Route::get('/dashboard/add-resources', [ResourceController::class, 'addResources'])->name('be.addResources');
+    Route::post('/dashboard/save-resources', [ResourceController::class, 'saveResources'])->name('be.saveResources');
+    Route::get('/dashboard/list-resources', [ResourceController::class, 'listResources'])->name('be.listResources');
+    Route::delete('/dashboard/list-resources/delete/{id}', [ResourceController::class, 'deleteResources'])->name('be.deleteResources');
 });
