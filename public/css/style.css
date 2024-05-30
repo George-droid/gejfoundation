@@ -618,6 +618,45 @@ p {
     color: #333;
 }
 
+.gallery-container .gallery-item .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.gallery-container .gallery-item:hover .overlay {
+    opacity: 1;
+}
+
+.gallery-container .gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+#dynamic-gallery img {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+#dynamic-gallery img.show {
+    opacity: 1;
+}
+
+.img-fluid.border {
+    border-width: 5px;
+    border-style: solid;
+}
+
 .gallery-container {
     display: flex;
     justify-content: space-around;

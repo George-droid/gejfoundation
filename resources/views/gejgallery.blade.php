@@ -30,19 +30,18 @@
                         </ul>
                     </nav>
           
-
                     <div class="container py-3">
                         <div class="text-center mb-5">
                             <h1 class="display-6">Foundation Gallery</h1>
                         </div>
                         <div class="gallery-container row">
                             <!-- Gallery Item 1 -->
-                            <div class="gallery-item col-lg-4 col-md-6 mb-4" data-images="https://via.placeholder.com/300x200/0000FF, https://via.placeholder.com/300x200/008000, https://via.placeholder.com/300x200/FF0000">
+                            <div class="gallery-item col-lg-4 col-md-6 mb-4" data-images="https://via.placeholder.com/300x200/FFFFFF, https://via.placeholder.com/300x200/FFFFFF, https://via.placeholder.com/300x200/FFFFFF, https://via.placeholder.com/300x200/FFFFFF, https://via.placeholder.com/300x200/FFFFFF, https://via.placeholder.com/300x200/FFFFFF, https://via.placeholder.com/300x200/FFFFFF, https://via.placeholder.com/300x200/FFFFFF">
                                 <div class="position-relative mt-auto">
-                                    <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="Gallery Image 1">
+                                    <img src="https://via.placeholder.com/400x300/FFFFFF" class="img-fluid border border-success" alt="Gallery Image 1">
                                     <div class="overlay">
                                         <div class="overlay-text px-1">Photos of Peace Conference 2024</div>
-                                        <button class="btn btn-outline-primary view-button">
+                                        <button class="btn btn-outline-primary view-button" aria-label="View Photos of Peace Conference 2024">
                                             View
                                             <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                                                 <i class="fa fa-arrow-right"></i>
@@ -52,12 +51,12 @@
                                 </div>
                             </div>
                             <!-- Gallery Item 2 -->
-                            <div class="gallery-item col-lg-4 col-md-6 mb-4" data-images="https://via.placeholder.com/300x200/FFFF00, https://via.placeholder.com/300x200/FF00FF, https://via.placeholder.com/300x200/00FFFF">
+                            <div class="gallery-item col-lg-4 col-md-6 mb-4" data-images="https://via.placeholder.com/300x200/FFFFFF, https://via.placeholder.com/300x200/FFFFFF, https://via.placeholder.com/300x200/FFFFFF, https://via.placeholder.com/300x200/FFFFFF, https://via.placeholder.com/300x200/FFFFFF, https://via.placeholder.com/300x200/FFFFFF, https://via.placeholder.com/300x200/FFFFFF, https://via.placeholder.com/300x200/FFFFFF">
                                 <div class="position-relative mt-auto">
-                                    <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="Gallery Image 2">
+                                    <img src="https://via.placeholder.com/400x300/FFFFFF" class="img-fluid border border-success" alt="Gallery Image 2">
                                     <div class="overlay">
                                         <div class="overlay-text">Annual Meeting 2023 Highlights</div>
-                                        <button class="btn btn-outline-primary view-button">
+                                        <button class="btn btn-outline-primary view-button" aria-label="View Annual Meeting 2023 Highlights">
                                             View
                                             <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                                                 <i class="fa fa-arrow-right"></i>
@@ -67,12 +66,12 @@
                                 </div>
                             </div>
                             <!-- Gallery Item 3 -->
-                            <div class="gallery-item col-lg-4 col-md-6 mb-4" data-images="https://via.placeholder.com/300x200/123456, https://via.placeholder.com/300x200/654321, https://via.placeholder.com/300x200/abcdef">
+                            <div class="gallery-item col-lg-4 col-md-6 mb-4" data-images="https://via.placeholder.com/300x200/FFFFFF, https://via.placeholder.com/300x200/FFFFFF, https://via.placeholder.com/300x200/FFFFFF, https://via.placeholder.com/300x200/FFFFFF, https://via.placeholder.com/300x200/FFFFFF, https://via.placeholder.com/300x200/FFFFFF, https://via.placeholder.com/300x200/FFFFFF, https://via.placeholder.com/300x200/FFFFFF">
                                 <div class="position-relative mt-auto">
-                                    <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="Gallery Image 3">
+                                    <img src="https://via.placeholder.com/400x300/FFFFFF" class="img-fluid border border-success" alt="Gallery Image 3">
                                     <div class="overlay">
                                         <div class="overlay-text">Community Outreach Program 2022</div>
-                                        <button class="btn btn-outline-primary view-button">
+                                        <button class="btn btn-outline-primary view-button" aria-label="View Community Outreach Program 2022">
                                             View
                                             <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                                                 <i class="fa fa-arrow-right"></i>
@@ -90,6 +89,7 @@
                     <div class="row" id="dynamic-gallery">
                         <!-- Dynamic images will be loaded here -->
                     </div>
+                    
                     
                 </div>
             </div>

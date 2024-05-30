@@ -186,34 +186,36 @@
             });
         });
     </script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const viewButtons = document.querySelectorAll(".view-button");
-            const dynamicGallery = document.getElementById("dynamic-gallery");
-        
-            viewButtons.forEach(button => {
-                button.addEventListener("click", function() {
-                    const galleryItem = this.closest(".gallery-item");
-                    const images = galleryItem.getAttribute("data-images").split(", ");
-                    
-                    // Clear current gallery
-                    dynamicGallery.innerHTML = "";
-        
-                    // Add new images to gallery
-                    images.forEach(src => {
-                        const col = document.createElement("div");
-                        col.className = "col-md-3 mb-4";
-                        const img = document.createElement("img");
-                        img.src = src;
-                        img.className = "img-fluid";
-                        img.alt = "Gallery Image";
-                        col.appendChild(img);
-                        dynamicGallery.appendChild(col);
-                    });
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const viewButtons = document.querySelectorAll(".view-button");
+        const dynamicGallery = document.getElementById("dynamic-gallery");
+    
+        viewButtons.forEach(button => {
+            button.addEventListener("click", function() {
+                const galleryItem = this.closest(".gallery-item");
+                const images = galleryItem.getAttribute("data-images").split(", ");
+                
+                // Clear current gallery
+                dynamicGallery.innerHTML = "";
+    
+                // Add new images to gallery
+                images.forEach(src => {
+                    const col = document.createElement("div");
+                    col.className = "col-md-3 mb-4";
+                    const img = document.createElement("img");
+                    img.src = src.trim();
+                    img.className = "img-fluid border border-success";
+                    img.alt = "Gallery Image";
+                    img.onload = () => img.classList.add("show");
+                    col.appendChild(img);
+                    dynamicGallery.appendChild(col);
                 });
             });
         });
-        </script>
+    });
+    </script>
+    
         
 </body>
 
