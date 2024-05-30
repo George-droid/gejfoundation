@@ -15,20 +15,20 @@
                         <h1 class="display-6 mb-5">Look Through our Events and Activities</h1>
                     </div>
                     
-                    <nav aria-label="Page navigation example">
-                        <ul class="pagination justify-content-center mb-5">
-                         
-                          <li class="page-item"><a class="page-link" href="#">All</a></li>
-                          <li class="page-item"><a class="page-link" href="#">Events</a></li>
-                          <li class="page-item"><a class="page-link" href="#">Charity</a></li>
-                          <li class="page-item"><a class="page-link" href="#">Politics</a></li>
-                          <li class="page-item"><a class="page-link" href="#">Goverment</a></li>
-                          <li class="page-item"><a class="page-link" href="#">Goodluck Jonathan</a></li>
-                          <li class="page-item"><a class="page-link" href="#">Donation</a></li>
-                          <li class="page-item"><a class="page-link" href="#">Orphanage</a></li>
-                          <li class="page-item"><a class="page-link" href="#">Work</a></li>
-                        </ul>
-                    </nav>
+                    
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center mb-5">
+                        <li class="page-item"><a class="page-link filter-link" data-category="All" href="#">All</a></li>
+                        <li class="page-item"><a class="page-link filter-link" data-category="Events" href="#">Events</a></li>
+                        <li class="page-item"><a class="page-link filter-link" data-category="Charity" href="#">Charity</a></li>
+                        <li class="page-item"><a class="page-link filter-link" data-category="Politics" href="#">Politics</a></li>
+                        <li class="page-item"><a class="page-link filter-link" data-category="Government" href="#">Government</a></li>
+                        <li class="page-item"><a class="page-link filter-link" data-category="Goodluck Jonathan" href="#">Goodluck Jonathan</a></li>
+                        <li class="page-item"><a class="page-link filter-link" data-category="Donation" href="#">Donation</a></li>
+                        <li class="page-item"><a class="page-link filter-link" data-category="Orphanage" href="#">Orphanage</a></li>
+                        <li class="page-item"><a class="page-link filter-link" data-category="Work" href="#">Work</a></li>
+                    </ul>
+                </nav>
           
                     <div class="container py-3">
                         <div class="text-center mb-5">

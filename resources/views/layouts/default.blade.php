@@ -189,17 +189,35 @@
   <script>
     document.addEventListener("DOMContentLoaded", function() {
         const viewButtons = document.querySelectorAll(".view-button");
+        const filterLinks = document.querySelectorAll(".filter-link");
         const dynamicGallery = document.getElementById("dynamic-gallery");
+        const galleryItems = document.querySelectorAll(".gallery-item");
+    
+        function filterGallery(category) {
+            dynamicGallery.innerHTML = "";
+            galleryItems.forEach(item => {
+                if (category === "All" || item.getAttribute("data-category") === category) {
+                    const images = item.getAttribute("data-images").split(", ");
+                    images.forEach(src => {
+                        const col = document.createElement("div");
+                        col.className = "col-md-3 mb-4";
+                        const img = document.createElement("img");
+                        img.src = src.trim();
+                        img.className = "img-fluid border border-success";
+                        img.alt = "Gallery Image";
+                        img.onload = () => img.classList.add("show");
+                        col.appendChild(img);
+                        dynamicGallery.appendChild(col);
+                    });
+                }
+            });
+        }
     
         viewButtons.forEach(button => {
             button.addEventListener("click", function() {
                 const galleryItem = this.closest(".gallery-item");
                 const images = galleryItem.getAttribute("data-images").split(", ");
-                
-                // Clear current gallery
                 dynamicGallery.innerHTML = "";
-    
-                // Add new images to gallery
                 images.forEach(src => {
                     const col = document.createElement("div");
                     col.className = "col-md-3 mb-4";
@@ -213,8 +231,20 @@
                 });
             });
         });
+    
+        filterLinks.forEach(link => {
+            link.addEventListener("click", function(event) {
+                event.preventDefault();
+                const category = this.getAttribute("data-category");
+                filterGallery(category);
+            });
+        });
+    
+        // Initial load
+        filterGallery("All");
     });
     </script>
+    
     
         
 </body>
