@@ -13,8 +13,29 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8"> <!-- Increased the width -->
                                 <div class="hero-content-wrapper py-4 px-5 border border-key-color rounded custom-box"> <!-- Adjusted padding and custom class -->
-                                    <h1 class="fs-2 text-white mb-2 mx-2 animated slideInDown">Promoting Peace and Prosperity</h1>
-                                    <p class="fs-4 text-white-50 mb-3 animated slideInDown">Fostering Good Governance: Strengthening Democracy for a Stable and Prosperous Society</p>
+                                    <h1 class="fs-4 text-white mb-2 mx-2 animated slideInDown">Promoting Peace and Prosperity</h1>
+                                    <p class="fs-6  text-white-50 mb-3 animated slideInDown">Fostering Good Governance: Strengthening Democracy for a Stable and Prosperous Society</p>
+                                    <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
+                                        Learn More
+                                        <div class="d-inline-flex btn-sm-square bg-white text-key-color rounded-circle ms-2">
+                                            <i class="fa fa-arrow-right"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item active">
+                <img class="w-100" src="{{asset('img/banner2.jpeg')}}" alt="Image">
+                <div class="carousel-caption text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8"> <!-- Increased the width -->
+                                <div class="hero-content-wrapper py-4 px-5 border border-key-color rounded custom-box"> <!-- Adjusted padding and custom class -->
+                                    <h1 class="fs-4 text-white mb-2 mx-2 animated slideInDown">Promoting Peace and Prosperity</h1>
+                                    <p class="fs-6  text-white-50 mb-3 animated slideInDown">Fostering Good Governance: Strengthening Democracy for a Stable and Prosperous Society</p>
                                     <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
                                         Learn More
                                         <div class="d-inline-flex btn-sm-square bg-white text-key-color rounded-circle ms-2">
@@ -357,9 +378,9 @@
                         <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgejfoundation&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId"
                             width="340" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                     </div>
-                    <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.15s">
+                    {{-- <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.15s">
                         <a class="twitter-timeline"  href="https://twitter.com/Wisdomgeo_rge?ref_src=twsrc%5Etfw">Tweets by Wisdomgeo_rge</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                    </div>
+                    </div> --}}
                 </div>
             </div>                 
         </div>
