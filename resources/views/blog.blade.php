@@ -21,8 +21,8 @@
                                 <p class="card-text">A news analysis by Emmanuel Oloniruha, News Agency of Nigeria (NAN)
                                     Recent happenings in West Africa points the fact of the danger democracy and good governance are facing in the region. The military takeover in Mali, Chad, Burkina Faso, Sudan and Niger Republic showed the fragility of moving West Africa out of its challenge of poverty, low infrastructure and globalisation.</p>
                                 <div class="card-footer">
-                                <a href="#" class="card-link">Read More</a>
-                                <a href="#" class="card-link">Comments: 3</a>
+                                <a href="{{ route ('blogpage')}}" class="card-link">Read More</a>
+                                <a href="{{ route ('blogpage')}}" class="card-link">Comments: 3</a>
                                 </div>
                             </div>
                         </div>
@@ -36,8 +36,8 @@
 
                                 Jonathan, who departed Abuja for Monrovia on Tuesday morning, is joined in the mission by former Burkinabe prime minister and one-time president of the Economic Community of West African States (ECOWAS) Kadre Ouedraogo and other leaders from the subregion. The mission, which also includes staff from the WAEF secretariat, will assess the preparedness of stakeholders ahead of the election.</p>
                                 <div class="card-footer">
-                                <a href="#" class="card-link">Read More</a>
-                                <a href="#" class="card-link">Comments: 3</a>
+                                    <a href="{{ route ('blogpage')}}" class="card-link">Read More</a>
+                                <a href="{{ route ('blogpage')}}" class="card-link">Comments: 3</a>
                                 </div>
                             </div>
                         </div>
@@ -51,8 +51,8 @@
 
                                     Convener of the Forum and former President of Nigeria, Dr Goodluck Ebele Jonathan in a letter addressed to Macky Sall on behalf of the Forum referred to the President’s action as a display of exemplary leadership, a gesture worthy of emulation by other leaders.</p>
                                 <div class="card-footer">
-                                <a href="#" class="card-link">Read More</a>
-                                <a href="#" class="card-link">Comments: 3</a>
+                                    <a href="{{ route ('blogpage')}}" class="card-link">Read More</a>
+                                    <a href="{{ route ('blogpage')}}" class="card-link">Comments: 3</a>
                                 </div>
                             </div>
                         </div>
@@ -66,8 +66,8 @@
 
                                     The heads of international observation missions in Sierra Leone in a joint statement signed by Goodluck Jonathan, for WAEF, Hailemariam Dasalegn Boshe, Africa Union, Mohamed Ibn Chambas for ECOWAS, and Yemi Osibanjo for Commonwealth, said it was disturbed by the inflammatory language circulating on the social media and appealed to the citizens of Sierra Leone to continue to exercise restraint concerning the outcome of the elections.</p>
                                 <div class="card-footer">
-                                <a href="#" class="card-link">Read More</a>
-                                <a href="#" class="card-link">Comments: 3</a>
+                                    <a href="{{ route ('blogpage')}}" class="card-link">Read More</a>
+                                    <a href="{{ route ('blogpage')}}" class="card-link">Comments: 3</a>
                                 </div>
                             </div>
                         </div>
@@ -85,8 +85,8 @@
                                     
                                     “The mission urges citizens of Sierra Leone to approach the election with utmost patriotism by prioritizing the nation’s peace and stability and refrain from acts capable of undermining the nation’s democracy.”</p>
                                 <div class="card-footer">
-                                <a href="#" class="card-link">Read More</a>
-                                <a href="#" class="card-link">Comments: 3</a>
+                                    <a href="{{ route ('blogpage')}}" class="card-link">Read More</a>
+                                    <a href="{{ route ('blogpage')}}" class="card-link">Comments: 3</a>
                                 </div>
                             </div>
                         </div>

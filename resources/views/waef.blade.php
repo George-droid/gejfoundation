@@ -16,6 +16,11 @@
         <div class="container-fluid waef " data-parallax="scroll" data-image-src="img/carousel-2.jpg">
             <div class="container py-5">
                 <div class="row g-5 align-items-center">
+                    <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="position-relative overflow-hidden" style="min-height: 400px;">
+                            <img class="position-absolute top-0 start-0 w-100 h-auto" src="{{asset('img/waef-logo.png')}}" alt="WAEF Logo">
+                        </div>
+                    </div>
                     <div class="col-lg-7 wow fadeIn" data-wow-delay="0.1s">
                         <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3 waef-header">ABOUT WAEF</div>
                         <h1 class="display-6 text-white mb-1"></h1>
@@ -35,13 +40,8 @@
                             as ECOWAS, UNOWAS and other relevant stakeholders in the sub-region.
                         </p>
                     </div>
-                    <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
-                            <img class="position-absolute w-100 h-100 pt-5 pe-5" src="{{asset('img/waef-logo.png')}}" alt="" style="object-fit: cover;">
-                        </div>
-                    </div>
-                    
                 </div>
+                
             </div>
         </div>
         {{-- </div> --}}
