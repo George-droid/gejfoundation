@@ -224,108 +224,32 @@
             <div class="container py-5">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                     <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Latest News</div>
-                    {{-- <h1 class="display-6 mb-5"></h1> --}}
                 </div>
                 <div class="row g-4 justify-content-center">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
-                            <div class="text-center p-4 pt-0">
-                                <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
-                                    <small>Political Analysis </small>
+                    @foreach($newsItems as $news)
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.{{ $loop->index + 1 }}s">
+                            <div class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
+                                <div class="text-center p-4 pt-0">
+                                    <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
+                                        <small>{{ $news->category->name }}</small>
+                                    </div>
+                                    <h5 class="mb-3">{{ $news->title }}</h5>
+                                    <p>{{ $news->excerpt }}</p>
                                 </div>
-                                <h5 class="mb-3">Coup d’états: Dangers of democratic disruption and African solutions</h5>
-                                <p>Coup d’états: Dangers of democratic disruption and African solutions A news analysis by Emmanuel Oloniruha, News Agency of Nigeria (NAN)…</p>
-                                {{-- <div class="causes-progress bg-light p-3 pt-2">
-                                    <div class="d-flex justify-content-between">
-                                        <p class="text-dark">$10,000 <small class="text-body">Goal</small></p>
-                                        <p class="text-dark">$9,542 <small class="text-body">Raised</small></p>
+                                <div class="position-relative mt-auto">
+                                    <img class="img-fluid" src="{{ asset($news->image) }}" alt="{{ $news->title }}">
+                                    <div class="causes-overlay">
+                                        <a class="btn btn-outline-primary" href="">
+                                            Read More
+                                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
+                                                <i class="fa fa-arrow-right"></i>
+                                            </div>
+                                        </a>
                                     </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                                            <span>90%</span>
-                                        </div>
-                                    </div>
-                                </div> --}}
-                            </div>
-                            <div class="position-relative mt-auto">
-                                <img class="img-fluid" src="{{asset('img/courses-1.jpg')}}" alt="">
-                                <div class="causes-overlay">
-                                    <a class="btn btn-outline-primary" href="{{ route ('blog')}}">
-                                        Read More
-                                        <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                            <i class="fa fa-arrow-right"></i>
-                                        </div>
-                                    </a>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
-                            <div class="text-center p-4 pt-0">
-                                <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
-                                    <small> Regional Governance</small>
-                                </div>
-                                <h5 class="mb-3">Jonathan leads WAEF pre-election mission to Liberia</h5>
-                                <p>Former President Dr. Goodluck Ebele Jonathan leads the West African Elders Forum (WAEF) pre-election election mission to Liberia ahead of …</p>
-                                {{-- <div class="causes-progress bg-light p-3 pt-2">
-                                    <div class="d-flex justify-content-between">
-                                        <p class="text-dark">$10,000 <small class="text-body">Goal</small></p>
-                                        <p class="text-dark">$9,542 <small class="text-body">Raised</small></p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                                            <span>90%</span>
-                                        </div>
-                                    </div>
-                                </div> --}}
-                            </div>
-                            <div class="position-relative mt-auto">
-                                <img class="img-fluid" src="{{asset('img/courses-2.jpg')}}" alt="">
-                                <div class="causes-overlay">
-                                    <a class="btn btn-outline-primary" href="{{ route ('blog')}}">
-                                        Read More
-                                        <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                            <i class="fa fa-arrow-right"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
-                            <div class="text-center p-4 pt-0">
-                                <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
-                                    <small>Political Tenure</small>
-                                </div>
-                                <h5 class="mb-3">WAEF commends Macky Sall for declining third term</h5>
-                                <p>The West Africa Elders Forum (WAEF) has commended the president of Senegal Macky Sall for declining to run for a …</p>
-                                {{-- <div class="causes-progress bg-light p-3 pt-2">
-                                    <div class="d-flex justify-content-between">
-                                        <p class="text-dark">$10,000 <small class="text-body">Goal</small></p>
-                                        <p class="text-dark">$9,542 <small class="text-body">Raised</small></p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                                            <span>90%</span>
-                                        </div>
-                                    </div>
-                                </div> --}}
-                            </div>
-                            <div class="position-relative mt-auto">
-                                <img class="img-fluid" src="{{asset('img/courses-3.jpg')}}" alt="">
-                                <div class="causes-overlay">
-                                    <a class="btn btn-outline-primary" href="{{ route ('blog')}}">
-                                        Read More
-                                        <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                            <i class="fa fa-arrow-right"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    @endforeach
                 </div>
             </div>
         </div>
@@ -378,9 +302,10 @@
                         <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgejfoundation&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId"
                             width="340" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                     </div>
-                    {{-- <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.15s">
-                        <a class="twitter-timeline"  href="https://twitter.com/Wisdomgeo_rge?ref_src=twsrc%5Etfw">Tweets by Wisdomgeo_rge</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                    </div> --}}
+                    <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.15s">
+                        {{-- <a class="twitter-timeline"  href="https://twitter.com/Wisdomgeo_rge?ref_src=twsrc%5Etfw">Tweets by Wisdomgeo_rge</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> --}}
+                        <a class="twitter-timeline" href="https://twitter.com/GEJFoundation?ref_src=twsrc%5Etfw">Tweets by GEJFoundation</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
                 </div>
             </div>                 
         </div>

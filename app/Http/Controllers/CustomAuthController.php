@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Post;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -9,7 +10,8 @@ class CustomAuthController extends Controller
 {
     public function home()
     {
-        return view('home');
+        $newsItems = Post::latest()->take(6)->get();
+        return view('home', compact('newsItems'));
     }
     public function about()
     {
