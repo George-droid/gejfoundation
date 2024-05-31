@@ -667,6 +667,7 @@ p {
     color: #333;
 }
 
+/* General styles */
 .gallery-container {
     display: flex;
     flex-wrap: wrap;
@@ -687,19 +688,14 @@ p {
         width: calc(33.33% - 20px); /* Three items per row on medium screens */
     }
 }
+
 @media (max-width: 576px) {
-    .gallery-item .overlay {
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        padding: 30px; /* Adjust padding for better readability */
-    }
-    .gallery-item .overlay-text {
-        font-size: 16px; /* Adjust font size for better readability */
+    .gallery-item {
+        width: calc(100% - 20px); /* One item per row on small screens */
     }
 }
 
+/* Image and overlay styles */
 .gallery-item img {
     width: 100%;
     transition: transform 0.3s ease;
@@ -724,6 +720,7 @@ p {
     opacity: 0;
     transition: opacity 0.3s ease;
     text-align: center;
+    padding: 20px; /* Add padding for better readability */
 }
 
 .gallery-item:hover .overlay {
@@ -744,6 +741,20 @@ p {
 .overlay-arrow:hover {
     transform: scale(1.2);
 }
+
+/* Adjustments for small screens */
+@media (max-width: 576px) {
+    .overlay {
+        padding: 10px; /* Less padding on small screens */
+    }
+    .overlay-text {
+        font-size: 16px; /* Smaller font size on small screens */
+    }
+    .view-button {
+        font-size: 14px; /* Adjust button font size */
+    }
+}
+
 
 .section-title {
     color: #226733;
