@@ -21,8 +21,8 @@
                                 <p class="card-text">A news analysis by Emmanuel Oloniruha, News Agency of Nigeria (NAN)
                                     Recent happenings in West Africa points the fact of the danger democracy and good governance are facing in the region. The military takeover in Mali, Chad, Burkina Faso, Sudan and Niger Republic showed the fragility of moving West Africa out of its challenge of poverty, low infrastructure and globalisation.</p>
                                 <div class="card-footer">
-                                <a href="#" class="card-link">Read More</a>
-                                <a href="#" class="card-link">Comments: 3</a>
+                                <a href="{{ route ('blogpage')}}" class="card-link">Read More</a>
+                                <a href="{{ route ('blogpage')}}" class="card-link">Comments: 3</a>
                                 </div>
                             </div>
                         </div>
