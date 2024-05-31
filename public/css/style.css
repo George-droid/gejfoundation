@@ -284,6 +284,9 @@ p {
     object-fit: cover;
     width: 100%;
 }
+.position-relative img {
+    object-fit: cover;
+}
 
 @media (max-width: 767.98px) {
     .mobile-hidden-image {
