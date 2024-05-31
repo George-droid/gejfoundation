@@ -27,7 +27,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item active">
+            <div class="carousel-item ">
                 <img class="w-100" src="{{asset('img/banner2.jpeg')}}" alt="Image">
                 <div class="carousel-caption text-center">
                     <div class="container">
