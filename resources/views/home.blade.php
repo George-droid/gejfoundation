@@ -3,7 +3,7 @@
 @section('content')
     <body>
  <!-- Carousel Start -->
-<div class="container-fluid p-0 mb-5">
+ <div class="container-fluid p-0 mb-5">
     <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -11,10 +11,10 @@
                 <div class="carousel-caption text-center">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <div class="col-lg-7">
-                                <div class="hero-content-wrapper  py-3 px-4 border border-key-color rounded-pill">
-                                    <h1 class="fs-3 text-white mb-2 mx-2 animated slideInDown">Promoting Peace and Prosperity</h1>
-                                    <p class="fs-5 text-white-50 mb-3 animated slideInDown">Fostering Good Governance: Strengthening Democracy for a Stable and Prosperous Society</p>
+                            <div class="col-lg-8"> <!-- Increased the width -->
+                                <div class="hero-content-wrapper py-4 px-5 border border-key-color rounded custom-box"> <!-- Adjusted padding and custom class -->
+                                    <h1 class="fs-4 text-white mb-2 mx-2 animated slideInDown">Promoting Peace and Prosperity</h1>
+                                    <p class="fs-6  text-white-50 mb-3 animated slideInDown">Fostering Good Governance: Strengthening Democracy for a Stable and Prosperous Society</p>
                                     <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
                                         Learn More
                                         <div class="d-inline-flex btn-sm-square bg-white text-key-color rounded-circle ms-2">
@@ -27,15 +27,15 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item ">
                 <img class="w-100" src="{{asset('img/banner2.jpeg')}}" alt="Image">
                 <div class="carousel-caption text-center">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <div class="col-lg-7">
-                                <div class="hero-content-wrapper  py-3 px-4 border border-key-color rounded-pill">
-                                    <h1 class="fs-3 text-white mb-2 mx-2 animated slideInDown">Promoting Peace and Prosperity</h1>
-                                    <p class="fs-5 text-white-50 mb-3 animated slideInDown">Fostering Good Governance: Strengthening Democracy for a Stable and Prosperous Society</p>
+                            <div class="col-lg-8"> <!-- Increased the width -->
+                                <div class="hero-content-wrapper py-4 px-5 border border-key-color rounded custom-box"> <!-- Adjusted padding and custom class -->
+                                    <h1 class="fs-4 text-white mb-2 mx-2 animated slideInDown">Promoting Peace and Prosperity</h1>
+                                    <p class="fs-6  text-white-50 mb-3 animated slideInDown">Fostering Good Governance: Strengthening Democracy for a Stable and Prosperous Society</p>
                                     <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
                                         Learn More
                                         <div class="d-inline-flex btn-sm-square bg-white text-key-color rounded-circle ms-2">
@@ -48,6 +48,7 @@
                     </div>
                 </div>
             </div>
+            
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -59,6 +60,8 @@
         </button>
     </div>
 </div>
+
+
 <!-- Carousel End -->
 
 
@@ -294,7 +297,7 @@
                         <div class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
                             <div class="text-center p-4 pt-0">
                                 <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
-                                    <small>Political Tenor</small>
+                                    <small>Political Tenure</small>
                                 </div>
                                 <h5 class="mb-3">WAEF commends Macky Sall for declining third term</h5>
                                 <p>The West Africa Elders Forum (WAEF) has commended the president of Senegal Macky Sall for declining to run for a …</p>
