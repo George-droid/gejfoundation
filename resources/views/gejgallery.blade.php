@@ -33,7 +33,7 @@
                         <!-- Gallery Item 1 -->
                         <div class="gallery-item col-lg-4 col-md-6 mb-4">
                             <div class="position-relative mt-auto">
-                                <img src="https://via.placeholder.com/400x300/FFFFFF" class="img-fluid border border-success" alt="Gallery Image 1">
+                                <img src="{{asset('img/Placeholder.svg')}}" class="img-fluid border border-success" alt="Gallery Image 1">
                                 <div class="overlay">
                                     <div class="overlay-text px-1">Photos of Peace Conference 2024</div>
                                     <button class="btn btn-outline-primary view-button" aria-label="View Photos of Peace Conference 2024">
@@ -48,7 +48,7 @@
                         <!-- Gallery Item 2 -->
                         <div class="gallery-item col-lg-4 col-md-6 mb-4">
                             <div class="position-relative mt-auto">
-                                <img src="https://via.placeholder.com/400x300/FFFFFF" class="img-fluid border border-success" alt="Gallery Image 2">
+                                <img src="{{asset('img/Placeholder.svg')}}"  class="img-fluid border border-success" alt="Gallery Image 2">
                                 <div class="overlay">
                                     <div class="overlay-text">Annual Meeting 2023 Highlights</div>
                                     <button class="btn btn-outline-primary view-button" aria-label="View Annual Meeting 2023 Highlights">
@@ -63,7 +63,7 @@
                         <!-- Gallery Item 3 -->
                         <div class="gallery-item col-lg-4 col-md-6 mb-4">
                             <div class="position-relative mt-auto">
-                                <img src="https://via.placeholder.com/400x300/FFFFFF" class="img-fluid border border-success" alt="Gallery Image 3">
+                                <img src="{{asset('img/Placeholder.svg')}}"  class="img-fluid border border-success" alt="Gallery Image 3">
                                 <div class="overlay">
                                     <div class="overlay-text">Community Outreach Program 2022</div>
                                     <button class="btn btn-outline-primary view-button" aria-label="View Community Outreach Program 2022">
