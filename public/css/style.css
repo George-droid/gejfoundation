@@ -687,6 +687,18 @@ p {
         width: calc(33.33% - 20px); /* Three items per row on medium screens */
     }
 }
+@media (max-width: 576px) {
+    .gallery-item .overlay {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        padding: 30px; /* Adjust padding for better readability */
+    }
+    .gallery-item .overlay-text {
+        font-size: 16px; /* Adjust font size for better readability */
+    }
+}
 
 .gallery-item img {
     width: 100%;

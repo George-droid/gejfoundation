@@ -25,7 +25,7 @@
                     </ul>
                 </nav>
             
-                <div class="container py-3">
+               <div class="container py-3">
                     <div class="text-center mb-5">
                         <h1 class="display-6">Foundation Gallery</h1>
                     </div>
@@ -77,7 +77,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                     <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Recents</div>
                 </div>
@@ -90,6 +90,67 @@
             </div>
      
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const viewButtons = document.querySelectorAll(".view-button");
+            const filterLinks = document.querySelectorAll(".filter-link");
+            const dynamicGallery = document.getElementById("dynamic-gallery");
+            const galleryItems = document.querySelectorAll(".gallery-item");
+
+            function filterGallery(category) {
+                dynamicGallery.innerHTML = "";
+                galleryItems.forEach(item => {
+                    if (category === "All" || item.getAttribute("data-category") === category) {
+                        const images = item.getAttribute("data-images").split(", ");
+                        images.forEach(src => {
+                            const col = document.createElement("div");
+                            col.className = "col-md-3 mb-4";
+                            const img = document.createElement("img");
+                            img.src = src.trim();
+                            img.className = "img-fluid border border-success";
+                            img.alt = "Gallery Image";
+                            img.onload = () => img.classList.add("show");
+                            col.appendChild(img);
+                            dynamicGallery.appendChild(col);
+                        });
+                    }
+                });
+            }
+
+            viewButtons.forEach(button => {
+                button.addEventListener("click", function() {
+                    const galleryItem = this.closest(".gallery-item");
+                    const images = galleryItem.getAttribute("data-images").split(", ");
+                    dynamicGallery.innerHTML = "";
+                    images.forEach(src => {
+                        const col = document.createElement("div");
+                        col.className = "col-md-3 mb-4";
+                        const img = document.createElement("img");
+                        img.src = src.trim();
+                        img.className = "img-fluid border border-success";
+                        img.alt = "Gallery Image";
+                        img.onload = () => img.classList.add("show");
+                        col.appendChild(img);
+                        dynamicGallery.appendChild(col);
+                    });
+                });
+            });
+
+            filterLinks.forEach(link => {
+                link.addEventListener("click", function(event) {
+                    event.preventDefault();
+                    const category = this.getAttribute("data-category");
+                    filterGallery(category);
+                });
+            });
+
+            // Initial load
+            filterGallery("All");
+        });
+    </script>
 </body>
 
 </html>
