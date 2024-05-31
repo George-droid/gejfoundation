@@ -21,7 +21,7 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
-                            <img class="position-absolute w-100 h-100 pt-5 pe-5" src="{{asset('img/dummy.png')}}" alt="" style="object-fit: cover;">
+                            <img class="position-absolute top-0 start-0 w-100 h-auto img-fluid" src="{{asset('img/dummy.png')}}" alt="" style="object-fit: cover;">
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
                         <div class="row g-5 align-items-center">
                             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
-                                    <img class="position-absolute w-100 h-100 pt-3 pe-5" src="{{asset('img/dummy.png')}}" alt="" style="object-fit: cover;">
+                                    <img class="position-absolute top-0 start-0 w-100 h-auto img-fluid" src="{{asset('img/dummy.png')}}" alt="" style="object-fit: cover;">
                                 </div>
                             </div>
                             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -59,7 +59,7 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
-                            <img class="position-absolute w-100 h-100 pt-5 pe-5" src="{{asset('img/dummy.png')}}" alt="" style="object-fit: cover;">
+                            <img class="position-absolute top-0 start-0 w-100 h-auto img-fluid" src="{{asset('img/dummy.png')}}" alt="" style="object-fit: cover;">
                         </div>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                         <div class="row g-5 align-items-center">
                             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
-                                    <img class="position-absolute w-100 h-100 pt-3 pe-5" src="{{asset('img/dummy.png')}}" alt="" style="object-fit: cover;">
+                                    <img class="position-absolute top-0 start-0 w-100 h-auto img-fluid" src="{{asset('img/dummy.png')}}" alt="" style="object-fit: cover;">
                                 </div>
                             </div>
                             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -97,7 +97,7 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
-                            <img class="position-absolute w-100 h-100 pt-5 pe-5" src="{{asset('img/dummy.png')}}" alt="" style="object-fit: cover;">
+                            <img class="position-absolute top-0 start-0 w-100 h-auto img-fluid" src="{{asset('img/dummy.png')}}" alt="" style="object-fit: cover;">
                         </div>
                     </div>
                 </div>
@@ -108,7 +108,7 @@
                         <div class="row g-5 align-items-center">
                             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
-                                    <img class="position-absolute w-100 h-100 pt-3 pe-5" src="{{asset('img/dummy.png')}}" alt="" style="object-fit: cover;">
+                                    <img class="position-absolute top-0 start-0 w-100 h-auto img-fluid" src="{{asset('img/dummy.png')}}" alt="" style="object-fit: cover;">
                                 </div>
                             </div>
                             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -135,13 +135,11 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
-                            <img class="position-absolute w-100 h-100 pt-5 pe-5" src="{{asset('img/dummy.png')}}" alt="" style="object-fit: cover;">
+                            <img class="position-absolute top-0 start-0 w-100 h-auto img-fluid" src="{{asset('img/dummy.png')}}" alt="" style="object-fit: cover;">
                         </div>
                     </div>
                 </div>
             </div>
-            
-            
         </div>
     </div>
 </body>
