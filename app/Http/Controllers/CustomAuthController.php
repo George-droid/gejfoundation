@@ -33,15 +33,18 @@ class CustomAuthController extends Controller
     }
     public function services()
     {
-        return view('service');
+        $newsItems = Post::where('category_id', 1)->orderBy('published_at', 'desc')->get();
+        return view('service', compact('newsItems'));
     }
     public function security()
     {
-        return view('security');
+        $newsItems = Post::where('category_id', 2)->orderBy('published_at', 'desc')->get();
+        return view('security', compact('newsItems'));
     }
     public function empowerment()
     {
-        return view('empowerment');
+        $newsItems = Post::where('category_id', 3)->orderBy('published_at', 'desc')->get();
+        return view('empowerment', compact('newsItems'));
     }
     public function contact()
     {

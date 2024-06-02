@@ -38,6 +38,32 @@
                 <h1 class="fs-4 mb-5">Stay Updated with Our Latest Activities</h1>
             </div>
             <div class="row g-4 justify-content-center">
+                @foreach($newsItems as $news)
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="{{ asset($news->image) }}" alt="News Image">
+                            <div class="card-body d-flex flex-column">
+                                <div class="mb-2">
+                                    @foreach($news->tags as $tag)
+                                        <span class="badge bg-primary">{{ $tag->name }}</span>
+                                    @endforeach
+                                </div>
+                                <h5 class="card-title">{{ $news->title }}</h5>
+                                <p class="card-text">{{ $news->excerpt }}</p>
+                                <div class="mt-auto">
+                                    <a href="{{ route('blogpage', $news->slug) }}" class="btn btn-outline-primary">
+                                        Read More
+                                        <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
+                                            <i class="fa fa-arrow-right"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+            {{-- <div class="row g-4 justify-content-center">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="card h-100">
                         <img class="card-img-top" src="{{asset('img/courses-1.jpg')}}" alt="News Image">
@@ -98,8 +124,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- Add more news cards as needed -->
-            </div>
+            </div> --}}
         </div>
     </div>
 
