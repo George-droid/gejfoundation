@@ -82,6 +82,10 @@
                           <input type="checkbox" class="form-check-input" id="exampleCheck1">
                           <label class="form-check-label" for="exampleCheck1">Check me out</label>
                         </div> --}}
+                        <div class="mb-3">
+                            <label for="published_at" class="form-label">Published At</label>
+                            <input type="datetime-local" name="set_published_at" class="form-control" id="published_at" value="{{ old('published_at') }}">
+                        </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
                 </div>

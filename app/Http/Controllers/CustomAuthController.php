@@ -10,7 +10,7 @@ class CustomAuthController extends Controller
 {
     public function home()
     {
-        $newsItems = Post::latest()->take(6)->get();
+        $newsItems = Post::latest()->take(3)->get();
         return view('home', compact('newsItems'));
     }
     public function about()

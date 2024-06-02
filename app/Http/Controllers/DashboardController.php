@@ -27,6 +27,7 @@ class DashboardController extends Controller
             'content' => 'required|string',
             'image' => 'required|file|mimes:jpeg,png,jpg,gif|max:2048', // Image validation
             'category_id' =>  'required',
+            'set_published_at' => 'required|date',
         ]);
         
 
@@ -44,6 +45,7 @@ class DashboardController extends Controller
         $validatedData['content'] = $request->input('content');
         // $validatedData['image'] $request->input('image') ? '/news/images/' . $imageName : null; 
         $validatedData['published_at'] = now();
+        $validatedData['set_published_at'] = $request->input('set_published_at');
         $validatedData['category_id'] = $request->input('category_id');
         // dd($validatedData);
 
