@@ -13,7 +13,7 @@ use App\Http\Controllers\HeroController;
 Route::get('/', [CustomAuthController::class, 'home'])->name('home');
 Route::get('/about', [CustomAuthController::class, 'about'])->name('about');
 Route::get('/blog', [CustomAuthController::class, 'blog'])->name('blog');
-Route::get('/blogpage', [CustomAuthController::class, 'blogpage'])->name('blogpage');
+Route::get('/blog/{slug}', [CustomAuthController::class, 'blogpage'])->name('blogpage');
 Route::get('/gejresources', [CustomAuthController::class, 'gejresources'])->name('gejresources');
 Route::get('/services', [CustomAuthController::class, 'services'])->name('services');
 Route::get('/security', [CustomAuthController::class, 'security'])->name('security');

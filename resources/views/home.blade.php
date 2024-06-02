@@ -231,7 +231,9 @@
                             <div class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
                                 <div class="text-center p-4 pt-0">
                                     <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
-                                        <small>{{ $news->category->name }}</small>
+                                        @foreach($news->tags as $tag)
+                                            <small>{{ $tag->name }}</small>
+                                        @endforeach
                                     </div>
                                     <h5 class="mb-3">{{ $news->title }}</h5>
                                     <p>{{ $news->excerpt }}</p>
@@ -239,7 +241,7 @@
                                 <div class="position-relative mt-auto">
                                     <img class="img-fluid" src="{{ asset($news->image) }}" alt="{{ $news->title }}">
                                     <div class="causes-overlay">
-                                        <a class="btn btn-outline-primary" href="">
+                                        <a class="btn btn-outline-primary" href="{{ route('blogpage', $news->slug) }}">
                                             Read More
                                             <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                                                 <i class="fa fa-arrow-right"></i>

@@ -21,9 +21,10 @@ class CustomAuthController extends Controller
     {
         return view('blog');
     }
-    public function blogpage()
+    public function blogpage($slug)
     {
-        return view('blogpage');
+        $news = Post::where('slug', $slug)->firstOrFail();
+        return view('blogpage', compact('news'));
     }
     public function gejresources()
     {
