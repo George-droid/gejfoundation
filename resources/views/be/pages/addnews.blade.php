@@ -84,7 +84,7 @@
                         </div> --}}
                         <div class="mb-3">
                             <label for="published_at" class="form-label">Published At</label>
-                            <input type="datetime-local" name="set_published_at" class="form-control" id="published_at" value="{{ old('published_at') }}">
+                            <input type="datetime-local" name="published_at" class="form-control" id="published_at" value="{{ old('published_at') }}">
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>

@@ -14,7 +14,7 @@
                             <img src="{{ asset($news->image) }}" class="img-fluid col-12" alt="Post Image" style="height: 300px; object-fit: cover;">
                         </div>
                         <div class="text-justify">
-                            <p class="lead">August 6, 2023</p>
+                            <p class="lead">{{ \Carbon\Carbon::parse($news->published_at)->format('j F, Y') }}</p>
                             {!! $news->content !!}
                         </div>
                     </div>

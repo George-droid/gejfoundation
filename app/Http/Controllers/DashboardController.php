@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Carbon\Carbon;
 use App\Models\Tag;
 use App\Models\Post;
 use App\Models\Category;
@@ -27,7 +28,7 @@ class DashboardController extends Controller
             'content' => 'required|string',
             'image' => 'required|file|mimes:jpeg,png,jpg,gif|max:2048', // Image validation
             'category_id' =>  'required',
-            'set_published_at' => 'required|date',
+            'published_at' => 'required|date',
         ]);
         
 
@@ -44,8 +45,8 @@ class DashboardController extends Controller
         $validatedData['excerpt'] = $request->input('excerpt');
         $validatedData['content'] = $request->input('content');
         // $validatedData['image'] $request->input('image') ? '/news/images/' . $imageName : null; 
-        $validatedData['published_at'] = now();
-        $validatedData['set_published_at'] = $request->input('set_published_at');
+        $validatedData['published_at'] = $request->input('published_at');
+        // $validatedData['set_published_at'] = $request->input('set_published_at');
         $validatedData['category_id'] = $request->input('category_id');
         // dd($validatedData);
 

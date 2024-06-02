@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Carbon\Carbon;
 use App\Models\Post;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -10,7 +11,7 @@ class CustomAuthController extends Controller
 {
     public function home()
     {
-        $newsItems = Post::latest()->take(3)->get();
+        $newsItems = Post::orderBy('published_at', 'desc')->take(3)->get();
         return view('home', compact('newsItems'));
     }
     public function about()
