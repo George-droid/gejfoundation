@@ -19,6 +19,7 @@
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
     <link href="{{ asset('lib/animate/animate.min.css') }}" rel="stylesheet">
@@ -28,6 +29,7 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
 
 
 
@@ -164,6 +166,9 @@
     <script src="{{ asset('lib/owlcarousel/owl.carousel.min.js') }}"></script>
     <script src="{{ asset('lib/parallax/parallax.min.js') }}"></script>
     <script src="{{ asset('lib/counterup/counterup.min.js') }}"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
 
     <!-- Template Javascript -->
     <script src="{{ asset('js/main.js') }}"></script>
@@ -186,64 +191,7 @@
             });
         });
     </script>
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const viewButtons = document.querySelectorAll(".view-button");
-        const filterLinks = document.querySelectorAll(".filter-link");
-        const dynamicGallery = document.getElementById("dynamic-gallery");
-        const galleryItems = document.querySelectorAll(".gallery-item");
-    
-        function filterGallery(category) {
-            dynamicGallery.innerHTML = "";
-            galleryItems.forEach(item => {
-                if (category === "All" || item.getAttribute("data-category") === category) {
-                    const images = item.getAttribute("data-images").split(", ");
-                    images.forEach(src => {
-                        const col = document.createElement("div");
-                        col.className = "col-md-3 mb-4";
-                        const img = document.createElement("img");
-                        img.src = src.trim();
-                        img.className = "img-fluid border border-success";
-                        img.alt = "Gallery Image";
-                        img.onload = () => img.classList.add("show");
-                        col.appendChild(img);
-                        dynamicGallery.appendChild(col);
-                    });
-                }
-            });
-        }
-    
-        viewButtons.forEach(button => {
-            button.addEventListener("click", function() {
-                const galleryItem = this.closest(".gallery-item");
-                const images = galleryItem.getAttribute("data-images").split(", ");
-                dynamicGallery.innerHTML = "";
-                images.forEach(src => {
-                    const col = document.createElement("div");
-                    col.className = "col-md-3 mb-4";
-                    const img = document.createElement("img");
-                    img.src = src.trim();
-                    img.className = "img-fluid border border-success";
-                    img.alt = "Gallery Image";
-                    img.onload = () => img.classList.add("show");
-                    col.appendChild(img);
-                    dynamicGallery.appendChild(col);
-                });
-            });
-        });
-    
-        filterLinks.forEach(link => {
-            link.addEventListener("click", function(event) {
-                event.preventDefault();
-                const category = this.getAttribute("data-category");
-                filterGallery(category);
-            });
-        });
-    
-        // Initial load
-        filterGallery("All");
-    });
-    </script>
+
     
     
         
