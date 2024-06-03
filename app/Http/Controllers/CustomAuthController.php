@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Member;
 use Carbon\Carbon;
 use App\Models\Post;
 use Illuminate\Http\Request;
@@ -20,7 +21,8 @@ class CustomAuthController extends Controller
     }
     public function blog()
     {
-        return view('blog');
+        $newsItems = Post::orderBy('published_at', 'desc')->paginate(6);
+        return view('blog', compact('newsItems'));
     }
     public function blogpage($slug)
     {
@@ -56,7 +58,8 @@ class CustomAuthController extends Controller
     }
     public function waefmembers()
     {
-        return view('waefmembers');
+        $members = Member::where('category_id', 3)->orderBy('created_at', 'desc')->paginate(6);
+        return view('waefmembers', compact('members'));
     }
     public function waefworks()
     {

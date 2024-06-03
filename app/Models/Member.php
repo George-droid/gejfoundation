@@ -15,5 +15,10 @@ class Member extends Model
         'description',
         'image',
         'category',
+        'category_id',
     ];
+    public function category()
+    {
+        return $this->belongsTo(MemberCategory::class);
+    }
 }

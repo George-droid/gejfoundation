@@ -13,7 +13,28 @@
                 <div class="row">
                   <!-- Main Content -->
                     <div class="col-md-8">
-                        <div class="card mb-4">
+                        @foreach($newsItems as $news)
+                            <div class="card mb-4 wow fadeInUp" data-wow-delay="0.1s">
+                                <img src="{{ asset($news->image) }}" class="card-img-top" alt="Post Image">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{ $news->title }}</h5>
+                                    <p class="card-text">{{ $news->created_at->format('F j, Y') }}</p>
+                                    <p class="card-text">{!! Str::limit($news->content, 200) !!}</p>
+                                    <div class="card-footer">
+                                        <a href="{{ route('blogpage', $news->slug) }}" class="card-link">Read More</a>
+                                        {{-- <a href="{{ route('news.show', $news->id) }}#comments" class="card-link">Comments: {{ $news->comments_count }}</a> --}}
+                                    </div>
+                                </div>
+                            </div>
+                        @endforeach
+
+                        <!-- Pagination Links -->
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-center">
+                                {{ $newsItems->links() }}
+                            </ul>
+                        </nav>
+                        {{-- <div class="card mb-4">
                             <img src="{{asset('img/courses-1.jpg')}}" class="card-img-top" alt="Post Image">
                             <div class="card-body">
                                 <h5 class="card-title">Coup d’états: Dangers of democratic disruption and African solutions</h5>
@@ -99,7 +120,7 @@
                               <li class="page-item"><a class="page-link" href="#">3</a></li>
                               <li class="page-item"><a class="page-link" href="#">Next</a></li>
                             </ul>
-                        </nav>
+                        </nav> --}}
                     
                     </div>
 

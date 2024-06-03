@@ -9,6 +9,51 @@
                 <h1 class="display-6">Members of the West African Elders Forum (WAEF)</h1>
             </div>
             <div class="row g-5">
+                @foreach($members as $index => $member)
+                    <div class="row g-5">
+                        @if($index % 2 == 0)
+                            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="mt-5">
+                                    <h1 class="display-6">{{ $member->name }}</h1>
+                                    <div class="bg-light border-bottom border-5 waef-members-boarder border-primary rounded p-2 mb-1"></div>
+                                    <p class="mb-2" style="font-weight: bold;">{{ $member->position }}</p>
+                                    <p class="bio mb-5">{{ $member->description }}</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
+                                    <img class="position-absolute top-0 start-0 w-100 h-auto img-fluid" src="{{ asset($member->image) }}" alt="" style="object-fit: cover;">
+                                </div>
+                            </div>
+                        @else
+                            <div class="container py-5">
+                                <div class="row g-5 align-items-center">
+                                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                                        <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
+                                            <img class="position-absolute top-0 start-0 w-100 h-auto img-fluid" src="{{ asset($member->image) }}" alt="" style="object-fit: cover;">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                                        <div class="mt-5">
+                                            <h1 class="display-6">{{ $member->name }}</h1>
+                                            <div class="bg-light border-bottom border-5 waef-members-boarder border-primary rounded p-2 mb-1"></div>
+                                            <p class="mb-2" style="font-weight: bold;">{{ $member->position }}</p>
+                                            <p class="bio mb-5">{{ $member->description }}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        @endif
+                    </div>
+                @endforeach
+            </div>
+            
+            <!-- Pagination Links -->
+            <div class="d-flex justify-content-center">
+                {{ $members->links() }}
+            </div>
+            
+            {{-- <div class="row g-5">
                 <!-- Member 1: Chief Olusegun Obasanjo -->
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -139,7 +184,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </body>

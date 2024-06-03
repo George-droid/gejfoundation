@@ -7,6 +7,7 @@ use App\Models\Tag;
 use App\Models\Post;
 use App\Models\Category;
 use App\Models\Member;
+use App\Models\MemberCategory;
 use App\Models\Partner;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -148,20 +149,21 @@ class DashboardController extends Controller
     public function addMembers()
     {
         // $members = Member::all();
-        // $categories = Category::all();
-        return view('be.pages.addMembers');
+        $categories = MemberCategory::all();
+        return view('be.pages.addMembers', compact('categories'));
     }
     public function saveMembers(Request $request)
     {
+        // dd($request->all());
         $request->validate([
             'name' => 'required|string|max:255',
-            'position' => 'required|string|max:255',
+            'position' => 'required|string',
             'description' => 'required|string',
             'image' => 'required|file|mimes:jpeg,png,jpg,gif|max:2048',
-            'category' => 'required|in:Board Member,Member',  // Allowed categories
+            'category_id' => 'required',  // Allowed categories
         ]);
 
-        $validatedData = $request->only(['name', 'position', 'description', 'category']);
+        // $validatedData = $request->only(['name', 'position', 'description', 'category']);
 
         if ($request->hasFile('image') && $request->file('image')->isValid()) {
             $image = $request->file('image');
@@ -170,8 +172,16 @@ class DashboardController extends Controller
             $validatedData['image'] = 'members/images/' . $imageName; // Update data with image path relative to public directory
         }
 
+        $validatedData['name'] = $request->input('name');
+        $validatedData['position'] = $request->input('position');
+        $validatedData['description'] = $request->input('description');
+        $validatedData['category_id'] = $request->input('category_id');
+        // $validatedData['category_id'] = $request->input('category_id');
+
+        Member::create($validatedData);
+
         try {
-            Member::create($validatedData);
+            
 
             // Success logic here
             return redirect()->back()->with('success', 'Member created successfully!');
