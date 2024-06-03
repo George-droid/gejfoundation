@@ -261,36 +261,45 @@
         <!-- Testimonial Start -->
         <div class="container-xl py-5">
             <div class="container">
+                <!-- Section Header -->
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                     <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Partners</div>
-                    
-                </div>
-                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="img/partner1.jpg" style="max-width: 200px; margin: 0 auto;">
-                    </div>
-                    <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="img/partner2.jpg" style="max-width: 200px; margin: 0 auto;">
-                    </div>
-                    <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="img/partner3.jpg" style="max-width: 200px; margin: 0 auto;">
-                    </div>
-                    <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="img/partner4.jpg" style="max-width: 200px; margin: 0 auto;">
-                    </div>
-                    <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="img/partner5.jpg" style="max-width: 200px; margin: 0 auto;">
-                    </div>
-                    <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="img/partner6.jpg" style="max-width: 200px; margin: 0 auto;">
-                    </div>
-                    <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="img/partner7.png" style="max-width: 200px; margin: 0 auto;">
-                    </div>
                 </div>
                 
+                <!-- Carousel Container -->
+                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                    <!-- Partner 1 -->
+                    <div class="testimonial-item text-center">
+                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="{{ asset('img/partner1.jpg') }}" style="max-width: 200px; margin: 0 auto;">
+                    </div>
+                    <!-- Partner 2 -->
+                    <div class="testimonial-item text-center">
+                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="{{ asset('img/partner2.jpg') }}" style="max-width: 200px; margin: 0 auto;">
+                    </div>
+                    <!-- Partner 3 -->
+                    <div class="testimonial-item text-center">
+                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="{{ asset('img/partner3.jpg') }}" style="max-width: 200px; margin: 0 auto;">
+                    </div>
+                    <!-- Partner 4 -->
+                    <div class="testimonial-item text-center">
+                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="{{ asset('img/partner4.jpg') }}" style="max-width: 200px; margin: 0 auto;">
+                    </div>
+                    <!-- Partner 5 -->
+                    <div class="testimonial-item text-center">
+                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="{{ asset('img/partner5.jpg') }}" style="max-width: 200px; margin: 0 auto;">
+                    </div>
+                    <!-- Partner 6 -->
+                    <div class="testimonial-item text-center">
+                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="{{ asset('img/partner6.jpg') }}" style="max-width: 200px; margin: 0 auto;">
+                    </div>
+                    <!-- Partner 7 -->
+                    <div class="testimonial-item text-center">
+                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="{{ asset('img/partner7.png') }}" style="max-width: 200px; margin: 0 auto;">
+                    </div>
+                </div>
             </div>
         </div>
+        
         <!-- Testimonial End -->
 
         <!-- Socials Start -->
