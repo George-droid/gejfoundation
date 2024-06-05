@@ -191,11 +191,6 @@
                             <div class="team-text bg-light text-center p-2">
                                 <h5>Prof. Adebayo Olukoshi</h5>
                                 <p class="text-primary">Board Member</p>
-                                {{-- <div class="team-social text-center">
-                                    <a class="btn btn-square" href="mailto:your-email@example.com"><i class="fas fa-envelope"></i></a>
-                                    <a class="btn btn-square" href="tel:your-phone-number"><i class="fas fa-phone"></i></a>
-                                    <a class="btn btn-square" href="https://www.facebook.com/your-profile-or-page"><i class="fab fa-facebook-f"></i></a>
-                                </div> --}}
                             </div>
                         </div>
                     </div>

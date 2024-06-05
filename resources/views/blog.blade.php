@@ -128,59 +128,28 @@
                     
                     <!-- Sidebar -->
                         <div class="col-md-4">
-                            <!-- Categories Section -->
+                            <!-- Tags Section -->
                             <div class="card mb-4">
-                            <div class="card-header">Tags</div>
-                            <div class="card-body">
-                                <ul class="list-unstyled">
-                                <li><a href="#">Abuja</a></li>
-                                <li><a href="#">Africa</a></li>
-                                <li><a href="#">Burkina Faso</a></li>
-                                <li><a href="#">Civic Participation</a></li>
-                                <li><a href="#">Commitment</a></li>
-                                <li><a href="#">Consensus</a></li>
-                                <li><a href="#">Constitutional Review</a></li>
-                                <li><a href="#">Democracy</a></li>
-                                <li><a href="#">Democractic Principles</a></li>
-                                <li><a href="#">Dialogue</a></li>
-                                <li><a href="#">Dr. Goodluck Jonathan </a></li>
-                                <li><a href="#">ECOWAS</a></li>
-                                <li><a href="#"> Election</a></li>
-                                <li><a href="#">Ernest Bai Koroma</a></li>
-                                <li><a href="#">Freedom</a></li>
-                                <li><a href="#">Gambia</a></li>
-                                <li><a href="#">GEJ</a></li>
-                                <li><a href="#">Gender Equality</a></li>
-                                <li><a href="#">Goodluck Jonathan</a></li>
-                                <li><a href="#">Government</a></li>
-                                <li><a href="#">Human Right</a></li>
-                                <li><a href="#">Human Security</a></li>
-                                <li><a href="#">IDP camps</a></li>
-                                <li><a href="#">Justice</a></li>
-                                <li><a href="#">OLusegun Obasanjo</a></li>
-                                <li><a href="#">Pandemic</a></li>
-                                <li><a href="#">Peace</a></li>
-                                <li><a href="#">Peaceful Transitions</a></li>
-                                <li><a href="#">Promoting Peace</a></li>
-                                <li><a href="#">Solidarity</a></li>
-                                <li><a href="#">The Gambia</a></li>
-                                <li><a href="#">Transition</a></li>
-                                <li><a href="#">West African Elders Forum</a></li>
-                                <li><a href="#">West Africa</a></li>
-                                </ul>
-                            </div>
+                                <div class="card-header">Tags</div>
+                                <div class="card-body">
+                                    <ul class="list-unstyled">
+                                        @foreach($tags as $tag)
+                                        <li><a href="{{ route('blog', ['tag' => $tag->name]) }}">{{ $tag->name }}</a></li>
+                                        @endforeach
+                                    </ul>
+                                </div>
                             </div>
                     
-                            <!-- Authors Section -->
+                            <!-- Categories Section -->
                             <div class="card mb-4">
-                            <div class="card-header">Categories</div>
-                            <div class="card-body">
-                                <ul class="list-unstyled">
-                                <li><a href="#">Democracy and Elections</a></li>
-                                <li><a href="#">Peace and Security</a></li>
-                                <li><a href="#">Women and Youth empowerment</a></li>
-                                </ul>
-                            </div>
+                                <div class="card-header">Categories</div>
+                                <div class="card-body">
+                                    <ul class="list-unstyled">
+                                        @foreach($categories as $category)
+                                        <li><a href="{{ route('blog', ['category' => $category->name]) }}">{{ $category->name }}</a></li>
+                                        @endforeach
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     

@@ -85,6 +85,41 @@ class DashboardController extends Controller
 
         return redirect()->back()->with('success', 'News post deleted successfully!');
     }
+    public function editNews($id)
+    {
+        $post = Post::findOrFail($id);
+        $tags = Tag::all();
+        $categories = Category::all();
+        return view('be.pages.editNews', compact('post', 'tags', 'categories'));
+    }
+
+    public function updateNews(Request $request, $id)
+    {
+        $post = Post::findOrFail($id);
+
+        $request->validate([
+            'title' => 'required|string|max:255',
+            'slug' => 'required|string|max:255|unique:news,slug,' . $id,
+            'excerpt' => 'required|string',
+            'content' => 'required|string',
+            'image' => 'sometimes|file|mimes:jpeg,png,jpg,gif|max:2048', // Image validation
+            'category_id' => 'required',
+            'published_at' => 'nullable|date',
+        ]);
+
+        $validatedData = $request->except(['_token', '_method']);
+
+        if ($request->hasFile('image') && $request->file('image')->isValid()) {
+            $image = $request->file('image');
+            $imageName = time() . '.' . $image->getClientOriginalExtension();
+            $image->move(public_path('news/images'), $imageName); // Move the image to the desired director
+            $validatedData['image'] = 'news/images/' . $imageName; // Update data with image path relative to public directory
+        }
+
+        $post->update($validatedData);
+
+        return redirect()->back()->with('success', 'News updated successfully!');
+    }
 
     //Partners
     public function addPartners()

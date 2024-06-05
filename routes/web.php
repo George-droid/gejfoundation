@@ -37,6 +37,9 @@ Route::group(['middleware' => ['auth']], function () {
     Route::post('/dashboard/save-news', [DashboardController::class, 'saveNews'])->name('be.saveNews');
     Route::get('/dashboard/list-news', [DashboardController::class, 'listNews'])->name('be.listNews');
     Route::delete('/dashboard/list-news/delete/{id}', [DashboardController::class, 'deleteNews'])->name('be.deleteNews');
+    Route::get('/dashboard/edit-news/{id}', [DashboardController::class, 'editNews'])->name('be.editNews');
+    Route::put('/dashboard/update-news/{id}', [DashboardController::class, 'updateNews'])->name('be.updateNews');
+
 
     Route::get('/dashboard/add-partners', [DashboardController::class, 'addPartners'])->name('be.addPartners');
     Route::post('/dashboard/save-partners', [DashboardController::class, 'savePartners'])->name('be.savePartners');

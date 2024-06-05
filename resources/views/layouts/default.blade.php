@@ -125,13 +125,15 @@
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Quick Links</h5>
                     <a class="btn btn-link" href="{{ route ('about')}}">Who We Are</a>
-                    <a class="btn btn-link" href="{{ route ('services')}}">What We Do</a>
-                    <a class="btn btn-link" href="{{ route ('services')}}">Our Services</a>
-                    <a class="btn btn-link" href="{{ route ('contact')}}">Support</a>
+                    <a class="btn btn-link" href="{{ route ('services')}}">Democracy and Elections</a>
+                    <a class="btn btn-link" href="{{ route ('security')}}">Peace and Security</a>
+                    <a class="btn btn-link" href="{{ route ('empowerment')}}">Women and Youth Empowerment</a>
+                    <a class="btn btn-link" href="{{ route ('waef')}}">West African Elders Forum</a>
+                    <a class="btn btn-link" href="{{ route ('blog')}}">Latest news</a>
                     <a class="btn btn-link" href="{{ route ('contact')}}">Contact Us</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Blog</h5>
+                    <h5 class="text-light mb-4">Blog</h5> 
                     <p>News and Media.</p>
                     <div class="position-relative mx-auto" style="max-width: 400px;">
                         <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">

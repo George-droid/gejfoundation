@@ -11,25 +11,7 @@
     </div>
 
     <!-- Content Row -->
-    {{-- <div class="row">
-
-        <!-- Earnings (Monthly) Card Example -->
-        <div class="col-md-10 mb-3">
-            <div class="card border-left-primary shadow h-100 ">
-                <div class="card-body">
-                    <div class="row no-gutters align-items-center">
-                        <div class="col mr-2">
-                            <div class="h5 mb-0 font-weight-bold text-gray-800"></div>
-                        </div>
-                        <div class="col-auto">
-                            <i class="fas fa-calendar fa-2x text-gray-300"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div> --}}
+    
     <div class="container-fluid flex-grow-1 container-p-y">
         <!-- Layout Demo -->
         <div class="card-body">
@@ -57,11 +39,17 @@
                                     <td>{{ $post->excerpt }}</td>
                                     {{-- <td>{{ $post->content }}</td> --}}
                                     <td>
-                                        <form action="{{ route('be.deleteNews', ['id' => $post->id]) }}" method="POST">
-                                            @csrf
-                                            @method('DELETE')
-                                            <button type="submit" class="btn btn-danger">Delete</button>
-                                        </form>
+                                        <div class="btn-group" role="group" aria-label="News Actions">
+                                            <form action="{{ route('be.editNews', ['id' => $post->id]) }}" method="GET">
+                                                @csrf
+                                                <button type="submit" class="btn btn-info">Edit</button>
+                                            </form>
+                                            <form action="{{ route('be.deleteNews', ['id' => $post->id]) }}" method="POST">
+                                                @csrf
+                                                @method('DELETE')
+                                                <button type="submit" class="btn btn-danger">Delete</button>
+                                            </form>
+                                        </div>
                                     </td>
                                 </tr>
                             @endforeach
