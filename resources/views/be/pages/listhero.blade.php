@@ -5,7 +5,7 @@
     
     <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 class="h3 mb-0 text-gray-800">List Members</h1>
+        <h1 class="h3 mb-0 text-gray-800">List Heroes</h1>
         <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
                 class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
     </div>
@@ -57,6 +57,10 @@
                                     <td>{{ $heroItem->cta }}</td>
                                     <td>{{ $heroItem->cta_link }}</td>
                                     <td>
+                                        <form action="{{ route('be.editHero', ['id' => $heroItem->id]) }}" method="GET">
+                                            @csrf
+                                            <button type="submit" class="btn btn-info">Edit</button>
+                                        </form>
                                         <form action="{{ route('be.deleteHero', ['id' => $heroItem->id]) }}" method="POST">
                                             @csrf
                                             @method('DELETE')

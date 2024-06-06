@@ -60,6 +60,8 @@ Route::group(['middleware' => ['auth']], function () {
     Route::post('/dashboard/save-hero', [HeroController::class, 'saveHero'])->name('be.saveHero');
     Route::get('/dashboard/list-hero', [HeroController::class, 'listHero'])->name('be.listHero');
     Route::delete('/dashboard/list-hero/delete/{id}', [HeroController::class, 'deleteHero'])->name('be.deleteHero');
+    Route::get('/dashboard/edit-hero/{id}', [HeroController::class, 'editHero'])->name('be.editHero');
+    Route::put('/dashboard/update-hero/{id}', [HeroController::class, 'updateHero'])->name('be.updateHero');
 
     Route::get('/dashboard/add-resources', [ResourceController::class, 'addResources'])->name('be.addResources');
     Route::post('/dashboard/save-resources', [ResourceController::class, 'saveResources'])->name('be.saveResources');
