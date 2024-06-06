@@ -74,6 +74,7 @@ class CustomAuthController extends Controller
     }
     public function waef()
     {
+        
         return view('waef');
     }
     public function waefmembers()
@@ -81,9 +82,24 @@ class CustomAuthController extends Controller
         $members = Member::where('category_id', 3)->orderBy('created_at', 'desc')->paginate(6);
         return view('waefmembers', compact('members'));
     }
-    public function waefworks()
+    public function waefworks(Request $request)
     {
-        return view('waefworks');
+        $query = Post::query();
+        if ($request->has('tag')) {
+            $query->whereHas('tags', function ($q) use ($request) {
+                $q->where('name', $request->tag);
+            });
+        }
+
+        if ($request->has('category')) {
+            $query->whereHas('category', function ($q) use ($request) {
+                $q->where('name', $request->category);
+            });
+        }
+        $newsItems = Post::where('category_id', 4)->orderBy('published_at', 'desc')->paginate(6);
+        $tags = Tag::all();
+        $categories = Category::all();
+        return view('waefworks', compact('newsItems', 'tags', 'categories'));
     }
     public function gejgallery()
     {
