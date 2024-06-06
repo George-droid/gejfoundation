@@ -92,7 +92,6 @@ class DashboardController extends Controller
         $categories = Category::all();
         return view('be.pages.editNews', compact('post', 'tags', 'categories'));
     }
-
     public function updateNews(Request $request, $id)
     {
         $post = Post::findOrFail($id);
@@ -239,5 +238,50 @@ class DashboardController extends Controller
         $members->delete();
 
         return redirect()->back()->with('success', 'Member post deleted successfully!');
+    }
+    public function editMembers($id)
+    {
+        $members = Member::findOrFail($id);
+        // $tags = Tag::all();
+        $categories = MemberCategory::all();
+        return view('be.pages.editMembers', compact('members', 'categories'));
+    }
+    public function updateMembers(Request $request, $id)
+    {
+        $members = Member::findOrFail($id);
+
+        $request->validate([
+            'name' => 'required|string|max:255',
+            'position' => 'required|string',
+            'description' => 'required|string',
+            'image' => 'file|mimes:jpeg,png,jpg,gif|max:2048',
+            'category_id' => 'required',  // Allowed categories
+        ]);
+
+        // $validatedData = $request->only(['name', 'position', 'description', 'category']);
+
+        if ($request->hasFile('image') && $request->file('image')->isValid()) {
+            $image = $request->file('image');
+            $imageName = time() . '.' . $image->getClientOriginalExtension();
+            $image->move(public_path('members/images'), $imageName); // Move the image to the desired directory
+            $validatedData['image'] = 'members/images/' . $imageName; // Update data with image path relative to public directory
+        }
+
+        $validatedData['name'] = $request->input('name');
+        $validatedData['position'] = $request->input('position');
+        $validatedData['description'] = $request->input('description');
+        $validatedData['category_id'] = $request->input('category_id');
+
+        $members->update($validatedData);
+
+        try {
+            
+
+            // Success logic here
+            return redirect()->back()->with('success', 'Member created successfully!');
+        } catch (\Exception $e) {
+            // Handle database error or any other exceptions
+            return redirect()->back()->with('error', 'Failed to create member: ' . $e->getMessage());
+        }
     }
 }

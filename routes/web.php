@@ -50,6 +50,8 @@ Route::group(['middleware' => ['auth']], function () {
     Route::post('/dashboard/save-members', [DashboardController::class, 'saveMembers'])->name('be.saveMembers');
     Route::get('/dashboard/list-members', [DashboardController::class, 'listMembers'])->name('be.listMembers');
     Route::delete('/dashboard/list-members/delete/{id}', [DashboardController::class, 'deleteMembers'])->name('be.deleteMembers');
+    Route::get('/dashboard/edit-members/{id}', [DashboardController::class, 'editMembers'])->name('be.editMembers');
+    Route::put('/dashboard/update-members/{id}', [DashboardController::class, 'updateMembers'])->name('be.updateMembers');
 
     Route::get('/dashboard/add-images', [GalleryController::class, 'addImages'])->name('be.addImages');
     Route::post('/dashboard/save-images', [GalleryController::class, 'saveImages'])->name('be.saveImages');
