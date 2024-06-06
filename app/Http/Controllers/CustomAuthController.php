@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Carbon\Carbon;
 use App\Models\Tag;
+use App\Models\Hero;
 use App\Models\Post;
 use App\Models\Member;
 use App\Models\Category;
@@ -14,8 +15,9 @@ class CustomAuthController extends Controller
 {
     public function home()
     {
+        $heroItems = Hero::orderBy('created_at', 'desc')->take(3)->get();
         $newsItems = Post::orderBy('published_at', 'desc')->take(3)->get();
-        return view('home', compact('newsItems'));
+        return view('home', compact('newsItems', 'heroItems'));
     }
     public function about()
     {
