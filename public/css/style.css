@@ -479,7 +479,13 @@ p {
     margin: 0;
 }
 
-
+.justified-text {
+   
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin-bottom: 0;
+  }
 
 /*** Testimonial ***/
 .testimonial-carousel::before {

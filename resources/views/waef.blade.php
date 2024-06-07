@@ -24,7 +24,7 @@
                     <div class="col-lg-7 wow fadeIn" data-wow-delay="0.1s">
                         <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3 waef-header">ABOUT WAEF</div>
                         <h1 class="display-6 text-white mb-1"></h1>
-                        <p class="text-white mb-0">
+                        <p class="text-white justified-text mb-0">
                             The West African Elder’s Forum is an initiative of the Goodluck Jonathan
                             Foundation established in 2021 to serve as a home-grown and
                             non-partisan platform of past heads of state and government in West
@@ -71,7 +71,7 @@
                             <div class="p-4">
                                 <h6 class="text-primary mb-3 waef-news-header">From Vanguard News</h6>
                                 <h5 class="mb-3">Healthcare Initiative: GEJ Foundation Partners with Local NGOs</h5>
-                                <p class="mb-3">Summary of the news article goes here. This is a brief overview of what the article is about.</p>
+                                <p class="mb-3 justified-text">Summary of the news article goes here. This is a brief overview of what the article is about.</p>
                                 <a href="#" class="btn btn-outline-primary read-more waef-btn">Read More <i class="fa fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -82,7 +82,7 @@
                             <div class="p-4">
                                 <h6 class="text-primary mb-3 waef-news-header">From Daily Trust</h6>
                                 <h5 class="mb-3">Education Initiative: GEJ Foundation Launches Literacy Campaign</h5>
-                                <p class="mb-3">Summary of the news article goes here. This is a brief overview of what the article is about.</p>
+                                <p class="mb-3 justified-text">Summary of the news article goes here. This is a brief overview of what the article is about.</p>
                                 <a href="#" class="btn btn-outline-primary read-more waef-btn">Read More <i class="fa fa-arrow-right"></i></a>
                             </div>
                         </div>
