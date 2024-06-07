@@ -203,10 +203,14 @@
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                         <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Watch Now</div>
-                        <h1 class="display-6 text mb-5">DOCUMENTARY ON RESPECT FOR CONSTITUTIONAL TERM LIMITS IN WEST AFRICA</h1>
-                        <p class="text-white mb-0">The question of tenure elongation has moved from the sphere of normal devolution of power to the transitional context. It has become the main stake of the recent military-political transitions in West Africa.
-
-                            The different coups d’état perpetrated by military elites in Mali (2020, 2021), Guinea (2021) and Burkina-Faso (2022) point out how complicated the allocation of a relevant time for a successful political transition is. It appears that the sanctions are no longer effective in deterring military coups or prolonging the stay of transition governments …</p>
+                        <h1 class="display-6  mb-3">DOCUMENTARY ON RESPECT FOR CONSTITUTIONAL TERM LIMITS IN WEST AFRICA</h1>
+                        <div class="d-flex justify-content-center">
+                            <p class="text-white mb-0 justified-text">
+                              The question of tenure elongation has moved from the sphere of normal devolution of power to the transitional context. It has become the main stake of the recent military-political transitions in West Africa.
+                          
+                              The different coups d’état perpetrated by military elites in Mali (2020, 2021), Guinea (2021), and Burkina-Faso (2022) point out how complicated the allocation of a relevant time for a successful political transition is. It appears that the sanctions are no longer effective in deterring military coups or prolonging the stay of transition governments …
+                            </p>
+                        </div>
                     </div>
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                         <div class="h-100 bg-white p-5">
