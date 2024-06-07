@@ -18,7 +18,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Coup d’états: Dangers of democratic disruption and African solutions</h5>
                                 <p class="card-text">August 6, 2023</p>
-                                <p class="card-text">A news analysis by Emmanuel Oloniruha, News Agency of Nigeria (NAN)
+                                <p class="card-text justified-text">A news analysis by Emmanuel Oloniruha, News Agency of Nigeria (NAN)
                                     Recent happenings in West Africa points the fact of the danger democracy and good governance are facing in the region. The military takeover in Mali, Chad, Burkina Faso, Sudan and Niger Republic showed the fragility of moving West Africa out of its challenge of poverty, low infrastructure and globalisation.</p>
                                 <div class="card-footer">
                                 <a href="{{ route ('blogpage')}}" class="card-link">Read More</a>
@@ -32,7 +32,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Jonathan leads WAEF pre-election mission to Liberia</h5>
                                 <p class="card-text">July 11, 2023</p>
-                                <p class="card-text">Former President Dr. Goodluck Ebele Jonathan leads the West African Elders Forum (WAEF) pre-election election mission to Liberia ahead of the country’s general elections scheduled for October.
+                                <p class="card-text justified-text">Former President Dr. Goodluck Ebele Jonathan leads the West African Elders Forum (WAEF) pre-election election mission to Liberia ahead of the country’s general elections scheduled for October.
 
                                 Jonathan, who departed Abuja for Monrovia on Tuesday morning, is joined in the mission by former Burkinabe prime minister and one-time president of the Economic Community of West African States (ECOWAS) Kadre Ouedraogo and other leaders from the subregion. The mission, which also includes staff from the WAEF secretariat, will assess the preparedness of stakeholders ahead of the election.</p>
                                 <div class="card-footer">
@@ -47,7 +47,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">WAEF commends Macky Sall for declining third term</h5>
                                 <p class="card-text">July 5, 2023</p>
-                                <p class="card-text">The West Africa Elders Forum (WAEF) has commended the president of Senegal Macky Sall for declining to run for a third in the 2024 presidential election. A decision the organization describes as sacrificial, one taken in the best interest of the nation.
+                                <p class="card-text justified-text">The West Africa Elders Forum (WAEF) has commended the president of Senegal Macky Sall for declining to run for a third in the 2024 presidential election. A decision the organization describes as sacrificial, one taken in the best interest of the nation.
 
                                     Convener of the Forum and former President of Nigeria, Dr Goodluck Ebele Jonathan in a letter addressed to Macky Sall on behalf of the Forum referred to the President’s action as a display of exemplary leadership, a gesture worthy of emulation by other leaders.</p>
                                 <div class="card-footer">
@@ -62,7 +62,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">WAEF, AU, ECOWAS, Commonwealth appeal for calm in Sierra Leone</h5>
                                 <p class="card-text">June 28, 2023</p>
-                                <p class="card-text">The West Africa Elders Forum(WAEF) in conjunction with African Union, ECOWAS and Commonwealth has called for calm in Sierra Leone and urged citizens to desist from inflammatory rhetoric that is capable of jeopardizing the nation’s peace and undermining the democratic process of the country.
+                                <p class="card-text justified-text">The West Africa Elders Forum(WAEF) in conjunction with African Union, ECOWAS and Commonwealth has called for calm in Sierra Leone and urged citizens to desist from inflammatory rhetoric that is capable of jeopardizing the nation’s peace and undermining the democratic process of the country.
 
                                     The heads of international observation missions in Sierra Leone in a joint statement signed by Goodluck Jonathan, for WAEF, Hailemariam Dasalegn Boshe, Africa Union, Mohamed Ibn Chambas for ECOWAS, and Yemi Osibanjo for Commonwealth, said it was disturbed by the inflammatory language circulating on the social media and appealed to the citizens of Sierra Leone to continue to exercise restraint concerning the outcome of the elections.</p>
                                 <div class="card-footer">
@@ -77,7 +77,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Jonathan arrives Freetown, leads WAEF election mission to Sierra Leone</h5>
                                 <p class="card-text">June 21, 2023</p>
-                                <p class="card-text">The West African Elders Forum (WAEF) 2023 Election Mission to Sierra Leone has arrived in Freetown to encourage and support a peaceful democratic transition ahead of the country’s general election scheduled for this weekend, June 24.
+                                <p class="card-text justified-text">The West African Elders Forum (WAEF) 2023 Election Mission to Sierra Leone has arrived in Freetown to encourage and support a peaceful democratic transition ahead of the country’s general election scheduled for this weekend, June 24.
 
                                     Former Nigerian President and Chair of the Forum, Goodluck Ebele Jonathan, is the head of the mission. The team also has former Burkinabe prime minister and one-time president of the Economic Community of West African States (ECOWAS) Kadre Ouedraogo and staff from the WAEF secretariat as members.
                                     
