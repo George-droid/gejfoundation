@@ -2,12 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\NewsHighlight;
 use Carbon\Carbon;
 use App\Models\Tag;
 use App\Models\Post;
 use App\Models\Category;
 use App\Models\Member;
 use App\Models\MemberCategory;
+use App\Models\NewsHouse;
 use App\Models\Partner;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -224,7 +226,6 @@ class DashboardController extends Controller
             return redirect()->back()->with('error', 'Failed to create member: ' . $e->getMessage());
         }
     }
-
     public function listMembers()
     {
         $members = Member::all();
@@ -282,6 +283,103 @@ class DashboardController extends Controller
         } catch (\Exception $e) {
             // Handle database error or any other exceptions
             return redirect()->back()->with('error', 'Failed to create member: ' . $e->getMessage());
+        }
+    }
+
+    // News Highlights
+    public function addNewsHighlights()
+    {
+        // $members = Member::all();
+        $houses = NewsHouse::all();
+        return view('be.pages.addNewsHighlights', compact('houses'));
+    }
+    public function saveNewsHighlights(Request $request)
+    {
+        // dd($request->all());
+        $request->validate([
+            'title' => 'required|string|max:255',
+            'excerpt' => 'required|string',
+            'cta' => 'required|string',
+            'cta_link' => 'required|string',
+            // 'image' => 'required|file|mimes:jpeg,png,jpg,gif|max:2048',
+            'house_id' => 'required',  // Allowed categories
+        ]);
+
+        $validatedData['title'] = $request->input('title');
+        $validatedData['excerpt'] = $request->input('excerpt');
+        $validatedData['cta'] = $request->input('cta');
+        $validatedData['cta_link'] = $request->input('cta_link');
+        $validatedData['house_id'] = $request->input('house_id');
+
+        NewsHighlight::create($validatedData);
+
+        try {
+            
+
+            // Success logic here
+            return redirect()->back()->with('success', 'Member created successfully!');
+        } catch (\Exception $e) {
+            // Handle database error or any other exceptions
+            return redirect()->back()->with('error', 'Failed to create highlight: ' . $e->getMessage());
+        }
+    }
+    public function listNewsHighlights()
+    {
+        $highlights = NewsHighlight::all();
+        return view('be.pages.listNewsHighlights', compact('highlights'));
+    }
+    public function deleteNewsHighlights(Request $request, $id)
+    {
+        $highlights = NewsHighlight::findOrFail($id);
+
+        // Delete the post
+        $highlights->delete();
+
+        return redirect()->back()->with('success', 'News Highlight deleted successfully!');
+    }
+    public function editNewsHighlights($id)
+    {
+        $highlights = NewsHighlight::findOrFail($id);
+        // $tags = Tag::all();
+        $houses = NewsHouse::all();
+        return view('be.pages.editNewsHighlights', compact('highlights', 'houses'));
+    }
+    public function updateNewsHighlights(Request $request, $id)
+    {
+        $highlights = NewsHighlight::findOrFail($id);
+
+        $request->validate([
+            'title' => 'required|string|max:255',
+            'excerpt' => 'required|string',
+            'cta' => 'required|string',
+            'cta_link' => 'required|string',
+            // 'image' => 'required|file|mimes:jpeg,png,jpg,gif|max:2048',
+            'house_id' => 'required',  // Allowed categories
+        ]);
+
+        // $validatedData = $request->only(['name', 'position', 'description', 'category']);
+
+        // if ($request->hasFile('image') && $request->file('image')->isValid()) {
+        //     $image = $request->file('image');
+        //     $imageName = time() . '.' . $image->getClientOriginalExtension();
+        //     $image->move(public_path('members/images'), $imageName); // Move the image to the desired directory
+        //     $validatedData['image'] = 'members/images/' . $imageName; // Update data with image path relative to public directory
+        // }
+
+        $validatedData['title'] = $request->input('title');
+        $validatedData['excerpt'] = $request->input('excerpt');
+        $validatedData['cta'] = $request->input('cta');
+        $validatedData['cta_link'] = $request->input('cta_link');
+        $validatedData['house_id'] = $request->input('house_id');
+
+        $highlights->update($validatedData);
+
+        try {
+            // Success logic here
+            return redirect()->back()->with('success', 'Highlight updated successfully!');
+        } catch (\Exception $e) {
+            // Handle database error or any other exceptions
+            return redirect()->back()->with('error', 'Failed to update highlight: ' . $e->getMessage());
         }
     }
 }

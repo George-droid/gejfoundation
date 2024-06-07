@@ -72,8 +72,8 @@ Route::group(['middleware' => ['auth']], function () {
 
     Route::get('/dashboard/add-news-highlights', [DashboardController::class, 'addNewsHighlights'])->name('be.addNewsHighlights');
     Route::post('/dashboard/save-news-highlights', [DashboardController::class, 'saveNewsHighlights'])->name('be.saveNewsHighlights');
-    // Route::get('/dashboard/list-news-highlights', [DashboardController::class, 'listNewsHighlights'])->name('be.listNewsHighlights');
-    // Route::delete('/dashboard/list-news-highlights/delete/{id}', [DashboardController::class, 'deleteNewsHighlights'])->name('be.NewsHighlights');
-    // Route::get('/dashboard/edit-news-highlights/{id}', [DashboardController::class, 'editNewsHighlights'])->name('be.editNewsHighlights');
-    // Route::put('/dashboard/update-news-highlights/{id}', [DashboardController::class, 'updateNewsHighlights'])->name('be.updateNewsHighlights');
+    Route::get('/dashboard/list-news-highlights', [DashboardController::class, 'listNewsHighlights'])->name('be.listNewsHighlights');
+    Route::delete('/dashboard/list-news-highlights/delete/{id}', [DashboardController::class, 'deleteNewsHighlights'])->name('be.deleteNewsHighlights');
+    Route::get('/dashboard/edit-news-highlights/{id}', [DashboardController::class, 'editNewsHighlights'])->name('be.editNewsHighlights');
+    Route::put('/dashboard/update-news-highlights/{id}', [DashboardController::class, 'updateNewsHighlights'])->name('be.updateNewsHighlights');
 });

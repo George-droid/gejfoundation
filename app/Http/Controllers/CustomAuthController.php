@@ -8,6 +8,7 @@ use App\Models\Hero;
 use App\Models\Post;
 use App\Models\Member;
 use App\Models\Category;
+use App\Models\NewsHighlight;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -92,8 +93,8 @@ class CustomAuthController extends Controller
     }
     public function waef()
     {
-        
-        return view('waef');
+        $highlights = NewsHighlight::orderBy('created_at', 'desc')->take(3)->get();
+        return view('waef', compact('highlights'));
     }
     public function waefmembers()
     {

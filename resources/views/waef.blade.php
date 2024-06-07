@@ -49,21 +49,23 @@
         <div class="container-xxl bg-light my-2 py-2">
             <div class="container py-5">
                 <div class="text-center mx-auto mb-5">
-                    <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3 waef-header">Latest News from Nigerian News Houses</div>
+                    <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3 waef-header">Latest News from News Houses</div>
                 </div>
-                <div class="row g-4">
-                    <!-- News Item 1: Punch News -->
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="news-item d-flex flex-column bg-white border rounded overflow-hidden h-100">
-                            <div class="p-4">
-                                <h6 class="text-primary mb-3 waef-news-header">From Punch News</h6>
-                                <h5 class="mb-3">Empowering Youth: GEJ Foundation Launches Scholarship Program</h5>
-                                <p class="mb-3">Summary of the news article goes here. This is a brief overview of what the article is about.</p>
-                                <a href="#" class="btn btn-outline-primary read-more waef-btn">Read More <i class="fa fa-arrow-right"></i></a>
+                <div class="row g-4 justify-content-center">
+                    <!-- News Item --> 
+                    @foreach ($highlights as $highlight)
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="news-item d-flex flex-column bg-white border rounded overflow-hidden h-100">
+                                <div class="p-4">
+                                    <h6 class="text-primary mb-3 waef-news-header">From {{ $highlight->house->name }}</h6>
+                                    <h5 class="mb-3">{{ $highlight->title }}</h5>
+                                    <p class="mb-3">{{ $highlight->excerpt }}</p>
+                                    <a href="{{ $highlight->cta_link }}" class="btn btn-outline-primary read-more waef-btn">{{ $highlight->cta }}<i class="fa fa-arrow-right"></i></a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- News Item 2: Vanguard News -->
+                    @endforeach 
+                    {{-- <!-- News Item 2: Vanguard News -->
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="news-item d-flex flex-column bg-white border rounded overflow-hidden h-100">
                             <div class="p-4">
@@ -84,7 +86,7 @@
                                 <a href="#" class="btn btn-outline-primary read-more waef-btn">Read More <i class="fa fa-arrow-right"></i></a>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

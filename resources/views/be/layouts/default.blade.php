@@ -50,7 +50,7 @@
                 <!-- Divider -->
                 <hr class="sidebar-divider">
     
-                <!-- Nav Item - Pages Collapse Menu -->
+                <!-- News - Pages Collapse Menu -->
                 <li class="nav-item">
                     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                         aria-expanded="true" aria-controls="collapseTwo">
@@ -61,6 +61,21 @@
                         <div class="bg-white py-2 collapse-inner rounded">
                             <a class="collapse-item" href="{{ route('be.addNews') }}">Add News</a>
                             <a class="collapse-item" href="{{ route('be.listNews') }}">List News</a>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- News Highlights - Pages Collapse Menu -->
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#newsHighlights"
+                        aria-expanded="true" aria-controls="newsHighlights">
+                        <i class="fas fa-fw fa-flag"></i>
+                        <span>News Highlights</span>
+                    </a>
+                    <div id="newsHighlights" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <a class="collapse-item" href="{{ route('be.addNewsHighlights') }}">Add News Highlights</a>
+                            <a class="collapse-item" href="{{ route('be.listNewsHighlights') }}">List News Highlights</a>
                         </div>
                     </div>
                 </li>
