@@ -181,24 +181,15 @@
     <!-- Template Javascript -->
     <script src="{{ asset('js/main.js') }}"></script>
 
-    {{-- <script>
-        $(document).ready(function(){
-            $('[data-toggle="counter-up"]').counterUp({
-                delay: 10,
-                time: 1000
-            });
-        });
-    </script> --}}
-
     <script>
         $(document).ready(function(){
-
             $('[data-toggle="counter-up"]').counterUp({
                 delay: 10,
                 time: 1000
             });
         });
     </script>
+
    <script>
     new WOW().init();
     $(document).ready(function(){
@@ -221,7 +212,7 @@
             }
         });
     });
-</script>
+    </script>
 
 
     

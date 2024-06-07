@@ -43,9 +43,6 @@
 
 
 <!-- Carousel End -->
-
-
-
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
@@ -137,19 +134,19 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="facts-item">
-                            <i class="flaticon-donation"></i>
+                            <i class="flaticon-charity"></i>
                             <div class="facts-text">
-                                <h3 class="facts-plus" data-toggle="counter-up">2000000</h3>
-                                <p>citizens to actively participate in various levels of elections and contribute to violence free elections in Africa</p>
+                                <h3 class="facts-plus" data-toggle="counter-up">8</h3>
+                                <p>Years of experience</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="facts-item">
-                            <i class="flaticon-charity"></i>
+                            <i class="flaticon-donation"></i>
                             <div class="facts-text">
-                                <h3 class="facts-plus" data-toggle="counter-up">8</h3>
-                                <p>Years of experience</p>
+                                <h3 class="facts-plus" data-toggle="counter-up">2000000</h3>
+                                <p>citizens to actively participate in various levels of elections and contribute to violence free elections in Africa</p>
                             </div>
                         </div>
                     </div>

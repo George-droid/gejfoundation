@@ -55,17 +55,35 @@ class CustomAuthController extends Controller
     }
     public function services()
     {
-        $newsItems = Post::where('category_id', 1)->orderBy('published_at', 'desc')->get();
+        $newsItems = Post::where('category_id', 1)
+                     ->orWhereHas('tags', function($query) {
+                         $query->where('tags.id', 1); // Assuming '1' is the ID of the tag you want to filter by
+                     })
+                     ->orderBy('published_at', 'desc')
+                     ->take(3)
+                     ->get();
         return view('service', compact('newsItems'));
     }
     public function security()
     {
-        $newsItems = Post::where('category_id', 2)->orderBy('published_at', 'desc')->get();
+        $newsItems = Post::where('category_id', 2)
+        ->orWhereHas('tags', function($query) {
+            $query->where('tags.id', 2); // Assuming '1' is the ID of the tag you want to filter by
+        })
+        ->orderBy('published_at', 'desc')
+        ->take(3)
+        ->get();
         return view('security', compact('newsItems'));
     }
     public function empowerment()
     {
-        $newsItems = Post::where('category_id', 3)->orderBy('published_at', 'desc')->get();
+        $newsItems = Post::where('category_id', 3)
+        ->orWhereHas('tags', function($query) {
+            $query->where('tags.id', 3); // Assuming '1' is the ID of the tag you want to filter by
+        })
+        ->orderBy('published_at', 'desc')
+        ->take(3)
+        ->get();
         return view('empowerment', compact('newsItems'));
     }
     public function contact()
