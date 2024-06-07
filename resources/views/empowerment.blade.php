@@ -18,7 +18,7 @@
                     <div class="mt-2">
                         <h1 class="mb-1">Women and Youth empowerment</h1>
                         <div class="bg-light border-bottom border-5 border-primary rounded p-2 mb-3"></div>
-                        <p class="fs-5 mb-5">We empower women and youth through leadership and mentorship programs, access to education and employment opportunities, advocacy for rights and inclusion, and support for entrepreneurship and innovation.</p>
+                        <p class="fs-5 mb-5 justified-text">We empower women and youth through leadership and mentorship programs, access to education and employment opportunities, advocacy for rights and inclusion, and support for entrepreneurship and innovation.</p>
                         <a class="btn btn-primary py-2 px-3 me-3" href="">
                             Contact Us
                             <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
@@ -49,7 +49,7 @@
                                     @endforeach
                                 </div>
                                 <h5 class="card-title">{{ $news->title }}</h5>
-                                <p class="card-text">{{ $news->excerpt }}</p>
+                                <p class="card-text justified-text">{{ $news->excerpt }}</p>
                                 <div class="mt-auto">
                                     <a href="{{ route('blogpage', $news->slug) }}" class="btn btn-outline-primary">
                                         Read More

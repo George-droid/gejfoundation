@@ -18,7 +18,7 @@
                     <div class="mt-2">
                         <h1 class="mb-1">Democracy and Elections</h1>
                         <div class="bg-light border-bottom border-5 border-primary rounded p-2 mb-3"></div>
-                        <p class="fs-5 mb-5">We provide comprehensive support for democratic governance, offering services such as election monitoring, voter education, capacity building for institutions, and advocacy for fair electoral processes.</p>
+                        <p class="fs-5 mb-5 justified-text">We provide comprehensive support for democratic governance, offering services such as election monitoring, voter education, capacity building for institutions, and advocacy for fair electoral processes.</p>
                         <a class="btn btn-primary py-2 px-3 me-3" href="">
                             Contact Us
                             <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
@@ -49,7 +49,7 @@
                                     @endforeach
                                 </div>
                                 <h5 class="card-title">{{ $news->title }}</h5>
-                                <p class="card-text">{{ $news->excerpt }}</p>
+                                <p class="card-text justified-text">{{ $news->excerpt }}</p>
                                 <div class="mt-auto">
                                     <a href="{{ route('blogpage', $news->slug) }}" class="btn btn-outline-primary">
                                         Read More
