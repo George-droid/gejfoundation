@@ -8,7 +8,7 @@
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                         <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Who We Are</div>
                         <h1 class="display-6 mb-3">The Goodluck Jonathan Foundation</h1>
-                        <p class=" mb-0 justified-text">The Goodluck Jonathan Foundation, founded by the former President of Nigeria (2010-2015) is an independent non-governmental organization established in 2015 for the advancement of peace and prosperity on the African continent.
+                        <p class=" mb-0 justified-text">The Goodluck Jonathan Foundation, founded by the former President of Nigeria (2010-2015) is an independent non-governmental organization established in 2015 for the advancement of peace and prosperity on the African continent.</br>
                             We are dedicated to promoting peace and reconciliation, advancing democratic governance, advocating for inclusive governance and economic development, promoting citizen’s rights, and continental and national integration.</p>
                     </div>
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
@@ -73,12 +73,9 @@
                             <div class="h-100">
                                 <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Who We Are</div>
                                 <h1 class="display-6 mb-2">We Promote Peace and Prosperity Around the World</h1>
-                                {{-- <div class="bg-light border-bottom border-5 border-primary rounded p-4 mb-4">
-                                    <p class="text-dark mb-2">
-                                        We understand that preserving and upholding democratic principles are prerequisites for any peaceful and prosperous nation.</p>
-                                    <span class="text-primary">Goodluck Ebele Jonathan, Founder</span>
-                                </div> --}}
-                                <p class="mb-5  justified-text text-white">Through initiatives such as electoral reform, enhancing women and youth participation in elections, and mobilizing for violence-free elections in Nigeria, we aim to create positive change. Additionally, we are committed to nurturing 10,000 detribalized and emotionally resilient Nigerian children. Together, we're building a brighter future for Africa.</p>
+                                
+                                <p class="mb-5  justified-text text-white">Through initiatives such as electoral reform, enhancing women and youth participation in elections, and mobilizing for 
+                                    violence-free elections in Nigeria, we aim to create positive change.</br> Additionally, we are committed to nurturing 10,000 detribalized and emotionally resilient Nigerian children. Together, we're building a brighter future for Africa.</p>
                                 <div class="d-flex">
                                     <a class="btn btn-primary bg-white text-primary py-2 px-3 me-3" href="{{ route('contact') }}">
                                         Contact Us
@@ -136,7 +133,8 @@
                                    "We understand that preserving and upholding democratic principles are prerequisites for any peaceful and prosperous nation."</p>
                                 <span class="text-primary">- Goodluck Ebele Jonathan, Founder</span> --}}
                             </div>
-                            <p class="mb-5 justified-text">Goodluck Ebele Jonathan GCFR GCON served as Nigeria's president from 2010 to 2015 and was the first incumbent president to concede defeat in an election, ensuring a peaceful transition of power. He previously served as vice president under Umaru Musa Yar'Adua from 2007 to 2010. In Bayelsa State, he was governor from 2005 to 2007 and deputy governor from 1999 to 2005. His presidency and human service  focused on economic development, energy, and infrastructure</p>
+                            <p class="mb-5 justified-text">Goodluck Ebele Jonathan GCFR GCON served as Nigeria's president from 2010 to 2015 and was the first incumbent president to concede defeat in an election, ensuring a peaceful transition of power.
+                            </br> He previously served as vice president under Umaru Musa Yar'Adua from 2007 to 2010. In Bayelsa State, he was governor from 2005 to 2007 and deputy governor from 1999 to 2005. His presidency and human service  focused on economic development, energy, and infrastructure</p>
                             <a class="btn btn-primary py-2 px-3 me-3" href="">
                                 Learn More
                                 <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">

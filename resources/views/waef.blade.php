@@ -28,12 +28,12 @@
                             The West African Elder’s Forum is an initiative of the Goodluck Jonathan
                             Foundation established in 2021 to serve as a home-grown and
                             non-partisan platform of past heads of state and government in West
-                            Africa.
+                            Africa.</br>
                             The Forum aims to draw on the experience and standing of its members to
                             provide advisory, mediation and conflict resolution support services to the
                             political leaders of the sub-region. It also works on various
                             democracy-promotion, peace and security and governance initiatives in
-                            the sub-region.
+                            the sub-region.</br>
                             Its overarching motivation is to work with other stakeholders to limit
                             instability and violence and to advance the integrity of the democratic
                             process. To this end, WAEF nurtures active collaboration with bodies such

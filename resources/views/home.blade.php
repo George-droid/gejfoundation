@@ -183,7 +183,7 @@
                         <h1 class="display-6  mb-3">DOCUMENTARY ON RESPECT FOR CONSTITUTIONAL TERM LIMITS IN WEST AFRICA</h1>
                         <div class="d-flex justify-content-center">
                             <p class="text-white mb-0 justified-text">
-                              The question of tenure elongation has moved from the sphere of normal devolution of power to the transitional context. It has become the main stake of the recent military-political transitions in West Africa.
+                              The question of tenure elongation has moved from the sphere of normal devolution of power to the transitional context. It has become the main stake of the recent military-political transitions in West Africa.</br>
                           
                               The different coups d’état perpetrated by military elites in Mali (2020, 2021), Guinea (2021), and Burkina-Faso (2022) point out how complicated the allocation of a relevant time for a successful political transition is. It appears that the sanctions are no longer effective in deterring military coups or prolonging the stay of transition governments …
                             </p>
