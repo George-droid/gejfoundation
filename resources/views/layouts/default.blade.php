@@ -190,28 +190,28 @@
         });
     </script>
 
-   <script>
-    new WOW().init();
-    $(document).ready(function(){
-        $('.owl-carousel').owlCarousel({
-            loop: true,
-            margin: 10,
-            nav: true,
-            autoplay: true, // Add autoplay property
-            autoplayTimeout: 3000, // Set autoplay interval (3 seconds in this example)
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 3
-                },
-                1000: {
-                    items: 5
+    <script>
+        new WOW().init();
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                autoplay: true, // Add autoplay property
+                autoplayTimeout: 3000, // Set autoplay interval (3 seconds in this example)
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 5
+                    }
                 }
-            }
+            });
         });
-    });
     </script>
 
 
