@@ -5,18 +5,16 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Image extends Model
+class ImageCollection extends Model
 {
     use HasFactory;
-
     protected $fillable = [
         'image',
         'title',
         'description',
-        'collection_id',
     ];
-    public function collection()
+    public function images()
     {
-        return $this->belongsTo(ImageCollection::class);
+        return $this->hasMany(Image::class);
     }
 }
