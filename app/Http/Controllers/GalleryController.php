@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Image;
+use App\Models\ImageCollection;
 use Illuminate\Http\Request;
 
 class GalleryController extends Controller
@@ -10,8 +11,8 @@ class GalleryController extends Controller
     public function addImages()
     {
         // $members = Member::all();
-        // $categories = Category::all();
-        return view('be.pages.addImages');
+        $collections = ImageCollection::all();
+        return view('be.pages.addImages', compact('collections'));
     }
     public function saveImages(Request $request)
     {
@@ -59,5 +60,43 @@ class GalleryController extends Controller
         $members->delete();
 
         return redirect()->back()->with('success', 'Image post deleted successfully from gallery!');
+    }
+
+    public function addImageCollections()
+    {
+        // $members = Member::all();
+        // $collections = ImageCollection::all();
+        return view('be.pages.addImageCollections');
+    }
+    public function saveImageCollections(Request $request)
+    {
+        // dd($request->all());
+        $request->validate([
+            'title' => 'required|string|max:255',
+            'description' => 'required|string',
+            'image' => 'required|file|mimes:jpeg,png,jpg,gif|max:2048',
+        ]);
+        // dd($request);
+
+        $validatedData = $request->only(['title', 'description']);
+
+        if ($request->hasFile('image') && $request->file('image')->isValid()) {
+            $image = $request->file('image');
+            $imageName = time() . '.' . $image->getClientOriginalExtension();
+            $image->move(public_path('gallery/collections'), $imageName); // Move the image to the desired directory
+            $validatedData['image'] = 'gallery/collections/' . $imageName; // Update data with image path relative to public directory
+        }
+        // dd($validatedData);
+
+        ImageCollection::create($validatedData);
+
+        try {
+
+            // Success logic here
+            return redirect()->back()->with('success', 'Images collection added successfully!');
+        } catch (\Exception $e) {
+            // Handle database error or any other exceptions
+            return redirect()->back()->with('error', 'Failed to add collection: ' . $e->getMessage());
+        }
     }
 }

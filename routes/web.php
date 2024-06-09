@@ -76,4 +76,9 @@ Route::group(['middleware' => ['auth']], function () {
     Route::delete('/dashboard/list-news-highlights/delete/{id}', [DashboardController::class, 'deleteNewsHighlights'])->name('be.deleteNewsHighlights');
     Route::get('/dashboard/edit-news-highlights/{id}', [DashboardController::class, 'editNewsHighlights'])->name('be.editNewsHighlights');
     Route::put('/dashboard/update-news-highlights/{id}', [DashboardController::class, 'updateNewsHighlights'])->name('be.updateNewsHighlights');
+
+    Route::get('/dashboard/add-image-collections', [GalleryController::class, 'addImageCollections'])->name('be.addImageCollections');
+    Route::post('/dashboard/save-image-collections', [GalleryController::class, 'saveImageCollections'])->name('be.saveImageCollections');
+    // Route::get('/dashboard/list-image-collections', [GalleryController::class, 'listImageCollections'])->name('be.listImageCollections');
+    // Route::delete('/dashboard/list-image-collections/delete/{id}', [GalleryController::class, 'deleteImageCollections'])->name('be.deleteImageCollections');
 });
