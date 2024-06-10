@@ -6,10 +6,12 @@ use Carbon\Carbon;
 use App\Models\Tag;
 use App\Models\Hero;
 use App\Models\Post;
+use App\Models\Image;
 use App\Models\Member;
 use App\Models\Category;
-use App\Models\NewsHighlight;
 use Illuminate\Http\Request;
+use App\Models\NewsHighlight;
+use App\Models\ImageCollection;
 use Illuminate\Support\Facades\Auth;
 
 class CustomAuthController extends Controller
@@ -123,7 +125,9 @@ class CustomAuthController extends Controller
     }
     public function gejgallery()
     {
-        return view('gejgallery');
+        $images = Image::all();
+        $collections = ImageCollection::all();
+        return view('gejgallery', compact('images', 'collections'));
     }
     public function adminLogin()
     {

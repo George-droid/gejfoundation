@@ -162,6 +162,17 @@
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
+    {{-- Gallery Image Modal --}}
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img id="modalImage" class="img-fluid" src="" alt="Modal Image">
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -190,6 +201,7 @@
         });
     </script>
 
+    {{-- partners scripts --}}
     <script>
         new WOW().init();
         $(document).ready(function(){
@@ -214,9 +226,43 @@
         });
     </script>
 
-
+    {{-- Gallery image display --}}
+    <script>
+        $(document).ready(function() {
+            $(".view-button").click(function() {
+                var collectionId = $(this).data('collection');
+                $.ajax({
+                    type: "GET",
+                    url: "{{ route('be.getImages', ':collectionId') }}".replace(':collectionId', collectionId),
+                    success: function(images) {
+                        $('#dynamic-gallery').empty();
+                        images.forEach(function(image) {
+                            var img = $('<img>').attr('src', image.image).addClass('img-fluid border border-success');
+                            var col = $('<div>').addClass('col-md-3 mb-4').append(img);
+                            $('#dynamic-gallery').append(col);
+                        });
+                    }
+                });
+            });
+        });
+    </script>
     
+    {{-- Gallery modal script --}}
+    <script>
+        $(document).ready(function() {
+            // Event delegation for dynamically loaded images
+            $(document).on('mouseenter', '#dynamic-gallery img', function() {
+                var src = $(this).attr('src');
+                $('#modalImage').attr('src', src);
+                $('#imageModal').modal('show');
+            });
     
+            // Hide modal when mouse leaves the image
+            $(document).on('mouseleave', '#dynamic-gallery img', function() {
+                $('#imageModal').modal('hide');
+            });
+        });
+    </script>
         
 </body>
 

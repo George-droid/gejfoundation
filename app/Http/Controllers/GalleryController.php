@@ -104,7 +104,11 @@ class GalleryController extends Controller
             return redirect()->back()->with('error', 'Failed to create member: ' . $e->getMessage());
         }
     }
-
+    public function getImages($collectionId)
+    {
+        $images = Image::where('collection_id', $collectionId)->get();
+        return response()->json($images);
+    }
 
 
     public function addImageCollections()

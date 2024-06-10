@@ -678,6 +678,7 @@ p {
     flex-wrap: wrap;
     justify-content: center; /* Center items horizontally */
     gap: 20px;
+    cursor: pointer;
 }
 
 .gallery-item {
@@ -686,6 +687,13 @@ p {
     width: calc(50% - 20px); /* Two items per row with 20px gap */
     max-width: 400px; /* Limit max width of items */
     margin-bottom: 20px;
+}
+
+#imageModal img {
+    max-height: 90vh;
+    max-width: 90vw;
+    margin: auto;
+    display: block;
 }
 
 @media (min-width: 768px) {

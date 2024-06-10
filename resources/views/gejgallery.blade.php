@@ -25,56 +25,28 @@
                     </ul>
                 </nav>
             
-               <div class="container py-3">
+                <div class="container py-3">
                     <div class="text-center mb-5">
                         <h1 class="display-6">Foundation Gallery</h1>
                     </div>
                     <div class="gallery-container row gx-4">
-                        <!-- Gallery Item 1 -->
-                        <div class="gallery-item col-lg-4 col-md-6 mb-4">
-                            <div class="position-relative mt-auto">
-                                <img src="{{asset('img/Placeholder.svg')}}" class="img-fluid border border-success" alt="Gallery Image 1">
-                                <div class="overlay">
-                                    <div class="overlay-text px-1">Photos of Peace Conference 2024</div>
-                                    <button class="btn btn-outline-primary view-button" aria-label="View Photos of Peace Conference 2024">
-                                        View
-                                        <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                            <i class="fa fa-arrow-right"></i>
-                                        </div>
-                                    </button>
+                        <!-- Gallery Items -->
+                        @foreach ($collections as $collection)
+                            <div class="gallery-item col-lg-4 col-md-6 mb-4">
+                                <div class="position-relative mt-auto">
+                                    <img src="{{asset($collection->image)}}" class="img-fluid border border-success" alt="{{ $collection->title }}">
+                                    <div class="overlay">
+                                        <div class="overlay-text px-1">{{ $collection->title }}</div>
+                                        <button class="btn btn-outline-primary view-button" data-collection="{{ $collection->id }}" aria-label="View Photos">
+                                            View
+                                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
+                                                <i class="fa fa-arrow-right"></i>
+                                            </div>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- Gallery Item 2 -->
-                        <div class="gallery-item col-lg-4 col-md-6 mb-4">
-                            <div class="position-relative mt-auto">
-                                <img src="{{asset('img/Placeholder.svg')}}"  class="img-fluid border border-success" alt="Gallery Image 2">
-                                <div class="overlay">
-                                    <div class="overlay-text">Annual Meeting 2023 Highlights</div>
-                                    <button class="btn btn-outline-primary view-button" aria-label="View Annual Meeting 2023 Highlights">
-                                        View
-                                        <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                            <i class="fa fa-arrow-right"></i>
-                                        </div>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Gallery Item 3 -->
-                        <div class="gallery-item col-lg-4 col-md-6 mb-4">
-                            <div class="position-relative mt-auto">
-                                <img src="{{asset('img/Placeholder.svg')}}"  class="img-fluid border border-success" alt="Gallery Image 3">
-                                <div class="overlay">
-                                    <div class="overlay-text">Community Outreach Program 2022</div>
-                                    <button class="btn btn-outline-primary view-button" aria-label="View Community Outreach Program 2022">
-                                        View
-                                        <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                            <i class="fa fa-arrow-right"></i>
-                                        </div>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
+                        @endforeach
                     </div>
                 </div>
 
@@ -93,7 +65,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script>
+    {{-- <script>
         document.addEventListener("DOMContentLoaded", function() {
             const viewButtons = document.querySelectorAll(".view-button");
             const filterLinks = document.querySelectorAll(".filter-link");
@@ -150,7 +122,8 @@
             // Initial load
             filterGallery("All");
         });
-    </script>
+    </script> --}}
+    
 </body>
 
 </html>
