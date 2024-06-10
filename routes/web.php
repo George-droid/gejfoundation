@@ -57,6 +57,8 @@ Route::group(['middleware' => ['auth']], function () {
     Route::post('/dashboard/save-images', [GalleryController::class, 'saveImages'])->name('be.saveImages');
     Route::get('/dashboard/list-images', [GalleryController::class, 'listImages'])->name('be.listImages');
     Route::delete('/dashboard/list-images/delete/{id}', [GalleryController::class, 'deleteImages'])->name('be.deleteImages');
+    Route::get('/dashboard/edit-images/{id}', [GalleryController::class, 'editImages'])->name('be.editImages');
+    Route::put('/dashboard/update-images/{id}', [GalleryController::class, 'updateImages'])->name('be.updateImages');
 
     Route::get('/dashboard/add-hero', [HeroController::class, 'addHero'])->name('be.addHero');
     Route::post('/dashboard/save-hero', [HeroController::class, 'saveHero'])->name('be.saveHero');

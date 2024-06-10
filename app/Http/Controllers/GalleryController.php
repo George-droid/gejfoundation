@@ -20,18 +20,18 @@ class GalleryController extends Controller
         $request->validate([
             'title' => 'required|string|max:255',
             'description' => 'required|string',
-            'path' => 'required|file|mimes:jpeg,png,jpg,gif|max:2048',
-            'category' => 'required|in:WAEF,Election,Government',  // Allowed categories
+            'image' => 'required|file|mimes:jpeg,png,jpg,gif|max:2048',
+            'collection_id' => 'required',  // Allowed categories
         ]);
         // dd($request);
 
-        $validatedData = $request->only(['title', 'description', 'category']);
+        $validatedData = $request->only(['title', 'description', 'collection_id']);
 
-        if ($request->hasFile('path') && $request->file('path')->isValid()) {
-            $image = $request->file('path');
+        if ($request->hasFile('image') && $request->file('image')->isValid()) {
+            $image = $request->file('image');
             $imageName = time() . '.' . $image->getClientOriginalExtension();
             $image->move(public_path('gallery/images'), $imageName); // Move the image to the desired directory
-            $validatedData['path'] = 'gallery/images/' . $imageName; // Update data with image path relative to public directory
+            $validatedData['image'] = 'gallery/images/' . $imageName; // Update data with image path relative to public directory
         }
         // dd($validatedData);
 
@@ -61,6 +61,51 @@ class GalleryController extends Controller
 
         return redirect()->back()->with('success', 'Image post deleted successfully from gallery!');
     }
+    public function editImages($id)
+    {
+        $images = Image::findOrFail($id);
+        $collections = ImageCollection::all();
+
+        return view('be.pages.editImages', compact('images', 'collections'));
+    }
+    public function updateImages(Request $request, $id)
+    {
+        $images = Image::findOrFail($id);
+
+        $request->validate([
+            'title' => 'required|string|max:255',
+            'description' => 'required|string',
+            'image' => 'file|mimes:jpeg,png,jpg,gif|max:2048',
+            'collection_id' => 'required', 
+        ]);
+
+        // $validatedData = $request->only(['name', 'position', 'description', 'category']);
+
+        if ($request->hasFile('image') && $request->file('image')->isValid()) {
+            $image = $request->file('image');
+            $imageName = time() . '.' . $image->getClientOriginalExtension();
+            $image->move(public_path('gallery/images'), $imageName); // Move the image to the desired directory
+            $validatedData['image'] = 'gallery/images/' . $imageName; // Update data with image path relative to public directory
+        }
+
+        $validatedData['title'] = $request->input('title');
+        $validatedData['description'] = $request->input('description');
+        $validatedData['collection_id'] = $request->input('collection_id');
+
+        $images->update($validatedData);
+
+        try {
+            
+
+            // Success logic here
+            return redirect()->back()->with('success', 'Image collection Updated successfully!');
+        } catch (\Exception $e) {
+            // Handle database error or any other exceptions
+            return redirect()->back()->with('error', 'Failed to create member: ' . $e->getMessage());
+        }
+    }
+
+
 
     public function addImageCollections()
     {
