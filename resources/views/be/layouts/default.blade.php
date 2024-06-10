@@ -122,6 +122,7 @@
                         <div class="bg-white py-2 collapse-inner rounded">
                             <a class="collapse-item" href="{{ route('be.addImageCollections') }}">Add Images Collection</a>
                             <a class="collapse-item" href="{{ route('be.addImages') }}">Add Images</a>
+                            <a class="collapse-item" href="{{ route('be.listImageCollections') }}">List Images Collections</a>
                             <a class="collapse-item" href="{{ route('be.listImages') }}">List Images</a>
                         </div>
                     </div>

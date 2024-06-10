@@ -79,6 +79,8 @@ Route::group(['middleware' => ['auth']], function () {
 
     Route::get('/dashboard/add-image-collections', [GalleryController::class, 'addImageCollections'])->name('be.addImageCollections');
     Route::post('/dashboard/save-image-collections', [GalleryController::class, 'saveImageCollections'])->name('be.saveImageCollections');
-    // Route::get('/dashboard/list-image-collections', [GalleryController::class, 'listImageCollections'])->name('be.listImageCollections');
-    // Route::delete('/dashboard/list-image-collections/delete/{id}', [GalleryController::class, 'deleteImageCollections'])->name('be.deleteImageCollections');
+    Route::get('/dashboard/list-image-collections', [GalleryController::class, 'listImageCollections'])->name('be.listImageCollections');
+    Route::delete('/dashboard/list-image-collections/delete/{id}', [GalleryController::class, 'deleteImageCollections'])->name('be.deleteImageCollections');
+    Route::get('/dashboard/edit-image-collections/{id}', [GalleryController::class, 'editImageCollections'])->name('be.editImageCollections');
+    Route::put('/dashboard/update-image-collections/{id}', [GalleryController::class, 'updateImageCollections'])->name('be.updateImageCollections');
 });
