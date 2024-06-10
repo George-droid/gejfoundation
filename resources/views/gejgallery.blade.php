@@ -29,24 +29,41 @@
                     <div class="text-center mb-5">
                         <h1 class="display-6">Foundation Gallery</h1>
                     </div>
-                    <div class="gallery-container row gx-4">
-                        <!-- Gallery Items -->
-                        @foreach ($collections as $collection)
-                            <div class="gallery-item col-lg-4 col-md-6 mb-4">
-                                <div class="position-relative mt-auto">
-                                    <img src="{{asset($collection->image)}}" class="img-fluid border border-success" alt="{{ $collection->title }}">
-                                    <div class="overlay">
-                                        <div class="overlay-text px-1">{{ $collection->title }}</div>
-                                        <button class="btn btn-outline-primary view-button" data-collection="{{ $collection->id }}" aria-label="View Photos">
-                                            View
-                                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                                <i class="fa fa-arrow-right"></i>
+                    <div id="collectionCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            @php $first = true @endphp
+                            @foreach ($collections->chunk(3) as $chunk)
+                                <div class="carousel-item{{ $first ? ' active' : '' }}">
+                                    <div class="gallery-container row gx-4">
+                                        @foreach ($chunk as $collection)
+                                            <div class="gallery-item col-lg-4 col-md-6 mb-4">
+                                                <div class="position-relative mt-auto">
+                                                    <img src="{{ asset($collection->image) }}" class="img-fluid border border-success" alt="{{ $collection->title }}">
+                                                    <div class="overlay">
+                                                        <div class="overlay-text px-1">{{ $collection->title }}</div>
+                                                        <button class="btn btn-outline-primary view-button" data-collection="{{ $collection->id }}" aria-label="View Photos">
+                                                            View
+                                                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
+                                                                <i class="fa fa-arrow-right"></i>
+                                                            </div>
+                                                        </button>
+                                                    </div>
+                                                </div>
                                             </div>
-                                        </button>
+                                        @endforeach
                                     </div>
                                 </div>
-                            </div>
-                        @endforeach
+                                @php $first = false @endphp
+                            @endforeach
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#collectionCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#collectionCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                 </div>
 

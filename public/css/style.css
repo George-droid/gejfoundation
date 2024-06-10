@@ -185,6 +185,11 @@ p {
     height: 110vh; /* Ensure all images have the same height */
     object-fit: cover; /* Ensure images cover the area without distortion */
 }
+.carousel .gallery-item img {
+    height: auto; /* Reset height to auto for carousel images */
+    max-height: 400px; /* Set a maximum height to prevent excessive stretching */
+    object-fit: cover; /* Ensure images cover the area without distortion */
+}
 
 .hero-content-wrapper {
     background-color: #226733; /* Key color with transparency */
