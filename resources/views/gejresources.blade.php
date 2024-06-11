@@ -8,7 +8,15 @@
             <h1 class="display-6 mb-5">Explore Our Collection of Valuable Resources</h1>
         </div>
         <ul class="resource-list wow fadeInUp" data-wow-delay="0.3s">
-            <li>
+            @foreach($resources as $resource)
+                <li>
+                    <h5>{{ $resource->title }}</h5>
+                    <p>{{ $resource->description }}</p>
+                    <a href="{{ asset($resource->file_path) }}" class="btn btn-primary" target="_blank">View More</a>
+                    <a href="{{ asset($resource->file_path) }}" class="btn btn-primary" download>Download</a>
+                </li>
+            @endforeach
+            {{-- <li>
                 <h5>Resource Title 1</h5>
                 <p>Brief description of the resource content. This can include what the document or link is about and why it might be useful to the visitor.</p>
                 <a href="resource-link1.pdf" class="btn btn-primary">View More</a>
@@ -26,44 +34,7 @@
                 <p>Brief description of the resource content. This can include what the document or link is about and why it might be useful to the visitor.</p>
                 <a href="resource-link1.pdf" class="btn btn-primary">View More</a>
                 <a href="resource-link3.pdf" class="btn btn-primary">Download</a>
-            </li>
-            <li>
-                <h5>Resource Title 1</h5>
-                <p>Brief description of the resource content. This can include what the document or link is about and why it might be useful to the visitor.</p>
-                <a href="resource-link1.pdf" class="btn btn-primary">View More</a>
-                <a href="resource-link3.pdf" class="btn btn-primary">Download</a>
-            </li>
-            <li>
-                <h5>Resource Title 2</h5>
-                <p>Brief description of the resource content. This can include what the document or link is about and why it might be useful to the visitor.</p>
-                <a href="resource-link1.pdf" class="btn btn-primary">View More</a>
-                <a href="resource-link3.pdf" class="btn btn-primary">Download</a>
-            </li>
-            <li>
-                <h5>Resource Title 3</h5>
-                <p>Brief description of the resource content. This can include what the document or link is about and why it might be useful to the visitor.</p>
-                <a href="resource-link1.pdf" class="btn btn-primary">View More</a>
-                <a href="resource-link3.pdf" class="btn btn-primary">Download</a>
-            </li>
-            <li>
-                <h5>Resource Title 1</h5>
-                <p>Brief description of the resource content. This can include what the document or link is about and why it might be useful to the visitor.</p>
-                <a href="resource-link1.pdf" class="btn btn-primary">View More</a>
-                <a href="resource-link3.pdf" class="btn btn-primary">Download</a>
-            </li>
-            <li>
-                <h5>Resource Title 2</h5>
-                <p>Brief description of the resource content. This can include what the document or link is about and why it might be useful to the visitor.</p>
-                <a href="resource-link1.pdf" class="btn btn-primary">View More</a>
-                <a href="resource-link2.pdf" class="btn btn-primary">Download</a>
-            </li>
-            <li>
-                <h5>Resource Title 3</h5>
-                <p>Brief description of the resource content. This can include what the document or link is about and why it might be useful to the visitor.</p>
-                <a href="resource-link1.pdf" class="btn btn-primary">View More</a>
-                <a href="resource-link3.pdf" class="btn btn-primary">Download</a>
-            </li>
-           
+            </li> --}}
         </ul>
     </div>
 </body>

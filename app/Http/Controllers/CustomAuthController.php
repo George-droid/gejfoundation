@@ -9,6 +9,7 @@ use App\Models\Post;
 use App\Models\Image;
 use App\Models\Member;
 use App\Models\Category;
+use App\Models\Resource;
 use Illuminate\Http\Request;
 use App\Models\NewsHighlight;
 use App\Models\ImageCollection;
@@ -55,7 +56,8 @@ class CustomAuthController extends Controller
     }
     public function gejresources()
     {
-        return view('gejresources');
+        $resources = Resource::all();
+        return view('gejresources', compact('resources'));
     }
     public function services()
     {
