@@ -86,4 +86,11 @@ Route::group(['middleware' => ['auth']], function () {
     Route::delete('/dashboard/list-image-collections/delete/{id}', [GalleryController::class, 'deleteImageCollections'])->name('be.deleteImageCollections');
     Route::get('/dashboard/edit-image-collections/{id}', [GalleryController::class, 'editImageCollections'])->name('be.editImageCollections');
     Route::put('/dashboard/update-image-collections/{id}', [GalleryController::class, 'updateImageCollections'])->name('be.updateImageCollections');
+
+    Route::get('/dashboard/add-news-houses', [DashboardController::class, 'addNewsHouses'])->name('be.addNewsHouses');
+    Route::post('/dashboard/save-news-houses', [DashboardController::class, 'saveNewsHouses'])->name('be.saveNewsHouses');
+    Route::get('/dashboard/list-news-houses', [DashboardController::class, 'listNewsHouses'])->name('be.listNewsHouses');
+    Route::delete('/dashboard/list-news-houses/delete/{id}', [DashboardController::class, 'deleteNewsHouses'])->name('be.deleteNewsHouses');
+    Route::get('/dashboard/edit-news-houses/{id}', [DashboardController::class, 'editNewsHouses'])->name('be.editNewsHouses');
+    Route::put('/dashboard/update-news-houses/{id}', [DashboardController::class, 'updateNewsHouses'])->name('be.updateNewsHouses');
 });

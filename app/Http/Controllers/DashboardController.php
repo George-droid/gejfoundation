@@ -382,4 +382,76 @@ class DashboardController extends Controller
             return redirect()->back()->with('error', 'Failed to update highlight: ' . $e->getMessage());
         }
     }
+
+
+    //Members
+    public function addNewsHouses()
+    {
+        // $houses = NewsHouse::all();
+        return view('be.pages.addNewsHouses');
+    }
+
+    public function saveNewsHouses(Request $request)
+    {
+        // dd($request->all());
+        $request->validate([
+            'name' => 'required|string|max:255',
+        ]);
+
+        $validatedData['name'] = $request->input('name');
+
+        NewsHouse::create($validatedData);
+
+        try {
+            
+
+            // Success logic here
+            return redirect()->back()->with('success', 'News House created successfully!');
+        } catch (\Exception $e) {
+            // Handle database error or any other exceptions
+            return redirect()->back()->with('error', 'Failed to create news house: ' . $e->getMessage());
+        }
+    }
+
+    public function listNewsHouses()
+    {
+        $houses = NewsHouse::all();
+        return view('be.pages.listNewsHouses', compact('houses'));
+    }
+    public function deleteNewsHouses(Request $request, $id)
+    {
+        $houses = NewsHouse::findOrFail($id);
+
+        // Delete the post
+        $houses->delete();
+
+        return redirect()->back()->with('success', 'News Highlight deleted successfully!');
+    }
+    public function editNewsHouses($id)
+    {
+        $houses = NewsHouse::findOrFail($id);
+        // $tags = Tag::all();
+        // $houses = NewsHouse::all();
+        return view('be.pages.editNewsHouses', compact('houses'));
+    }
+    public function updateNewsHouses(Request $request, $id)
+    {
+        $houses = NewsHouse::findOrFail($id);
+
+        $request->validate([
+            'name' => 'required|string|max:255',
+        ]);
+
+        $validatedData['name'] = $request->input('name');
+
+        $houses->update($validatedData);
+
+        try {
+            // Success logic here
+            return redirect()->back()->with('success', 'Highlight updated successfully!');
+        } catch (\Exception $e) {
+            // Handle database error or any other exceptions
+            return redirect()->back()->with('error', 'Failed to update highlight: ' . $e->getMessage());
+        }
+    }
 }

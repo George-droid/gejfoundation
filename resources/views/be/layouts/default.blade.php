@@ -74,6 +74,8 @@
                     </a>
                     <div id="newsHighlights" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
+                            <a class="collapse-item" href="{{ route('be.addNewsHouses') }}">Add News Houses</a>
+                            <a class="collapse-item" href="{{ route('be.listNewsHouses') }}">List News Houses</a>
                             <a class="collapse-item" href="{{ route('be.addNewsHighlights') }}">Add News Highlights</a>
                             <a class="collapse-item" href="{{ route('be.listNewsHighlights') }}">List News Highlights</a>
                         </div>
