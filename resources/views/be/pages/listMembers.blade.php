@@ -57,6 +57,10 @@
                                     <td>{{ $member->position }}</td>
                                     <td>{{ $member->category }}</td>
                                     <td>
+                                        <form action="{{ route('be.editMembers', ['id' => $member->id]) }}" method="GET">
+                                            @csrf
+                                            <button type="submit" class="btn btn-info">Edit</button>
+                                        </form>
                                         <form action="{{ route('be.deleteMembers', ['id' => $member->id]) }}" method="POST">
                                             @csrf
                                             @method('DELETE')
