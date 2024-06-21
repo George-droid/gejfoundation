@@ -18,7 +18,10 @@
                         <div class="mt-2">
                             <h1 class="mb-1">Peace and Security</h1>
                             <div class="bg-light border-bottom border-5 border-primary rounded p-2 mb-3"></div>
-                            <p class="fs-5 mb-5 justified-text">We focus on conflict prevention, mediation, peacebuilding, and security sector reform. We work to build safe, stable communities through initiatives like disarmament, demobilization, and the reintegration of combatants.</p>
+                            <p class="fs-5 mb-5 justified-text">As a foundation we recognise  that every country’s development is relative to the peace that obtains in its national space. 
+                                There is no doubt that property and economic development are products of peace and while peace builds fortunes and promotes prosperity, crisis and conflict negate progress, begets despondency and impoverish nations in a vicious cycle.<br/>
+                                For us, peace is a product of conscious effort nurtured over a period of time by all segments of the society be within the family or community as a whole. 
+                                As such, peace and security involves maintaining and establishing a healthy balance within the family, the teaching environment, the government and the society as a whole with emphasis on the roles each unit plays in the individual member of that society.</p>
                             <a class="btn btn-primary py-2 px-3 me-3" href="">
                                 Contact Us
                                 <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">

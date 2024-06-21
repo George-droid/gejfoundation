@@ -18,7 +18,9 @@
                     <div class="mt-2">
                         <h1 class="mb-1">Democracy and Elections</h1>
                         <div class="bg-light border-bottom border-5 border-primary rounded p-2 mb-3"></div>
-                        <p class="fs-5 mb-5 justified-text">We provide comprehensive support for democratic governance, offering services such as election monitoring, voter education, capacity building for institutions, and advocacy for fair electoral processes.</p>
+                        <p class="fs-5 mb-5 justified-text">In the interest of our democracy and development we continuously seek to build a continent of strong institutions and systems that serves and treats all in equal measure under the law.<br/> 
+                            By applying disruptive and innovative thinking, the foundation seeks to contribute towards providing solutions to Africa’s seemingly intractable challenges in terms of leadership and good governance.
+                            Starting from Africa, we work towards achieving a world where peace and prosperity are available to all, not just to a select few.</p>
                         <a class="btn btn-primary py-2 px-3 me-3" href="">
                             Contact Us
                             <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
