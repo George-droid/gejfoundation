@@ -279,7 +279,7 @@
                     </div>
                     <!-- Partner 8 -->
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="{{ asset('img/undp.jpg') }}" style="max-width: 200px; margin: 0 auto;">
+                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="{{ asset('img/partner.png') }}" style="max-width: 200px; margin: 0 auto;">
                     </div>
                 </div>
             </div>
