@@ -136,7 +136,7 @@
                         <div class="facts-item">
                             <i class="flaticon-charity"></i>
                             <div class="facts-text">
-                                <h3 class="facts-plus" data-toggle="counter-up">8</h3>
+                                <h3 class="facts-plus" data-toggle="counter-up">9</h3>
                                 <p>Years of experience</p>
                             </div>
                         </div>
@@ -279,7 +279,7 @@
                     </div>
                     <!-- Partner 8 -->
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="{{ asset('img/undp.jpg') }}" style="max-width: 200px; margin: 0 auto;">
+                        <img class="img-fluid bg-light p-3 mx-auto mb-4" src="{{ asset('img/partner.png') }}" style="max-width: 200px; margin: 0 auto;">
                     </div>
                 </div>
             </div>
