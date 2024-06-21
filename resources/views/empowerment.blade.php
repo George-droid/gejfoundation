@@ -18,7 +18,11 @@
                     <div class="mt-2">
                         <h1 class="mb-1">Women and Youth empowerment</h1>
                         <div class="bg-light border-bottom border-5 border-primary rounded p-2 mb-3"></div>
-                        <p class="fs-5 mb-5 justified-text">We empower women and youth through leadership and mentorship programs, access to education and employment opportunities, advocacy for rights and inclusion, and support for entrepreneurship and innovation.</p>
+                        <p class="fs-5 mb-5 justified-text">African youths (15-24 years) constitute about 37% of the working age population, but account for more than 60% of all African unemployed people in Africa. By 2030, it is projected that the number of youths in Africa will have increased by 42 per cent and it is expected to continue to grow throughout the remainder of the 21st century, more than doubling from current levels by 2055.<br/>
+                            On the other hand, African women majority of whom are in the informal sector have always been active in agriculture, trade, and other economic pursuits.
+                            They are guardians of their children's welfare and have explicit responsibility to provide for them materially. Their economic capabilities, and in particular their ability to manage family welfare, are being threatened as present economic realities have shifted the balance of advantage against them.<br/>
+                            As a foundation we believe the relying on this demographic dividend, we are able to invent the #AfricanWeWant by empowering African women and youths with skills and starter parks. 
+                            Thus achieving an Africa whose development are people driven, relying on the potential of the African people especially women and youths.</p>
                         <a class="btn btn-primary py-2 px-3 me-3" href="">
                             Contact Us
                             <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
