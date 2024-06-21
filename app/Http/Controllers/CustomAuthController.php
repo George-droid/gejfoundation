@@ -103,7 +103,7 @@ class CustomAuthController extends Controller
     }
     public function waefmembers()
     {
-        $members = Member::where('category_id', 3)->orderBy('created_at', 'desc')->paginate(6);
+        $members = Member::where('category_id', 3)->orderBy('created_at', 'desc')->simplePaginate(6);
         return view('waefmembers', compact('members'));
     }
     public function waefworks(Request $request)
