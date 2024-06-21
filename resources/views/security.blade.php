@@ -11,7 +11,7 @@
                 <div class="row g-4 justify-content-center">
                     <div class="col-lg-6 col-12 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
-                            <img class="w-100 h-100" src="{{asset('img/banner4.webp')}}" alt="" style="object-fit: cover;">
+                            <img class="w-100 h-100" src="{{asset('img/peaceandsecurity.jpeg')}}" alt="" style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-lg-6 col-12 wow fadeInUp mt-2" data-wow-delay="0.3s">
