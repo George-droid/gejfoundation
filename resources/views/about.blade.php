@@ -133,8 +133,7 @@
                                    "We understand that preserving and upholding democratic principles are prerequisites for any peaceful and prosperous nation."</p>
                                 <span class="text-primary">- Goodluck Ebele Jonathan, Founder</span> --}}
                             </div>
-                            <p class="mb-5 justified-text">Goodluck Ebele Jonathan GCFR GCON served as Nigeria's president from 2010 to 2015 and was the first incumbent president to concede defeat in an election, ensuring a peaceful transition of power.
-                            </br> He previously served as vice president under Umaru Musa Yar'Adua from 2007 to 2010. In Bayelsa State, he was governor from 2005 to 2007 and deputy governor from 1999 to 2005. His presidency and human service  focused on economic development, energy, and infrastructure</p>
+                            <p class="mb-5 justified-text">Goodluck Ebele Jonathan GCFR GCON served as Nigeria's president from 2010 to 2015 and was the first incumbent president to concede defeat in an election, ensuring a peaceful transition of power. He previously served as vice president under Umaru Musa Yar'Adua from 2007 to 2010. In Bayelsa State, he was governor from 2005 to 2007 and deputy governor from 1999 to 2005. His presidency and human service  focused on economic development, energy, and infrastructure</p>
                             <a class="btn btn-primary py-2 px-3 me-3" href="">
                                 Learn More
                                 <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
