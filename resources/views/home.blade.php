@@ -136,7 +136,7 @@
                         <div class="facts-item">
                             <i class="flaticon-charity"></i>
                             <div class="facts-text">
-                                <h3 class="facts-plus" data-toggle="counter-up">8</h3>
+                                <h3 class="facts-plus" data-toggle="counter-up">9</h3>
                                 <p>Years of experience</p>
                             </div>
                         </div>
