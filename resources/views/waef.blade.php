@@ -49,7 +49,7 @@
         <div class="container-xxl bg-light my-2 py-2">
             <div class="container py-5">
                 <div class="text-center mx-auto mb-5">
-                    <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3 waef-header">Latest News from News Houses</div>
+                    <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3 waef-header">Latest News</div>
                 </div>
                 <div class="row g-4 justify-content-center">
                     <!-- News Item --> 
@@ -57,7 +57,7 @@
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="news-item d-flex flex-column bg-white border rounded overflow-hidden h-100">
                                 <div class="p-4">
-                                    <h6 class="text-primary mb-3 waef-news-header">From {{ $highlight->house->name }}</h6>
+                                    {{-- <h6 class="text-primary mb-3 waef-news-header">From {{ $highlight->house->name }}</h6> --}}
                                     <h5 class="mb-3">{{ $highlight->title }}</h5>
                                     <p class="mb-3">{{ $highlight->excerpt }}</p>
                                     <a href="{{ $highlight->cta_link }}" class="btn btn-outline-primary read-more waef-btn">{{ $highlight->cta }}<i class="fa fa-arrow-right"></i></a>
