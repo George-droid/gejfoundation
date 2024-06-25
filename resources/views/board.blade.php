@@ -2,23 +2,7 @@
 
 @section('content')
     <body>
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="row g-5">
-                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                        <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Who We Are</div>
-                        <h1 class="display-6 mb-3">The Goodluck Jonathan Foundation</h1>
-                        <p class=" mb-0 justified-text">The Goodluck Jonathan Foundation, founded by the former President of Nigeria (2010-2015) is an independent non-governmental organization established in 2015 for the advancement of peace and prosperity on the African continent.</br>
-                            We are dedicated to promoting peace and reconciliation, advancing democratic governance, advocating for inclusive governance and economic development, promoting citizen’s rights, and continental and national integration.</p>
-                    </div>
-                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                        <div class="h-100 bg-white p-5">
-                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/GAgrr2V7LDI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
             <!-- About Start -->
             {{-- <div class="container-xxl py-5">
                 <div class="container">
@@ -61,41 +45,6 @@
             </div> --}}
             <!-- About End -->
 
-            <div class="container-fluid donate my-2 py-5" data-parallax="scroll" data-image-src="img/carousel-2.jpg">
-                <div class="container py-5">
-                    <div class="row g-5 align-items-center">
-                        <div class="col-lg-6 col-md-6 d-none d-md-block wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
-                                <img class="position-absolute w-100 h-100 pt-3 pe-5" src="{{asset('img/2.jpeg')}}" alt="" style="object-fit: cover;">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-12 wow fadeInUp" data-wow-delay="0.5s">
-                            <div class="h-100">
-                                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Who We Are</div>
-                                <h1 class="display-6 mb-2">We Promote Peace and Prosperity Around the World</h1>
-                                
-                                <p class="mb-5  justified-text text-white">Through initiatives such as electoral reform, enhancing women and youth participation in elections, and mobilizing for 
-                                    violence-free elections in Nigeria, we aim to create positive change.<br/> Additionally, we are committed to nurturing 10,000 detribalized and emotionally resilient Nigerian children. Together, we're building a brighter future for Africa.</p>
-                                <div class="d-flex">
-                                    <a class="btn btn-primary bg-white text-primary py-2 px-3 me-3" href="{{ route('contact') }}">
-                                        Contact Us
-                                        <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                                            <i class="fa fa-arrow-right"></i>
-                                        </div>
-                                    </a>
-                                    {{-- <a class="btn btn-outline-primary px-3" href="{{ asset('contact') }}">
-                                        Contact Us
-                                        <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                            <i class="fa fa-arrow-right"></i>
-                                        </div>
-                                    </a> --}}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
             
             
         {{-- <div class="container-fluid donate my-2 py-5" data-parallax="scroll" data-image-src="img/carousel-2.jpg">
@@ -204,35 +153,7 @@
         </div>
         <!-- Board End -->
        
-        <!-- Team Start -->
-        <div class="container-xxl ">
-            <div class="container">
-                <div class="text-center mx-auto mb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                    <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Team Members</div>
-                </div>
-                <div class="row g-4">
-                    @foreach ($members as $member)
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item position-relative rounded overflow-hidden">
-                                <div class="overflow-hidden">
-                                    <img class="img-fluid" src="{{ asset($member->image) }}" alt="">
-                                </div>
-                                <div class="team-text bg-light text-center p-4">
-                                    <h5>{{ $member->name }}</h5>
-                                    <p class="text-primary">{{ $member->position }}</p>
-                                    <div class="team-social text-center">
-                                        <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    @endforeach
-                </div>
-            </div>
-        </div>
-        <!-- Team End -->
+  
 
         <!-- Team Socuals -->
         <div>

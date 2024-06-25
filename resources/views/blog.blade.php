@@ -19,7 +19,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title">{{ $news->title }}</h5>
                                     <p class="card-text">{{ $news->created_at->format('F j, Y') }}</p>
-                                    <p class="card-text">{!! Str::limit($news->content, 200) !!}</p>
+                                    <p class="card-text ">{!! Str::limit($news->content, 200) !!}</p>
                                     <div class="card-footer">
                                         <a href="{{ route('blogpage', $news->slug) }}" class="card-link">Read More</a>
                                         {{-- <a href="{{ route('news.show', $news->id) }}#comments" class="card-link">Comments: {{ $news->comments_count }}</a> --}}
