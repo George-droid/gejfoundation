@@ -303,6 +303,7 @@ class DashboardController extends Controller
             'cta_link' => 'required|string',
             // 'image' => 'required|file|mimes:jpeg,png,jpg,gif|max:2048',
             'house_id' => 'required',  // Allowed categories
+            'published_at' => 'required|date',
         ]);
 
         $validatedData['title'] = $request->input('title');
@@ -310,6 +311,7 @@ class DashboardController extends Controller
         $validatedData['cta'] = $request->input('cta');
         $validatedData['cta_link'] = $request->input('cta_link');
         $validatedData['house_id'] = $request->input('house_id');
+        $validatedData['published_at'] = $request->input('published_at');
 
         NewsHighlight::create($validatedData);
 
@@ -355,6 +357,7 @@ class DashboardController extends Controller
             'cta_link' => 'required|string',
             // 'image' => 'required|file|mimes:jpeg,png,jpg,gif|max:2048',
             'house_id' => 'required',  // Allowed categories
+            'published_at' => 'required|date'
         ]);
 
         // $validatedData = $request->only(['name', 'position', 'description', 'category']);
@@ -371,6 +374,7 @@ class DashboardController extends Controller
         $validatedData['cta'] = $request->input('cta');
         $validatedData['cta_link'] = $request->input('cta_link');
         $validatedData['house_id'] = $request->input('house_id');
+        $validatedData['published_at'] = $request->input('published_at');
 
         $highlights->update($validatedData);
 

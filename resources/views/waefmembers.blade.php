@@ -38,7 +38,7 @@
                                             <h1 class="display-6">{{ $member->name }}</h1>
                                             <div class="bg-light border-bottom border-5 waef-members-boarder border-primary rounded p-2 mb-1"></div>
                                             <p class="mb-2" style="font-weight: bold;">{{ $member->position }}</p>
-                                            <p class="bio justified-text mb-5">{{ $member->description }}</p>
+                                            <p class="bio justified-text mb-5">{!! $member->description !!}</p>
                                         </div>
                                     </div>
                                 </div>

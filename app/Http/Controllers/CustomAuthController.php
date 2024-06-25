@@ -56,7 +56,7 @@ class CustomAuthController extends Controller
     }
     public function gejresources()
     {
-        $resources = Resource::all();
+        $resources = Resource::orderBy('published_at', 'desc')->get();
         return view('gejresources', compact('resources'));
     }
     public function services()
@@ -98,7 +98,7 @@ class CustomAuthController extends Controller
     }
     public function waef()
     {
-        $highlights = NewsHighlight::orderBy('created_at', 'desc')->take(3)->get();
+        $highlights = NewsHighlight::orderBy('published_at', 'desc')->take(3)->get();
         return view('waef', compact('highlights'));
     }
     public function waefmembers()

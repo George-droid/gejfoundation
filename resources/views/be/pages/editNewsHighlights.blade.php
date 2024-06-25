@@ -55,6 +55,10 @@
                             <div id="cta_link" class="form-text">The link for the call to action button.</div>
                         </div>
                         <div class="mb-3">
+                            <label for="published_at" class="form-label">Published At</label>
+                            <input type="datetime-local" name="published_at" class="form-control" id="published_at" value="{{ $highlights->published_at }}">
+                        </div>
+                        <div class="mb-3">
                             <label for="house_id" class="form-label">News House</label>
                             <select class="form-select" name="house_id" id="house_id">
                                 @foreach($houses as $house)

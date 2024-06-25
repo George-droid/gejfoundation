@@ -15,6 +15,7 @@ class NewsHighlight extends Model
         'cta',
         'cta_link',
         'house_id',
+        'published_at'
     ];
 
     public function house()

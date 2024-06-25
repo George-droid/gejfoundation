@@ -21,7 +21,7 @@ Route::get('/empowerment', [CustomAuthController::class, 'empowerment'])->name('
 Route::get('/contact-us', [CustomAuthController::class, 'contact'])->name('contact');
 Route::get('/waef', [CustomAuthController::class, 'waef'])->name('waef');
 Route::get('/waefmembers', [CustomAuthController::class, 'waefmembers'])->name('waefmembers');
-Route::get('/resources', [CustomAuthController::class, 'resources'])->name('resources');
+// Route::get('/resources', [CustomAuthController::class, 'resources'])->name('resources');
 Route::get('/waefworks', [CustomAuthController::class, 'waefworks'])->name('waefworks');
 Route::get('/gejgallery', [CustomAuthController::class, 'gejgallery'])->name('gejgallery');
 Route::post('/contact-us/submit', [CustomAuthController::class, 'submitContactForm'])->name('contact.submit');
