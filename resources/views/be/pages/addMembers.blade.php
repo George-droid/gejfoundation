@@ -45,7 +45,7 @@
                         </div>
                         <div class="mb-3">
                             <label for="description" class="form-label">Description</label>
-                            <input type="text" name="description" class="form-control" id="description" aria-describedby="nameHelp">
+                            <input type="text" name="description" class="form-control" id="mytextarea" aria-describedby="nameHelp">
                             <div id="description" class="form-text">Descrtiption of the member.</div>
                         </div>
                         <div class="mb-3">

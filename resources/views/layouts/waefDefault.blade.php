@@ -76,7 +76,7 @@
                         <a href="{{ route ('blog')}}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">News And Media</a>
                         <div class="dropdown-menu m-0">
                             <a href="{{ route ('blog')}}" class="dropdown-item">Latest News</a>
-                            <a href="{{ route ('resources')}}" class="dropdown-item">Resources</a>
+                            <a href="{{ route ('gejresources')}}" class="dropdown-item">Resources</a>
                             <a href="{{ route ('gejgallery')}}" class="dropdown-item">Gallery </a>
                         </div>
                     </div>

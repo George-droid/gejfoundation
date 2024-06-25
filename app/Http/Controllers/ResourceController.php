@@ -24,6 +24,7 @@ class ResourceController extends Controller
             'description' => 'required|string',
             'file_path' => 'required|file|mimes:pdf|max:2048',
             'category' => 'required|in:WAEF,Election,Government',  // Allowed categories
+            'published_at' => 'required|date',
         ]);
         // dd($request);
 
