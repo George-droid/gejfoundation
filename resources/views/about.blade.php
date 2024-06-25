@@ -164,7 +164,7 @@
             <div class="container">
                 <div class="row g-4">
                     @foreach ($boardMembers as $boardMember)
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="team-item position-relative rounded overflow-hidden">
                                 <div class="overflow-hidden">
                                     <img class="img-fluid w-100 " src="{{asset($boardMember->image)}}" alt="">
