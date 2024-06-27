@@ -82,7 +82,7 @@
                                     <img class="img-fluid w-100" src="{{asset('img/Presidentgoodluck.jpeg')}}" alt="">
                                 </div>
                                 <div class="team-text bg-light text-center p-2">
-                                    <h5>His Excellency. Goodluck Ebele Jonathan</h5>
+                                    <h5>His Excellency Goodluck Ebele Jonathan</h5>
                                     <p class="text-primary">Chairman of the board</p>
                                 </div>
                             </div>
