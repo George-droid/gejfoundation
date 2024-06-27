@@ -144,10 +144,19 @@
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Blog</h5> 
                     <p>News and Media.</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <div class="position-relative mx-auto mb-2" style="max-width: 400px;">
                         <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
                         <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                     </div>
+                    <h5 class="text-light mt-2">Visit Counter</h5> 
+                    <div class="counter-container mt-2">
+                        
+                        <div class="counter-item">THIS WEEK: <span id="week-visitors"></span></div>
+                        <div class="divider"></div>
+                        <div class="counter-item">TOTAL: <span id="total-visitors"></span></div>
+                    </div>
+
+                    
                 </div>
             </div>
         </div>
@@ -200,6 +209,71 @@
 
     <!-- Template Javascript -->
     <script src="{{ asset('js/main.js') }}"></script>
+    <script>
+        // Helper functions for cookies
+        function setCookie(name, value, days) {
+            const date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            const expires = "; expires=" + date.toUTCString();
+            document.cookie = name + "=" + (value || "") + expires + "; path=/";
+        }
+
+        function getCookie(name) {
+            const nameEQ = name + "=";
+            const ca = document.cookie.split(';');
+            for(let i = 0; i < ca.length; i++) {
+                let c = ca[i];
+                while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+        }
+
+        // Helper function to get today's date as a string
+        function getTodayDateString() {
+            const today = new Date();
+            return today.toISOString().split('T')[0];
+        }
+
+        // Helper function to get this week's start date as a string (Monday)
+        function getWeekStartDateString() {
+            const today = new Date();
+            const firstDay = today.getDate() - today.getDay() + 1; // Adjust for week starting on Monday
+            const weekStartDate = new Date(today.setDate(firstDay));
+            return weekStartDate.toISOString().split('T')[0];
+        }
+
+        // Check if the user has a cookie set indicating a visit
+        if (!getCookie('visited')) {
+            // User is visiting for the first time, set the visited cookie
+            setCookie('visited', 'true', 1); // Expires in 1 day
+
+            // Get the current visit counts from local storage
+            let totalVisits = localStorage.getItem('totalVisits') || 0;
+            let weekVisits = localStorage.getItem('weekVisits') || 0;
+            let lastWeekStartDate = localStorage.getItem('lastWeekStartDate');
+
+            const currentWeekStartDate = getWeekStartDateString();
+
+            // If the last visit week is not this week, reset this week's visit count
+            if (lastWeekStartDate !== currentWeekStartDate) {
+                weekVisits = 0;
+                localStorage.setItem('lastWeekStartDate', currentWeekStartDate);
+            }
+
+            // Increment the visit counts
+            totalVisits++;
+            weekVisits++;
+
+            // Store the updated counts in local storage
+            localStorage.setItem('totalVisits', totalVisits);
+            localStorage.setItem('weekVisits', weekVisits);
+        }
+
+        // Display the visit counts on the page
+        document.getElementById('total-visitors').textContent = localStorage.getItem('totalVisits') || 0;
+        document.getElementById('week-visitors').textContent = localStorage.getItem('weekVisits') || 0;
+    </script>
 
     <script>
         $(document).ready(function(){

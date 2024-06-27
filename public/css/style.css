@@ -859,3 +859,22 @@ p {
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
+.counter-container {
+    display: inline-block;
+    background-color: #2F4F2F;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1em;
+    min-width: 200px;
+}
+.counter-item {
+    margin: 10px 0;
+}
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    margin: 10px 0;
+}

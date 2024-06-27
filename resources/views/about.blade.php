@@ -75,7 +75,7 @@
                                 <h1 class="display-6 mb-2">We Promote Peace and Prosperity Around the World</h1>
                                 
                                 <p class="mb-5  justified-text text-white">Through initiatives such as electoral reform, enhancing women and youth participation in elections, and mobilizing for 
-                                    violence-free elections in Nigeria, we aim to create positive change.<br/> Additionally, we are committed to nurturing 10,000 detribalized and emotionally resilient Nigerian children. Together, we're building a brighter future for Africa.</p>
+                                    violence-free elections in Nigeria, we aim to create positive change.<br/> Additionally, we are committed to nurturing 10,000 detribalized and emotionally resilient African children. Together, we're building a brighter future for Africa.</p>
                                 <div class="d-flex">
                                     <a class="btn btn-primary bg-white text-primary py-2 px-3 me-3" href="{{ route('contact') }}">
                                         Contact Us
