@@ -61,7 +61,7 @@
                         <div class="dropdown-menu m-0">
                             <a href="{{ route ('about')}}" class="dropdown-item">About Our Organization</a>
                             <a href="{{ route ('founder')}}" class="dropdown-item">Our Founder</a>
-                            <a href="{{ route ('board')}}" class="dropdown-item">Board</a>
+                            <a href="{{ route ('board')}}" class="dropdown-item">Board of trustees</a>
                             <a href="{{ route ('team')}}" class="dropdown-item">Our Team  </a>
                         </div>
                     </div>
