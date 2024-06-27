@@ -75,6 +75,19 @@
         <div class="container-xxl py-2">
             <div class="container">
                 <div class="row g-4">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center" data-wow-delay="0.3s">
+                            <div class="team-item position-relative rounded overflow-hidden">
+                                <div class="overflow-hidden">
+                                    <img class="img-fluid w-100" src="{{asset('img/Presidentgoodluck.jpeg')}}" alt="">
+                                </div>
+                                <div class="team-text bg-light text-center p-2">
+                                    <h5>His Excellency. Goodluck Ebele Jonathan</h5>
+                                    <p class="text-primary">Chairman of the board</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     @foreach ($boardMembers as $boardMember)
                         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="team-item position-relative rounded overflow-hidden">
