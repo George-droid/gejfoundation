@@ -65,9 +65,9 @@
                     <div class="nav-item dropdown">
                         <a href="{{ route ('about')}}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Who We Are</a>
                         <div class="dropdown-menu m-0">
-                            <a href="{{ route ('about')}}" class="dropdown-item">About Us</a>
+                            <a href="{{ route ('about')}}" class="dropdown-item">About Our Organization</a>
                             <a href="{{ route ('founder')}}" class="dropdown-item">Our Founder</a>
-                            <a href="{{ route ('board')}}" class="dropdown-item">Our Board</a>
+                            <a href="{{ route ('board')}}" class="dropdown-item"> Board of trustees</a>
                             <a href="{{ route ('team')}}" class="dropdown-item">Our Team  </a>
                         </div>
                     </div>
