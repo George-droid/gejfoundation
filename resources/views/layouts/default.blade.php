@@ -66,6 +66,7 @@
                         <a href="{{ route ('about')}}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Who We Are</a>
                         <div class="dropdown-menu m-0">
                             <a href="{{ route ('about')}}" class="dropdown-item">About Us</a>
+                            <a href="{{ route ('founder')}}" class="dropdown-item">Our Founder</a>
                             <a href="{{ route ('board')}}" class="dropdown-item">Our Board</a>
                             <a href="{{ route ('team')}}" class="dropdown-item">Our Team  </a>
                         </div>
@@ -149,7 +150,7 @@
                         <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
                         <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                     </div>
-                    
+
                     <h6 class="text-light mt-4">Visit Counter</h6> 
                     <div class="counter-container mt-2">
                         

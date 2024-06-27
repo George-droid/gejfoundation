@@ -29,6 +29,12 @@ class CustomAuthController extends Controller
         $boardMembers = Member::where('category_id', 1)->orderBy('created_at', 'desc')->get();
         return view('about', compact('members', 'boardMembers'));
     }
+    public function founder()
+    {
+        $members = Member::where('category_id', 2)->orderBy('created_at', 'desc')->get();
+        $boardMembers = Member::where('category_id', 1)->orderBy('created_at', 'desc')->get();
+        return view('founder', compact('members', 'boardMembers'));
+    }
    
     public function board()
     {
