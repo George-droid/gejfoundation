@@ -128,7 +128,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Address</h5>
-                    <p><i class="fa fa-map-marker-alt me-3"></i>7B. Taraba Close, Maitama FCT-Abuja, Nigeria</p>
+                    <p><i class="fa fa-map-marker-alt me-3"></i> 7b Taraba Crescent, off Limpopo Street Maitama, FCT Abuja </p>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>28, Bay bridge road, Yenizue-gene, Yenagoa - Bayelsa state</p>
                     <p><i class="fa fa-envelope me-3"></i>info@gejfoundation.org</p>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -148,7 +149,7 @@
                         <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
                         <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                     </div>
-                    <h5 class="text-light mt-2">Visit Counter</h5> 
+                    <h6 class="text-light mt-2">Visit Counter</h6> 
                     <div class="counter-container mt-2">
                         
                         <div class="counter-item">THIS WEEK: <span id="week-visitors"></span></div>
