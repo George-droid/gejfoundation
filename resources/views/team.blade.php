@@ -3,7 +3,7 @@
 @section('content')
     <body>
         <!-- Team Start -->
-        <div class="container-xxl ">
+        <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center mx-auto mb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                     <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Team Members</div>
