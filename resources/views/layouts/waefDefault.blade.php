@@ -147,11 +147,13 @@
                     </div>
 
                     <h6 class="text-light mt-4">Visit Counter</h6> 
-                    <div class="counter-container mt-2">
-                        
-                        <div class="counter-item">THIS WEEK: <span id="week-visitors"></span></div>
+                    <div class="counter-container mt-2"> 
+                        <div class="counter-item">DAILY: <span id="day-visitors"></span></div>
+                        <div class="divider"></div>
+                        <div class="counter-item"> WEEKLY : <span id="week-visitors"></span></div>
                         <div class="divider"></div>
                         <div class="counter-item">TOTAL: <span id="total-visitors"></span></div>
+                        
                     </div>
 
                     
@@ -225,36 +227,52 @@
             return weekStartDate.toISOString().split('T')[0];
         }
 
-        // Check if the user has a cookie set indicating a visit
-        if (!getCookie('visited')) {
-            // User is visiting for the first time, set the visited cookie
-            setCookie('visited', 'true', 1); // Expires in 1 day
+        // Initial visit counts
+        const initialTotalVisits = 4892675;
+        const initialWeekVisits = 4000;
+        const initialDayVisits = 524;
 
-            // Get the current visit counts from local storage
-            let totalVisits = localStorage.getItem('totalVisits') || 0;
-            let weekVisits = localStorage.getItem('weekVisits') || 0;
-            let lastWeekStartDate = localStorage.getItem('lastWeekStartDate');
+        // Get the current visit counts from local storage
+        let totalVisits =  initialTotalVisits;
+        let weekVisits = initialWeekVisits;
+        let dayVisits = initialDayVisits;
+        let lastVisitDate = localStorage.getItem('lastVisitDate');
+        let lastWeekStartDate = localStorage.getItem('lastWeekStartDate');
 
-            const currentWeekStartDate = getWeekStartDateString();
+        const todayDateString = getTodayDateString();
+        const currentWeekStartDate = getWeekStartDateString();
 
-            // If the last visit week is not this week, reset this week's visit count
-            if (lastWeekStartDate !== currentWeekStartDate) {
-                weekVisits = 0;
-                localStorage.setItem('lastWeekStartDate', currentWeekStartDate);
-            }
-
-            // Increment the visit counts
-            totalVisits++;
-            weekVisits++;
-
-            // Store the updated counts in local storage
-            localStorage.setItem('totalVisits', totalVisits);
-            localStorage.setItem('weekVisits', weekVisits);
+        // If the last visit date is not today, reset today's visit count
+        if (lastVisitDate !== todayDateString) {
+            dayVisits = initialDayVisits;
+            localStorage.setItem('lastVisitDate', todayDateString);
         }
 
+        // If the last visit week is not this week, reset this week's visit count
+        if (lastWeekStartDate !== currentWeekStartDate) {
+            weekVisits = initialWeekVisits;
+            localStorage.setItem('lastWeekStartDate', currentWeekStartDate);
+        }
+
+        // Increment the visit counts
+        totalVisits++;
+        weekVisits++;
+        dayVisits++;
+
+        // Store the updated counts in local storage
+        localStorage.setItem('totalVisits', totalVisits);
+        localStorage.setItem('weekVisits', weekVisits);
+        localStorage.setItem('dayVisits', dayVisits);
+
         // Display the visit counts on the page
-        document.getElementById('total-visitors').textContent = localStorage.getItem('totalVisits') || 0;
-        document.getElementById('week-visitors').textContent = localStorage.getItem('weekVisits') || 0;
+        document.getElementById('total-visitors').textContent = totalVisits;
+        document.getElementById('week-visitors').textContent = weekVisits;
+        document.getElementById('day-visitors').textContent = dayVisits;
+
+        // Debugging logs to verify the counts
+        console.log('Total Visits:', totalVisits);
+        console.log('Week Visits:', weekVisits);
+        console.log('Day Visits:', dayVisits);
     </script>
     {{-- <script>
         $(document).ready(function(){
