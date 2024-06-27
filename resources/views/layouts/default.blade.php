@@ -143,13 +143,14 @@
                     <a class="btn btn-link" href="{{ route ('contact')}}">Contact Us</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Blog</h5> 
+                    <h5 class="text-light mb-2">Blog</h5> 
                     <p>News and Media.</p>
                     <div class="position-relative mx-auto mb-2" style="max-width: 400px;">
                         <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
                         <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                     </div>
-                    <h6 class="text-light mt-2">Visit Counter</h6> 
+                    
+                    <h6 class="text-light mt-4">Visit Counter</h6> 
                     <div class="counter-container mt-2">
                         
                         <div class="counter-item">THIS WEEK: <span id="week-visitors"></span></div>
