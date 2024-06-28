@@ -193,7 +193,7 @@
 
     <!-- Template Javascript -->
     <script src="{{ asset('js/main.js') }}"></script>
-    <script>
+    {{-- <script>
         // Helper functions for cookies
         function setCookie(name, value, days) {
             const date = new Date();
@@ -232,10 +232,10 @@
         const initialWeekVisits = 4000;
         const initialDayVisits = 524;
 
-        // Get the current visit counts from local storage
-        let totalVisits =  initialTotalVisits;
-        let weekVisits = initialWeekVisits;
-        let dayVisits = initialDayVisits;
+        // Get the current visit counts from local storage, or use the initial values
+        let totalVisits = parseInt(localStorage.getItem('totalVisits')) || initialTotalVisits;
+        let weekVisits = parseInt(localStorage.getItem('weekVisits')) || initialWeekVisits;
+        let dayVisits = parseInt(localStorage.getItem('dayVisits')) || initialDayVisits;
         let lastVisitDate = localStorage.getItem('lastVisitDate');
         let lastWeekStartDate = localStorage.getItem('lastWeekStartDate');
 
@@ -273,7 +273,7 @@
         console.log('Total Visits:', totalVisits);
         console.log('Week Visits:', weekVisits);
         console.log('Day Visits:', dayVisits);
-    </script>
+    </script> --}}
     {{-- <script>
         $(document).ready(function(){
             $('[data-toggle="counter-up"]').counterUp({

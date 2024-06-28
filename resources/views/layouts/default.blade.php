@@ -253,10 +253,10 @@
         const initialWeekVisits = 4000;
         const initialDayVisits = 524;
 
-        // Get the current visit counts from local storage
-        let totalVisits =  initialTotalVisits;
-        let weekVisits = initialWeekVisits;
-        let dayVisits = initialDayVisits;
+        // Get the current visit counts from local storage, or use the initial values
+        let totalVisits = parseInt(localStorage.getItem('totalVisits')) || initialTotalVisits;
+        let weekVisits = parseInt(localStorage.getItem('weekVisits')) || initialWeekVisits;
+        let dayVisits = parseInt(localStorage.getItem('dayVisits')) || initialDayVisits;
         let lastVisitDate = localStorage.getItem('lastVisitDate');
         let lastWeekStartDate = localStorage.getItem('lastWeekStartDate');
 
